@@ -6,7 +6,7 @@
     <title>
         {% block title %}{% endblock %}
     </title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css' }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
   </head>
   <body>
@@ -15,7 +15,7 @@
         {% endblock %}
     </header>
     <h1>Welcome to My Website</h1>
-    <img src="./assets/tulpi.jpg"/>
+    <img src="{{ url_for('static', filename='assets/tulpi.jpg') }}"/>
     <div class="base-content-wrapper">
         {% block content %}
         {% endblock %}
