@@ -10,9 +10,14 @@
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
   </head>
   <body>
-    <header>
-        {% block header %}
-        {% endblock %}
+    <header class="base-green-block">
+        <div class="base-homepage-link">
+            <a href="/">Andrey Popov</a>
+        </div>
+        <div>
+            {% block header %}
+            {% endblock %}
+        </div>
     </header>
     <h1>Welcome to My Website</h1>
     <img src="{{ url_for('static', filename='assets/tulpi.jpg') }}"/>

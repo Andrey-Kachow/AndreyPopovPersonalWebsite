@@ -1,4 +1,62 @@
-body {
-    background: #444444;
+/*
+    Light-Green white: #f5eec2
+    Dark-Green bars: #416a59
+    Dark-Blue complement: #39395f
+    Nice-Saturated green: #73a24e
+    Lighter-Nice green: #a9c25d
+
+    Coral counter: #F69770
+
+    Royal Albert Hall:
+        bejevy: F2DDB4
+        dark-gray: 95A1A0;
+        silver: E6E6E3;
+        dark brown: 4E3A2F;
+        albhal-crimson: C95E3C;
+*/
+
+html {
+    color: #39395f;
+    font-size: 16px;
+    font-family: Arial;
 }
+
+body {
+    margin: 0;
+    background: #f5eec2;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #a9c25d;
+}
+
+a:hover {
+    color: #39395f;
+}
+
+a:active {
+    color: #F69770;
+}
+
+.base-green-block {
+    background: #73a24e;
+    color: #f5ecc2;
+}
+
+header {
+    background: #73a24e;
+}
+
+.base-homepage-link {
+    font-size: 1.5rem;
+    background: #39395f;
+    padding: 1rem;
+    width: 20%;
+}
+
+
 
