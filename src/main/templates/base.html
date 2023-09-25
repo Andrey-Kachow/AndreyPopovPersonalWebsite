@@ -4,37 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        {% block title %}{% endblock %}
+      {% block title %}{% endblock %}
     </title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
   </head>
   <body>
     <header class="clr1-block">
-        <div class="separator-v">
-        </div>
-        <div class="base-home-link clr2-accent">
-            <a href="/">Andrey Popov</a>
-        </div>
-        <div class="separator-v">
-        </div>
-        <div>
-            {% block header %}
-            {% endblock %}
-        </div>
+      <div class="separator-v">
+        <!---->
+      </div>
+      <div class="base-home-link clr2-accent">
+        <a href="/">Andrey Popov</a>
+      </div>
+      <div class="separator-v">
+        <!---->
+      </div>
+      <div>
+        {% block header %}
+        {% endblock %}
+      </div>
     </header>
     <div class="separator-h">
-        <!---->
+      <!---->
     </div>
     <h1>Welcome to My Website</h1>
     <img src="{{ url_for('static', filename='assets/tulpi.jpg') }}"/>
     <div class="base-content-wrapper">
-        {% block content %}
-        {% endblock %}
+      {% block content %}
+      {% endblock %}
     </div>
     <footer>
-        {% block footer %}
-        {% endblock %}
+      {% block footer %}
+      {% endblock %}
     </footer>
   </body>
 </html>
