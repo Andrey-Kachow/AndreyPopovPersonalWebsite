@@ -15,15 +15,19 @@
         albhal-crimson: C95E3C;
 */
 
+* {
+    box-sizing: border-box;
+}
+
 html {
-    color: #39395f;
+    color: #4e3a2f;
     font-size: 16px;
     font-family: Arial;
 }
 
 body {
     margin: 0;
-    background: #f5eec2;
+    background: #f2ddb4;
 }
 
 a {
@@ -31,32 +35,45 @@ a {
 }
 
 a:link, a:visited {
-    color: #a9c25d;
+    color: #95a1a0;
 }
 
 a:hover {
-    color: #39395f;
+    text-decoration: underline;
 }
 
 a:active {
-    color: #F69770;
+    color: #c95e3c;
 }
 
-.base-green-block {
-    background: #73a24e;
-    color: #f5ecc2;
+.clr1-block {
+    background: #c95e3c;
+    color: #f2ddb4;
 }
 
 header {
-    background: #73a24e;
+    display: flex;
+    flex-direction: row;
 }
 
-.base-homepage-link {
-    font-size: 1.5rem;
-    background: #39395f;
-    padding: 1rem;
-    width: 20%;
+.base-home-link {
+    border: 4px #c95e3c solid;
+    font-size: 1.2rem;
+    padding: 0.75rem;
+    width: 6rem;
+    text-align: center;
 }
 
+.clr2-accent {
+    background: #e6e6e3;
+}
 
+.separator-v {
+    background: #e6e6e3;
+    width: 4px;
+}
 
+.separator-h {
+    height: 0.5rem;
+    background: #95a1a0;
+}
