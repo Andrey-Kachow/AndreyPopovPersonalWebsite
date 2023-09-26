@@ -4,6 +4,10 @@
   Andrey Popov
 {% endblock %}
 
+{% block style %}
+  <link rel="stylesheet" href="{{ url_for('static', filename='experiences/minimaxlabs.css')  }}">
+{% endblock %}
+
 {% block header %}
 {% endblock %}
 
@@ -21,6 +25,9 @@
       </a>
     </p>
   </div>
+  <h2>
+    WORK EXPERIENCE
+  </h2>
   {% include './experiences/minimaxlabs.html' %}
 {% endblock %}
 
