@@ -1,0 +1,13 @@
+.idx-work-experiences {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    row-gap: 8px;
+    column-gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.idx-work-experiences > div {
+    width: 100%;
+}

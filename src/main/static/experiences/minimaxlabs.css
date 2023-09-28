@@ -1,52 +1,31 @@
 .mmx-root {
     background: white;
     color: #22265C;
-    border: 2px solid #22265C;
+    border-color: #22265C;
 }
 
 .mmx-header {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
 
 .mmx-logo-wrapper {
-    padding: 2px 8px;
     background: #22265C;
-    width: 100%;
 }
 
 .mmx-role-title {
-    padding-left: 1rem;
-    width: 70%;
 }
 
 .mmx-logo-image {
-    width: 100%;
 }
 
-.mmx-green-text {
+.mmx-highlight-text, .mmx-lowlight-text {
     color: #28a745;
 }
 
 .mmx-dates {
-    width: 30%;
-    padding-right: 1rem;
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    column-gap: 1rem; 
-    row-gap: 0.2rem;
-    align-content: center;
-    justify-content: right;
-
-    font-size: 0.8rem;
 }
 
 .mmx-content {
-    border-top: 2px solid #22265c;
-    padding: 0 1%;    
+    border-top-color: #22265c;
 }
 
 .mmx-footer {

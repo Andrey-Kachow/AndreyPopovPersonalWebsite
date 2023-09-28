@@ -5,7 +5,11 @@
 {% endblock %}
 
 {% block style %}
+  <link rel="stylesheet" href="{{ url_for('static', filename='index.css')  }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='experiences/abstract_experience.css')  }}">
+  <!---->
   <link rel="stylesheet" href="{{ url_for('static', filename='experiences/minimaxlabs.css')  }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='experiences/imperial_ppt_uta.css')  }}">
 {% endblock %}
 
 {% block header %}
@@ -28,7 +32,10 @@
   <h2>
     WORK EXPERIENCE
   </h2>
-  {% include './experiences/minimaxlabs.html' %}
+  <div class="idx-work-experiences">
+    {% include './experiences/minimaxlabs.html' %}
+    {% include './experiences/imperial_ppt_uta.html' %}
+  </div>
 {% endblock %}
 
 {% block footer %}
