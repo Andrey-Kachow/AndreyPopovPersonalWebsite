@@ -73,3 +73,9 @@ header {
 .base-content-wrapper {
     padding: 4px;
 }
+
+h2 {
+    width: 100%;
+    padding-top: 1rem;
+    border-top: 2px solid #493a2f;
+}
