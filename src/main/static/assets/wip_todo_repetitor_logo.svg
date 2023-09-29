@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="89 204 264 36" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <style bx:fonts="Inter">@import url(https://fonts.googleapis.com/css2?family=Inter%3Aital%2Cwght%400%2C100%3B0%2C200%3B0%2C300%3B0%2C400%3B0%2C500%3B0%2C600%3B0%2C700%3B0%2C800%3B0%2C900&amp;display=swap);</style>
+  </defs>
+  <text style="fill: rgb(102, 102, 102); font-family: Inter; font-size: 37px; font-weight: 900; white-space: pre;"><tspan x="90.602" y="236.333" style="fill: rgb(255, 255, 255);">REPET</tspan><tspan style="fill: rgb(255, 255, 255); font-size: 34px;">i</tspan><tspan style="fill: rgb(255, 255, 255);">TOR.</tspan><tspan style="fill: rgb(214, 45, 48);">ru</tspan></text>
+  <rect x="212.912" y="209.881" width="7" height="5.5" style="fill: rgb(214, 45, 48); stroke: rgb(214, 45, 48);"/>
+  <rect x="213" y="218" width="7" height="18" style="fill: rgb(255, 255, 255); stroke: rgb(255, 255, 255);"/>
+</svg>
