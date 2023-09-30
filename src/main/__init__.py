@@ -1,6 +1,8 @@
 import os
 
-from main.experiences import SAMPLE_EXPERIENCE
+from main.experiences import (
+    WORK_EXPERIENCES,
+)
 
 from flask import (
     Flask,
@@ -20,7 +22,10 @@ def create_app():
 
     @app.route('/')
     def index():
-        return render_template('index.html', experience=SAMPLE_EXPERIENCE)
+        context = {
+            'work_experiences': WORK_EXPERIENCES,
+        }
+        return render_template('index.html', **context)
 
     @app.route('/cv')
     def cv():

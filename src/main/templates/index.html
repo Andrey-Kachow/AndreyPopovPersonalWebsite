@@ -10,10 +10,10 @@
     rel="stylesheet" 
     href="{{ url_for('static', filename='experiences/abstract_experience.css') }}"
   />
-  {% for experience in experiences %}
+  {% for experience in work_experiences %}
     <link 
       rel="stylesheet" 
-      href="{{ url_for('static', filename='experiences/{{ experience.stylesheet_name }}') }}"
+      href="{{ url_for('static', filename='experiences' + experience.stylesheet_name) }}"
     />
   {% endfor %}
   <link rel="stylesheet" href="{{ url_for('static', filename='experiences/minimaxlabs.css') }}">
@@ -45,13 +45,12 @@
     WORK EXPERIENCE
   </h2>
   <div class="idx-work-experiences">
-    {% for experience in experiences %}
-      {% include './experiences/{{ experience.template_name }}' %}
+    {% for experience in work_experiences %}
+      {% include './experiences/' + experience.template_name %}
     {% endfor %}
     {% include './experiences/minimaxlabs.html' %}
     {% include './experiences/imperial_ppt_uta.html' %}
     {% include './experiences/repetitor_ru.html' %}
-    {% include './experiences/abstract_experience.html' %}
   </div>
   <h2>
     EDUCATION
