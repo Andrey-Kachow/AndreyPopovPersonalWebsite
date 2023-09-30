@@ -1,5 +1,7 @@
 import os
 
+from main.experiences import SAMPLE_EXPERIENCE
+
 from flask import (
     Flask,
     render_template,
@@ -8,7 +10,6 @@ from flask import (
     make_response,
     send_file
 )
-
 
 CV_PDF_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'documents')
 CV_PDF_PATH = os.path.join(CV_PDF_DIR, 'CV.pdf')    
@@ -19,7 +20,7 @@ def create_app():
 
     @app.route('/')
     def index():
-        return render_template('index.html')
+        return render_template('index.html', experience=SAMPLE_EXPERIENCE)
 
     @app.route('/cv')
     def cv():
