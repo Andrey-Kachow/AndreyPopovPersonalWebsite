@@ -25,7 +25,6 @@ SAMPLE_EXPERIENCE = {
 
 MINIMAX_LABS = {
     "class_prefix": "mmx",
-    "template_name": "abstract_experience.html",
     "stylesheet_name": "abstract_experience.css",
     "reference_url": "https://www.minimaxlabs.com/",
     "logo_path": "./static/assets/mmx_logo_white.svg",
@@ -46,23 +45,22 @@ MINIMAX_LABS = {
 
 
 IMPERIAL_PPT = {
-    "class_prefix": "testpr",
-    "template_name": "abstract_experience.html",
-    "stylesheet_name": "abstract_experience.css",
-    "reference_url": "#",
-    "logo_path": "#",
+    "class_prefix": "imperial",
+    "stylesheet_name": "imperial_ppt_uta.css",
+    "reference_url": "https://www.imperial.ac.uk/",
+    "logo_path": "./static/assets/imperial_logo.svg",
     "title": {
-        "prefix": "Software Engineering",
-        "highlight": "Pro",
+        "prefix": "PPT - Undergraduate",
+        "highlight": "Teaching Assistant",
     },
-    "duration": "100 yrs",
-    "start_date": "31/10/1999",
-    "end_date": "31/10/2099",
+    "duration": "6 mos",
+    "start_date": "29/09/2022",
+    "end_date": "23/03/2023",
     "responsibilities": [
-        "Was cool and fun",
-        "Did interesting projects",
-        "Something sample third",
-        "Mo idea what is supposed to be here"
+        "Worked as a Personal Programming Tutor and provided teaching support",
+        "Tutored Java, Kotlin and Haskell for the assigned group of first year students",
+        "Conducted Question-Answer seminars and revision sessions",
+        "Reviewed and marked students’ work and provided constructive feedback"
     ]
 }
 

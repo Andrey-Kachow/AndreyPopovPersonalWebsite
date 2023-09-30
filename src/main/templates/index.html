@@ -46,7 +46,7 @@
   </h2>
   <div class="idx-work-experiences">
     {% for experience in work_experiences %}
-      {% include './experiences/' + experience.template_name %}
+      {% include './experiences/abstract_experience.html' %}
     {% endfor %}
     {% include './experiences/minimaxlabs.html' %}
     {% include './experiences/imperial_ppt_uta.html' %}
