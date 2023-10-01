@@ -3,7 +3,6 @@ from flask import url_for
 
 SAMPLE_EXPERIENCE = {
     "class_prefix": "testpr",
-    "template_name": "abstract_experience.html",
     "stylesheet_name": "abstract_experience.css",
     "reference_url": "#",
     "logo_path": "#",
@@ -66,30 +65,28 @@ IMPERIAL_PPT = {
 
 
 REPETITOR_RU = {
-    "class_prefix": "testpr",
-    "template_name": "abstract_experience.html",
+    "class_prefix": "repetitor",
     "stylesheet_name": "abstract_experience.css",
-    "reference_url": "#",
-    "logo_path": "#",
+    "reference_url": "https://repetitor.ru/view/repetitor-po-programmirovaniyu-popov-andrej-konstantinovich-66939",
+    "logo_path": "./static/assets/repetitor_ru_mylogo.svg",
     "title": {
-        "prefix": "Software Engineering",
-        "highlight": "Pro",
+        "prefix": "Computer Science",
+        "highlight": "Tutor",
     },
-    "duration": "100 yrs",
-    "start_date": "31/10/1999",
-    "end_date": "31/10/2099",
+    "duration": "3 mos",
+    "start_date": "03/07/2022",
+    "end_date": "02/10/2023",
     "responsibilities": [
-        "Was cool and fun",
-        "Did interesting projects",
-        "Something sample third",
-        "Mo idea what is supposed to be here"
+        "Tutored Python, C/C++, and Java",
+        "Guided beginners and intermediate level adults and kids",
+        "Created lesson plans tailored to the personal requirements of each client",
+        "Improved tutees’ academic performance and understanding of the subject"
     ]
 }
 
 
 SAMPLE_EXPERIENCE = {
     "class_prefix": "testpr",
-    "template_name": "abstract_experience.html",
     "stylesheet_name": "abstract_experience.css",
     "reference_url": "#",
     "logo_path": "#",
