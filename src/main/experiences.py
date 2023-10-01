@@ -3,7 +3,7 @@ from flask import url_for
 
 SAMPLE_EXPERIENCE = {
     "class_prefix": "testpr",
-    "stylesheet_name": "abstract_experience.css",
+    "stylesheet_path": "abstract_experience.css",
     "reference_url": "#",
     "logo_path": "#",
     "title": {
@@ -24,7 +24,7 @@ SAMPLE_EXPERIENCE = {
 
 MINIMAX_LABS = {
     "class_prefix": "mmx",
-    "stylesheet_name": "abstract_experience.css",
+    "stylesheet_path": "minimaxlabs.css",
     "reference_url": "https://www.minimaxlabs.com/",
     "logo_path": "./static/assets/mmx_logo_white.svg",
     "title": {
@@ -45,7 +45,7 @@ MINIMAX_LABS = {
 
 IMPERIAL_PPT = {
     "class_prefix": "imperial",
-    "stylesheet_name": "imperial_ppt_uta.css",
+    "stylesheet_path": "imperial_ppt_uta.css",
     "reference_url": "https://www.imperial.ac.uk/",
     "logo_path": "./static/assets/imperial_logo.svg",
     "title": {
@@ -66,7 +66,7 @@ IMPERIAL_PPT = {
 
 REPETITOR_RU = {
     "class_prefix": "repetitor",
-    "stylesheet_name": "abstract_experience.css",
+    "stylesheet_path": "repetitor_ru.css",
     "reference_url": "https://repetitor.ru/view/repetitor-po-programmirovaniyu-popov-andrej-konstantinovich-66939",
     "logo_path": "./static/assets/repetitor_ru_mylogo.svg",
     "title": {
@@ -87,7 +87,7 @@ REPETITOR_RU = {
 
 SAMPLE_EXPERIENCE = {
     "class_prefix": "testpr",
-    "stylesheet_name": "abstract_experience.css",
+    "stylesheet_path": "abstract_experience.css",
     "reference_url": "#",
     "logo_path": "#",
     "title": {
