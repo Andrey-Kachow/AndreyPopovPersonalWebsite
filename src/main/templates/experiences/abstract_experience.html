@@ -10,8 +10,8 @@
     </div>
     <div class="exp-role-title {{ experience.class_prefix }}-role-title">
       <h3>
-        <span>{{ experience.title.prefix }}</span>
-        <span class="exp-highlight-text {{ experience.class_prefix }}-highlight-text">{{ experience.title.highlight }}</span>
+        <span>{{ experience.title.prefix|safe }}</span>
+        <span class="exp-highlight-text {{ experience.class_prefix }}-highlight-text">{{ experience.title.highlight|safe }}</span>
       </h3>
     </div>
     <div class="exp-dates {{ experience.class_prefix }}-dates">

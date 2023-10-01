@@ -1,4 +1,4 @@
-.idx-work-experiences {
+.idx-experience-cardview {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -9,13 +9,13 @@
     align-items: flex-start;
 }
 
-.idx-work-experiences > div {
+.idx-experience-cardview > div {
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 299px;
 }
 
 @media only screen and (min-width: 700px) {
-    .idx-work-experiences > div {
+    .idx-experience-cardview > div {
     }
 }

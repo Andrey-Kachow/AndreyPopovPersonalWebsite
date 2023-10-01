@@ -2,6 +2,7 @@ import os
 
 from main.experiences import (
     WORK_EXPERIENCES,
+    EDUCATION_EXPERIENCES
 )
 
 from flask import (
@@ -24,6 +25,7 @@ def create_app():
     def index():
         context = {
             'work_experiences': WORK_EXPERIENCES,
+            'education_experiences': EDUCATION_EXPERIENCES,
         }
         return render_template('index.html', **context)
 

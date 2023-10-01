@@ -84,6 +84,52 @@ REPETITOR_RU = {
     ]
 }
 
+IMPERIAL = {
+    "class_prefix": "imperial",
+    "stylesheet_path": "imperial.css",
+    "reference_url": "https://www.imperial.ac.uk/",
+    "logo_path": "./static/assets/imperial_logo.svg",
+    "title": {
+        "prefix": "Computing",
+        "highlight": "MEng <small>(Expected)</small>",
+    },
+    "duration": "4 ay",
+    "start_date": "01/10/2020",
+    "end_date": "01/07/2024",
+    "responsibilities": []
+}
+
+
+ASHBOURNE = {
+    "class_prefix": "ashbourne",
+    "stylesheet_path": "ashbourne.css",
+    "reference_url": "https://www.ashbournecollege.co.uk/",
+    "logo_path": "./static/assets/ashbourne_logo.svg",
+    "title": {
+        "prefix": "Mathematics, Physics, Further Mathematics",
+        "highlight": "A*A*A*",
+    },
+    "duration": "1 ay",
+    "start_date": "01/01/2020",
+    "end_date": "01/07/2020",
+    "responsibilities": []
+}
+
+
+IMPERIALa = {
+    "class_prefix": "imperial",
+    "stylesheet_path": "imperial.css",
+    "reference_url": "https://www.imperial.ac.uk/",
+    "logo_path": "./static/assets/imperial_logo.svg",
+    "title": {
+        "prefix": "Computing",
+        "highlight": "MEng <small>(Expected)</small>",
+    },
+    "duration": "4 ay",
+    "start_date": "01/10/2020",
+    "end_date": "01/07/2024",
+    "responsibilities": []
+}
 
 SAMPLE_EXPERIENCE = {
     "class_prefix": "testpr",
@@ -105,10 +151,49 @@ SAMPLE_EXPERIENCE = {
     ]
 }
 
+SAMPLE_EXPERIENCE = {
+    "class_prefix": "testpr",
+    "stylesheet_path": "abstract_experience.css",
+    "reference_url": "#",
+    "logo_path": "#",
+    "title": {
+        "prefix": "Software Engineering",
+        "highlight": "Pro",
+    },
+    "duration": "100 yrs",
+    "start_date": "31/10/1999",
+    "end_date": "31/10/2099",
+    "responsibilities": [
+        "Was cool and fun",
+        "Did interesting projects",
+        "Something sample third",
+        "Mo idea what is supposed to be here"
+    ]
+}
+
+SAMPLE_EXPERIENCE = {
+    "class_prefix": "testpr",
+    "stylesheet_path": "abstract_experience.css",
+    "reference_url": "#",
+    "logo_path": "#",
+    "title": {
+        "prefix": "Software Engineering",
+        "highlight": "Pro",
+    },
+    "duration": "100 yrs",
+    "start_date": "31/10/1999",
+    "end_date": "31/10/2099",
+    "responsibilities": [
+        "Was cool and fun",
+        "Did interesting projects",
+        "Something sample third",
+        "Mo idea what is supposed to be here"
+    ]
+}
 
 WORK_EXPERIENCES = [MINIMAX_LABS, IMPERIAL_PPT, REPETITOR_RU]
-# EDUCATION_EXPERIENES = [IMPERIAL, ASHBOURNE, WELLINGTON?]
-# RESEARCH_EXPERIENCE = [ALGOWIKI_ARTICLE]
+EDUCATION_EXPERIENCES = [IMPERIAL, ASHBOURNE] # ADD SCHOOLS AND SUMMER SCHOOLS
+# RESEARCH_EXPERIENCES = [ALGOWIKI_ARTICLE]
 # ACADEMIC_PROJECTS = [EXPREME_RESTARTUP, MMMBOXES, WACC, DEVOPS_PROJECT, PINTOS, ARM11_EMULATOR]
 '''
 PET_PROJECTS = [

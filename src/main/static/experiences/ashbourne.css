@@ -1,0 +1,39 @@
+.ashbourne-root {
+    background: #eeeae1;
+    color: #0e3c70;
+    border-color: #476282;
+}
+
+.ashbourne-header {
+    background: url('./static/assets/ashbourne_logo.svg');
+}
+
+.ashbourne-logo-wrapper {
+    padding: 0;
+}
+
+.ashbourne-role-title {
+}
+
+.ashbourne-logo-image {
+}
+
+.ashbourne-highlight-text {
+    font-weight: bold;
+    color: #0e3c70;
+}
+
+.ashbourne-lowlight-text {
+    color: #476282;
+}
+
+.ashbourne-dates {
+}
+
+.ashbourne-content {
+    border-top-color: #476282;
+}
+
+.ashbourne-footer {
+    background: #476282;
+}
