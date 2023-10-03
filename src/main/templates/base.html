@@ -11,26 +11,23 @@
     {% block style %}{% endblock %}
   </head>
   <body>
-    <header class="clr1-block">
-      <div class="separator-v">
-        <!---->
+    <header>
+      <div class="base-main-image">
+        <img class="base-tulpi" src="{{ url_for('static', filename='assets/tulpi.jpg') }}"/>
       </div>
-      <div class="base-home-link clr2-accent">
-        <a href="/">Andrey Popov</a>
-      </div>
-      <div class="separator-v">
-        <!---->
+    </header>
+    <nav>
+      <div class="base-title-holder">
+        <h1>ANDREY POPOV</h1>
       </div>
       <div>
         {% block header %}
         {% endblock %}
       </div>
-    </header>
-    <div class="separator-h">
-      <!---->
-    </div>
-    <h1>Welcome to My Website</h1>
-    <img src="{{ url_for('static', filename='assets/tulpi.jpg') }}"/>
+      <div class="separator-h">
+        <!---->
+      </div>
+    </nav>
     <div class="base-content-wrapper">
       {% block content %}
       {% endblock %}
@@ -38,6 +35,19 @@
     <footer>
       {% block footer %}
       {% endblock %}
+      <div class="base-contact-information-wrapper">
+        <h2 class="base-contact-title">
+          Contat Info:
+        </h2>
+        <div class="base-contact-details">
+          <p>
+            Tel: +44 7878 749173
+          </p>
+          <p>
+            Emai: andr10xp@gmail.com
+          </p>
+        <div>
+      </div>
     </footer>
   </body>
 </html>
