@@ -110,7 +110,7 @@ ASHBOURNE = {
         "highlight": "A*A*A*",
     },
     "duration": "1 ay",
-    "start_date": "01/01/2020",
+    "start_date": "02/09/2019",
     "end_date": "01/07/2020",
     "responsibilities": [
         "Mathematics, Physics, Further Mathematics"

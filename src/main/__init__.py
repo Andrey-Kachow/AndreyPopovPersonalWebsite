@@ -16,6 +16,7 @@ from flask import (
 
 CV_PDF_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'documents')
 CV_PDF_PATH = os.path.join(CV_PDF_DIR, 'CV.pdf')    
+TRANSCRIPT_PDF_PATH = os.path.join(CV_PDF_DIR, 'transcript.pdf')
 
 
 def create_app():
@@ -34,6 +35,12 @@ def create_app():
         response = make_response(send_file(CV_PDF_PATH))
         response.headers['Content-Type'] = 'application/pdf'
         return response
+
+    # @app.route('/transcript')
+    # def cv():
+    #     response = make_response(send_file(TRANSCRIPT_PDF_PATH))
+    #     response.headers['Content-Type'] = 'application/pdf'
+    #     return response
 
     return app
 
