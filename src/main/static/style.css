@@ -69,7 +69,8 @@ nav {
     z-index: 999;
     position: -webkit-sticky; /* Safari */
     position: sticky;
-    top: 0;
+    top: -1px;
+    border-top: 1px solid #C95E3C; /* Hack to make this website look nice on ubuntu chrome */
     left: 0;
     display: flex;
     flex-direction: row;
