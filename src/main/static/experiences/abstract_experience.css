@@ -1,9 +1,11 @@
 .exp-root {
+    position: relative;
     background: white;
     color: black;
     border-width: 2px;
     border-style: solid;
     border-color: black;
+    padding-bottom: 1.5rem; /* Footer height */
 }
 
 .exp-header {
@@ -57,7 +59,10 @@
 }
 
 .exp-footer {
-    height: 1.5rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1.5rem; /* so does padding/margin that will leave space for that absolute pos footer*/
     width: 100%;
     background: black;
 }
