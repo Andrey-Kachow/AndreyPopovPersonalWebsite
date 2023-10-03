@@ -17,14 +17,14 @@
     <div class="exp-dates {{ experience.class_prefix }}-dates">
       <div class="exp-dates-part {{ experience.class_prefix }}-dates-part">
         <strong>
-          {{ experience.duration }}
+          {{ experience.duration|safe }}
         </strong>
       </div>
       <div class="exp-dates-part exp-lowlight-text {{ experience.class_prefix }}-dates-part {{ experience.class_prefix }}-lowlight-text">
-        {{ experience.start_date }}
+        {{ experience.start_date|safe }}
       </div>
       <div class="exp-dates-part exp-lowlight-text {{ experience.class_prefix }}-dates-part {{ experience.class_prefix }}-lowlight-text">
-        {{ experience.end_date }}
+        {{ experience.end_date|safe }}
       </div>
     </div>
   </div>

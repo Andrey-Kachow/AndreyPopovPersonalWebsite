@@ -106,29 +106,31 @@ ASHBOURNE = {
     "reference_url": "https://www.ashbournecollege.co.uk/",
     "logo_path": "./static/assets/ashbourne_logo.svg",
     "title": {
-        "prefix": "Mathematics, Physics, Further Mathematics",
+        "prefix": "A-Level",
         "highlight": "A*A*A*",
     },
     "duration": "1 ay",
     "start_date": "01/01/2020",
     "end_date": "01/07/2020",
-    "responsibilities": []
+    "responsibilities": [
+        "Mathematics, Physics, Further Mathematics"
+    ]
 }
 
 
-IMPERIALa = {
-    "class_prefix": "imperial",
-    "stylesheet_path": "imperial.css",
-    "reference_url": "https://www.imperial.ac.uk/",
-    "logo_path": "./static/assets/imperial_logo.svg",
+WELLINGTON = {
+    "class_prefix": "wellington",
+    "stylesheet_path": "wellington.css",
+    "reference_url": "https://www.wellingtoncollege.org.uk/?source=logo",
+    "logo_path": "./static/assets/wellington_logo.png",
     "title": {
-        "prefix": "Computing",
-        "highlight": "MEng <small>(Expected)</small>",
+        "prefix": "AS-Level",
+        "highlight": "",
     },
-    "duration": "4 ay",
-    "start_date": "01/10/2020",
-    "end_date": "01/07/2024",
-    "responsibilities": []
+    "duration": "<span class=\"wellington-orange\">1 ay<span>",
+    "start_date": "<span class=\"wellington-yellow\">01/09/2017<span>",
+    "end_date": "<span class=\"wellington-cyan\">25/06/2018</span>",
+    "responsibilities": ["Math, Further Math, Computer Science, Physics"]
 }
 
 SAMPLE_EXPERIENCE = {
@@ -192,7 +194,7 @@ SAMPLE_EXPERIENCE = {
 }
 
 WORK_EXPERIENCES = [MINIMAX_LABS, IMPERIAL_PPT, REPETITOR_RU]
-EDUCATION_EXPERIENCES = [IMPERIAL, ASHBOURNE] # ADD SCHOOLS AND SUMMER SCHOOLS
+EDUCATION_EXPERIENCES = [IMPERIAL, ASHBOURNE, WELLINGTON] # ADD SCHOOLS AND SUMMER SCHOOLS
 # RESEARCH_EXPERIENCES = [ALGOWIKI_ARTICLE]
 # ACADEMIC_PROJECTS = [EXPREME_RESTARTUP, MMMBOXES, WACC, DEVOPS_PROJECT, PINTOS, ARM11_EMULATOR]
 '''
