@@ -1,3 +1,10 @@
+.idx-cv-link:link, .idx-cv-link:visited {
+    color: #c95e3c;
+}
+.idx-cv-link:active {
+    color: #4e3a2f;
+}
+
 .idx-experience-cardview {
     width: 100%;
     display: flex;
