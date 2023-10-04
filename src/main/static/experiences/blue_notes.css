@@ -1,12 +1,20 @@
 .blue-notes-root {
     color: #2F4B78;
-    background: #BFD7FF;
+    background: #d9e6fa;
     border: 2px solid #2F4B78;
+}
+
+.blue-notes-link:link, .blue-notes-link:visited {
+    color: #2F4B78;
+    text-decoration: underline;
+}
+.blue-notes-link:hover {
+    color: magenta;
 }
 
 .blue-notes-header {
     background: #003FFD;
-    color: #BFD7FF;
+    color: #d9e6fa;
 }
 
 .blue-notes-align-logo-sub {

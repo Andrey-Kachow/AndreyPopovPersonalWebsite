@@ -1,7 +1,15 @@
 .kcal-root {
     color: #33691E;
-    background: white;
+    background: #e9f7e9;
     border: 2px solid #33691E;
+}
+
+.kcal-link:link, .kcal-link:visited {
+    color: #33691E;
+    text-decoration: underline;
+}
+.kcal-link:hover {
+    color: magenta;
 }
 
 .kcal-header {
@@ -19,7 +27,7 @@
 .kcal-subheader {
     padding-left: 0;
     background: #A5D6A7;
-    border-bottom: 2px solid #711027;
+    border-bottom: 2px solid #33691E;
 }
 
 .kcal-title-wrapper {
@@ -48,3 +56,5 @@
 
 .kcal-download-apk, .kcal-youtube-demo-link {
 }
+
+

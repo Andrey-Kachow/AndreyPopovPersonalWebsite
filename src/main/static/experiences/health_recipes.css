@@ -1,7 +1,15 @@
 .recipes-root {
     color: #711027;
-    background: #FDE69E;
+    background: #f7eabe;
     border: 2px solid #711027;
+}
+
+.recipes-link:link, .recipes-link:visited {
+    color: #711027;
+    text-decoration: underline;
+}
+.recipes-link:hover {
+    color: magenta;
 }
 
 .recipes-header {
@@ -18,7 +26,7 @@
 .recipes-subheader {
     border-top: 2px solid #711027;
     padding-left: 0;
-    background: #FFC107;
+    background: #f5d269;
     border-bottom: 2px solid #711027;
 }
 

@@ -27,13 +27,13 @@ def android_app_demo_and_apk_html(class_name, apk_name, youtube_link):
     return f"""
         <div class="proj-download-apk {class_name}-download-apk">
             Download: 
-            <a href="/static/download/{apk_name}" download>
+            <a class="{class_name}-link" href="/static/download/{apk_name}" download>
                 {apk_name}
             </a>
         </div>
         <div class="proj-youtube-demo-link {class_name}-youtube-demo-link">
             YouTube:
-            <a href="{youtube_link}">
+            <a class="{class_name}-link" href="{youtube_link}">
                 video Demostration
             </a>
         </div>
