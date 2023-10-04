@@ -10,10 +10,20 @@
     rel="stylesheet" 
     href="{{ url_for('static', filename='experiences/abstract_experience.css') }}"
   />
+  <link 
+    rel="stylesheet" 
+    href="{{ url_for('static', filename='experiences/abstract_project.css') }}"
+  />
   {% for experience in work_experiences + education_experiences + research_experiences %}
     <link 
       rel="stylesheet" 
       href="{{ url_for('static', filename='experiences/' + experience.stylesheet_path) }}"
+    />
+  {% endfor %}
+  {% for project in pet_projects + academic_projects %}
+    <link 
+      rel="stylesheet" 
+      href="{{ url_for('static', filename='experiences/' + project.stylesheet_path) }}"
     />
   {% endfor %}
 {% endblock %}
@@ -64,6 +74,14 @@ many areas of computer science.
     {% endfor %}
   </div>
   <h2>
+    PET PROJECTS
+  </h2>
+  <div class="idx-experience-cardview idx-pet-projects">
+    {% for project in pet_projects %}
+      {% include './experiences/abstract_project.html' %}
+    {% endfor %}
+  </div>
+  <h2>
     EDUCATION
   </h2>
   <div class="idx-experience-cardview idx-education">
@@ -95,15 +113,9 @@ many areas of computer science.
     Coming soon...
   </div>
   <h2>
-    PET PROJECTS
-  </h2>
-  <div class="idx-experience-card-view idx-pet-projects">
-    Coming soon...
-  </div>
-  <h2>
     TUTEES
   </h2>
-  <div class="idx-experience-card-view idx-tutees">
+  <div class="idx-experience-cardview idx-tutees">
     Coming soon...
   </div>
   -->

@@ -1,0 +1,55 @@
+<div class="proj-root {{ project.class_prefix }}-root">
+  <div class="proj-header {{ project.class_prefix }}-header">
+    {% if project.logo_url %}
+      <img class="proj-logo-img {{ project.class_prefix }}-logo-img"/>
+    {% else %}
+      {{ project.logo_supstitute|safe }}
+    {% endif %}
+  </div>
+  <div class="proj-subheader {{ project.class_prefix }}-subheader">
+    <div class="proj-title-wrapper {{ project.class_prefix }}-title-wrapper">
+      {{ project.title|safe }}
+    </div>
+    <div class="proj-status-wrapper {{ project.class_prefix }}-status-wrapper">
+      <p>
+        <strong>
+          {{ project.status }}
+        </strong>
+      </P>
+    </div>
+    <div class="proj-dates {{ project.class_prefix }}-proj-dates">
+      <div>
+        {{ project.since }}
+      </div>
+      <div>
+        {{ project.until }}
+      </div>
+    </div>
+  </div>
+  <div class="proj-content {{ project.class_prefix }}-proj-content">
+    <div class="proj-interesting-things {{ project.class_prefix }}-interesting-things">
+      <ul>
+        {% for interesting_thing in project.interesting_things %}
+          <li>
+            {{ interesting_thing }}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% if project.custom_content %}
+      <div class="proj-custom-content">
+        {{ project.custom_content|safe }}
+      </div>
+    {% endif %}
+    <div class="proj-keywords {{ project.class_prefix }}-keywords">
+      {% for keyword in project.keywords %}
+         <span class="proj-keyword {{ project.class_prefix }}-keyword">
+           #{{ keyword }}
+         </span>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="proj-footer {{ project.class_prefix }}-footer">
+    <!--fill-->
+  </div>
+</div>

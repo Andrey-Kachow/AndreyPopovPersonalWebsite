@@ -6,6 +6,11 @@ from main.experiences import (
     RESEARCH_EXPERIENCES,
 )
 
+from main.projects import (
+    PET_PROJECTS,
+    ACADEMIC_PROJECTS
+)
+
 from flask import (
     Flask,
     render_template,
@@ -27,6 +32,8 @@ def create_app():
     def index():
         context = {
             'work_experiences': WORK_EXPERIENCES,
+            'pet_projects': PET_PROJECTS,
+            'academic_projects': ACADEMIC_PROJECTS,
             'education_experiences': EDUCATION_EXPERIENCES,
             'research_experiences': RESEARCH_EXPERIENCES,
         }
