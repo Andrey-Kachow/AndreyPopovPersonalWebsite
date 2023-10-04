@@ -75,7 +75,7 @@ REPETITOR_RU = {
     },
     "duration": "3 mos",
     "start_date": "03/07/2022",
-    "end_date": "02/10/2023",
+    "end_date": "02/10/2022",
     "responsibilities": [
         "Tutored Python, C/C++, and Java",
         "Guided beginners and intermediate level adults and kids",
