@@ -173,29 +173,27 @@ SAMPLE_EXPERIENCE = {
     ]
 }
 
-SAMPLE_EXPERIENCE = {
-    "class_prefix": "testpr",
-    "stylesheet_path": "abstract_experience.css",
-    "reference_url": "#",
-    "logo_path": "#",
+ALGOWIKI_ARTICLE = {
+    "class_prefix": "algowiki",
+    "stylesheet_path": "algowiki.css",
+    "reference_url": "https://www.semanticscholar.org/paper/Formal-Model-of-Problems-%2C-Methods-%2C-Algorithms-and-Popov-Nikitenko/f3796fec3ef7f4ab165992cada3993f6426197fa",
+    "logo_path": "./static/assets/nivts.jpeg",
     "title": {
-        "prefix": "Software Engineering",
-        "highlight": "Pro",
+        "prefix": "Research Computing Center of Lomonosov",
+        "highlight": "Moscow State University",
     },
-    "duration": "100 yrs",
-    "start_date": "31/10/1999",
-    "end_date": "31/10/2099",
+    "duration": "1 mos",
+    "start_date": "01/07/2018",
+    "end_date": "01/08/2018",
     "responsibilities": [
-        "Was cool and fun",
-        "Did interesting projects",
-        "Something sample third",
-        "Mo idea what is supposed to be here"
+        "Co-authored the article \"Formal Model of Problems, Methods, Algorithms and Implementations in the Advancing AlgoWiki Open Encyclopedia\"",
+        "<a class=\"algowiki-link\" href=\"https://www.semanticscholar.org/paper/Formal-Model-of-Problems-%2C-Methods-%2C-Algorithms-and-Popov-Nikitenko/f3796fec3ef7f4ab165992cada3993f6426197fa\">The article can be found here</a>"
     ]
 }
 
 WORK_EXPERIENCES = [MINIMAX_LABS, IMPERIAL_PPT, REPETITOR_RU]
 EDUCATION_EXPERIENCES = [IMPERIAL, ASHBOURNE, WELLINGTON] # ADD SCHOOLS AND SUMMER SCHOOLS
-# RESEARCH_EXPERIENCES = [ALGOWIKI_ARTICLE]
+RESEARCH_EXPERIENCES = [ALGOWIKI_ARTICLE]
 # ACADEMIC_PROJECTS = [EXPREME_RESTARTUP, MMMBOXES, WACC, DEVOPS_PROJECT, PINTOS, ARM11_EMULATOR]
 '''
 PET_PROJECTS = [

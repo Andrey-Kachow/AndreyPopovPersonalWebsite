@@ -1,0 +1,39 @@
+.algowiki-root {
+    background: white;
+    color: #333333;
+    border-color: #003e74;
+}
+
+.algowiki-link:link, .algowiki-link:visited {
+    color: #003e74;
+}
+
+.algowiki-header {
+}
+
+.algowiki-logo-wrapper {
+    padding: 0;
+    border-bottom: none;
+    background: #003e74;
+}
+
+.algowiki-role-title {
+}
+
+.algowiki-logo-image {
+}
+
+.algowiki-highlight-text, .algowiki-lowlight-text {
+    color: #003e74;
+}
+
+.algowiki-dates {
+}
+
+.algowiki-content {
+    border-top-color: #003e74;
+}
+
+.algowiki-footer {
+    background: #003e74;
+}

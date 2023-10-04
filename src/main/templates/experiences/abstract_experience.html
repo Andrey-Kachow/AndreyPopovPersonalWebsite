@@ -33,7 +33,7 @@
       <ul class="exp-responsibiliries-list {{ experience.class_prefix }}-responsibilities-list">
         {% for responsibility_item in experience.responsibilities %}
           <li class="exp-responsibility-item {{ experience.class_prefix }}-responsibility-item">
-            {{ responsibility_item }} 
+            {{ responsibility_item|safe }} 
           </li>
         {% endfor %}
       </ul>

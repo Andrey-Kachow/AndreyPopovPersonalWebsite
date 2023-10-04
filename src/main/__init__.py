@@ -2,7 +2,8 @@ import os
 
 from main.experiences import (
     WORK_EXPERIENCES,
-    EDUCATION_EXPERIENCES
+    EDUCATION_EXPERIENCES,
+    RESEARCH_EXPERIENCES,
 )
 
 from flask import (
@@ -16,7 +17,7 @@ from flask import (
 
 CV_PDF_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'documents')
 CV_PDF_PATH = os.path.join(CV_PDF_DIR, 'CV.pdf')    
-TRANSCRIPT_PDF_PATH = os.path.join(CV_PDF_DIR, 'transcript.pdf')
+# TRANSCRIPT_PDF_PATH = os.path.join(CV_PDF_DIR, 'transcript.pdf')
 
 
 def create_app():
@@ -27,6 +28,7 @@ def create_app():
         context = {
             'work_experiences': WORK_EXPERIENCES,
             'education_experiences': EDUCATION_EXPERIENCES,
+            'research_experiences': RESEARCH_EXPERIENCES,
         }
         return render_template('index.html', **context)
 
