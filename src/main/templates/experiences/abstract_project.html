@@ -35,6 +35,12 @@
   <div class="proj-content {{ project.class_prefix }}-proj-content">
     <div class="proj-interesting-things {{ project.class_prefix }}-interesting-things">
       <ul>
+        <li>
+          View
+          <a href="{{ project.repo_link }}">
+            Source core repository
+          </a>
+        </li>
         {% for interesting_thing in project.interesting_things %}
           <li>
             {{ interesting_thing }}

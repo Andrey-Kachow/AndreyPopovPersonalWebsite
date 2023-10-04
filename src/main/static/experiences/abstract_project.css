@@ -10,6 +10,13 @@
     background: #d0d0d0;
 }
 
+.proj-align-logo-sub {
+    padding: 4px 8px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 .proj-footer {
     position: absolute;
     bottom: 0;
@@ -54,4 +61,8 @@
 
 .proj-keyword:nth-child(2) {
     color: #0f0f0f;
+}
+
+.proj-download-apk, .proj-youtube-demo-link {
+    padding: 0 1rem;
 }
