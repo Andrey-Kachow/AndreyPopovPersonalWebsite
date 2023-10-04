@@ -1,0 +1,50 @@
+.blue-notes-root {
+    color: #2F4B78;
+    background: #BFD7FF;
+    border: 2px solid #2F4B78;
+}
+
+.blue-notes-header {
+    background: #003FFD;
+    color: #BFD7FF;
+}
+
+.blue-notes-align-logo-sub {
+}
+
+.blue-notes-footer {
+    background: #4C79FF;
+}
+
+.blue-notes-subheader {
+    padding-left: 0;
+    background: #84B1FB;
+    border-bottom: 2px solid #2F4B78;
+}
+
+.blue-notes-title-wrapper {
+    padding-left: 1rem;
+    margin-right: 2rem;
+}
+
+.blue-notes-status {
+}
+
+.blue-notes-dates {
+}
+
+.blue-notes-dtes > div {
+}
+
+.blue-notes-keywords {
+}
+
+.blue-notes-keyword {
+}
+
+.blue-notes-keyword:nth-child(2) {
+    color: #0f0f0f;
+}
+
+.blue-notes-download-apk, .blue-notes-youtube-demo-link {
+}

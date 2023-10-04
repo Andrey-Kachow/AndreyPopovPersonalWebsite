@@ -108,7 +108,7 @@ KCAL_CALC = {
 
 BLUE_NOTES = {
     "class_prefix": "blue-notes",
-    "stylesheet_path": "blue-notes.css",
+    "stylesheet_path": "blue_notes.css",
     "logo_path": None,
     "logo_substitute": simple_text_header("Blue Notes", "blue-notes"),
     "title": "Android App Project",
