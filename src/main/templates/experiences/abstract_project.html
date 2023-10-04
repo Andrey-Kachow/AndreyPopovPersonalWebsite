@@ -12,14 +12,16 @@
   </div>
   <div class="proj-subheader {{ project.class_prefix }}-subheader">
     <div class="proj-title-wrapper {{ project.class_prefix }}-title-wrapper">
-      {{ project.title|safe }}
+      <h3>
+        {{ project.title|safe }}
+      </h3>
     </div>
     <div class="proj-status-wrapper {{ project.class_prefix }}-status-wrapper">
-      <p>
+      <h4>
         <strong>
           {{ project.status }}
         </strong>
-      </P>
+      </h4>
     </div>
     <div class="proj-dates {{ project.class_prefix }}-proj-dates">
       <div>
