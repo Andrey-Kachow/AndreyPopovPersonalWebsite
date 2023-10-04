@@ -2,8 +2,12 @@
   <div class="proj-header {{ project.class_prefix }}-header">
     {% if project.logo_url %}
       <img class="proj-logo-img {{ project.class_prefix }}-logo-img"/>
+    {% elif project.logo_substitute %}
+      {{ project.logo_substitute|safe }}
     {% else %}
-      {{ project.logo_supstitute|safe }}
+      <div style="text-align: center; padding: 1rem;">
+        Pet Project
+      </div>
     {% endif %}
   </div>
   <div class="proj-subheader {{ project.class_prefix }}-subheader">
@@ -19,10 +23,10 @@
     </div>
     <div class="proj-dates {{ project.class_prefix }}-proj-dates">
       <div>
-        {{ project.since }}
+        {{ project.dates.since }}
       </div>
       <div>
-        {{ project.until }}
+        {{ project.dates.until }}
       </div>
     </div>
   </div>

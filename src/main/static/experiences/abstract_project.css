@@ -1,0 +1,22 @@
+.proj-root {
+    position: relative;
+    color: black;
+    background: white;
+    border: 2px solid black;
+    padding-bottom: 1.5rem;
+}
+
+.proj-header {
+    background: #d0d0d0;
+}
+
+.proj-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1.5rem;
+    width: 100%;
+    background: #d0d0d0;
+}
+
+
