@@ -14,7 +14,8 @@
 
 .blue-notes-header {
     background: #003FFD;
-    color: #d9e6fa;
+    background: linear-gradient(#84B1FB, 30%, #5069b5); 
+    color: white;
 }
 
 .blue-notes-align-logo-sub {
