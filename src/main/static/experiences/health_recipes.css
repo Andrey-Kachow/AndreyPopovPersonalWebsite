@@ -1,6 +1,6 @@
 .recipes-root {
     color: #711027;
-    background: #f7eabe;
+    background: #f7f1c6;
     border: 2px solid #711027;
 }
 
@@ -13,20 +13,19 @@
 }
 
 .recipes-header {
-    background: #FFA000;
-    background: linear-gradient(#f5d269 15% , #FFA000)
+    background: linear-gradient(#fad35c 15% , #FFA000)
 }
 
 .recipes-align-logo-sub {
 }
 
 .recipes-footer {
-    background: #f5d269;
+    background: #fad35c;
 }
 
 .recipes-subheader {
     padding-left: 0;
-    background: #f5d269;
+    background: #fad35c;
     
     border-bottom: 1px solid #FFA000;
 }
