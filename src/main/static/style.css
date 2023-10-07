@@ -104,6 +104,12 @@ header > div {
     color: #674743;
 }
 
+@media screen and (min-width: 1200px) {
+    .base-welcome-block, .base-about-block {
+        padding: 0 3%;
+    }
+}
+
 nav {
     z-index: 999;
     position: -webkit-sticky; /* Safari */
