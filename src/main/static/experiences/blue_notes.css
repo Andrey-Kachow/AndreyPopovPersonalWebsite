@@ -21,13 +21,13 @@
 }
 
 .blue-notes-footer {
-    background: #4C79FF;
+    background: #84B1FB;
 }
 
 .blue-notes-subheader {
     padding-left: 0;
     background: #84B1FB;
-    border-bottom: 2px solid #2F4B78;
+    border-bottom: none;
 }
 
 .blue-notes-title-wrapper {

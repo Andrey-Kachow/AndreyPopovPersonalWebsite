@@ -20,14 +20,14 @@
 }
 
 .recipes-footer {
-    background: #FFA000;
+    background: #f5d269;
 }
 
 .recipes-subheader {
-    border-top: 2px solid #711027;
     padding-left: 0;
     background: #f5d269;
-    border-bottom: 2px solid #711027;
+    
+    border-bottom: 1px solid #FFA000;
 }
 
 .recipes-title-wrapper {
