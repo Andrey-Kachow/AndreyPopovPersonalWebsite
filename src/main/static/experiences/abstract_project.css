@@ -34,6 +34,10 @@
     border-bottom: 2px solid black;
 }
 
+.proj-content {
+    padding-top: 1rem;
+}
+
 .proj-status {
 
 }

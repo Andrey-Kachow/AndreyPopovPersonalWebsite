@@ -44,6 +44,11 @@
 .recipes-dtes > div {
 }
 
+.recipes-content {
+    background: linear-gradient(90deg, #f7f1c6, 1%, white, 78%, #f7f1c6);
+}
+
+
 .recipes-keywords {
 }
 

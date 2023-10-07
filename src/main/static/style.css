@@ -41,6 +41,10 @@ a:active {
     color: #c95e3c;
 }
 
+ul {
+    margin: 0;
+}
+
 .clr1-block {
     background: #c95e3c;
     color: #f2ddb4;
