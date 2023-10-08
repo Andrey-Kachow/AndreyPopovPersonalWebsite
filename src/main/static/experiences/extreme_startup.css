@@ -1,0 +1,91 @@
+.extreme-startup-root {
+    color: #2a324b;
+    background: #f1f4f3;
+    border: 2px solid #33691E;
+}
+
+.extreme-startup-highlight-text {
+    color: #da627d;
+}
+
+.extreme-startup-link:link, .extreme-startup-link:visited {
+    color: #da627d;
+}
+.extreme-startup-link:hover {
+}
+
+
+.extreme-startup-header {
+    background: linear-gradient(
+        -90deg,
+        #2a324b 0% 38.2%,
+        #5f3d65 38.2% 100%
+    );
+    padding-top: 16px;
+}
+
+.extreme-startuo-logo-img {
+}
+
+.extreme-startup-big-header-logo {
+    font-size: 2.2rem;
+}
+
+.extreme-startup-align-logo-sub {
+}
+
+.extreme-startup-footer {
+    background: linear-gradient(
+        90deg,
+        #2a324b 0% 38.2%,
+        #5f3d65 38.2% 61.8%,
+        #da627d 61.8% 76.3294%,
+        #453558 76.3294% 100%
+    );
+}
+
+.extreme-startup-subheader {
+    color: #f1f4f3;
+    padding-left: 0;
+    padding-right: 0;
+    border-bottom: none;
+    background: #2a324b;
+}
+
+.extreme-startup-title-wrapper {
+    background: #5f3d65;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.extreme-startup-content {
+    background: #f1f4f3;
+}
+
+.extreme-startup-status-wrapper {
+    background: #2a324b;
+}
+
+.extreme-startup-dates {
+    padding-left: 0.75rem;
+    padding-right: 1rem;
+    background: #453558;
+}
+
+.extreme-startup-dates > div {
+}
+
+.extreme-startup-keywords {
+}
+
+.extreme-startup-keyword {
+}
+
+.extreme-startup-keyword:nth-child(2) {
+    color: #0f0f0f;
+}
+
+.extreme-startup-download-apk, .extreme-startup-youtube-demo-link {
+}
+
+

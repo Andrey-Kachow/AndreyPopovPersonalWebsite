@@ -1,7 +1,10 @@
 <div class="proj-root {{ project.class_prefix }}-root">
   <div class="proj-header {{ project.class_prefix }}-header">
     {% if project.logo_url %}
-      <img class="proj-logo-img {{ project.class_prefix }}-logo-img"/>
+      <img 
+       class="proj-logo-img {{ project.class_prefix }}-logo-img"
+       src="{{ project.logo_url }}"
+      />
     {% elif project.logo_substitute %}
       {{ project.logo_substitute|safe }}
     {% else %}

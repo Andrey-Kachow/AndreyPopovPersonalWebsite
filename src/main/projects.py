@@ -1,7 +1,7 @@
 SAMPLE_PROJECT = {
     "class_prefix": "proj",
     "stylesheet_path": "abstract_project.css",
-    "logo_path": "#",
+    "logo_url": "#",
     "logo_substitute": None,
     "title": "Some Abstract Project",
     "status": "Unreleased",
@@ -51,7 +51,7 @@ def simple_text_header(title, class_name):
 HEALTH_RECIPES = {
     "class_prefix": "recipes",
     "stylesheet_path": "health_recipes.css",
-    "logo_path": None,
+    "logo_url": None,
     "logo_substitute": simple_text_header("Recipes of Health", "recipes"),
     "title": "Android App Project",
     "status": "MVP completed",
@@ -81,7 +81,7 @@ HEALTH_RECIPES = {
 KCAL_CALC = {
     "class_prefix": "kcal",
     "stylesheet_path": "kcal_calc.css",
-    "logo_path": None,
+    "logo_url": None,
     "logo_substitute": simple_text_header("Calorie Calculator", "kcal"),
     "title": "Android App Project",
     "status": "MVP completed",
@@ -109,7 +109,7 @@ KCAL_CALC = {
 BLUE_NOTES = {
     "class_prefix": "blue-notes",
     "stylesheet_path": "blue_notes.css",
-    "logo_path": None,
+    "logo_url": None,
     "logo_substitute": simple_text_header("Blue Notes", "blue-notes"),
     "title": "Android App Project",
     "status": "MVP completed",
@@ -138,8 +138,11 @@ BLUE_NOTES = {
 SCALING_EXTREME_STARTUP = {
     "class_prefix": "extreme-startup",
     "stylesheet_path": "extreme_startup.css",
-    "logo_path": None,
-    "logo_substitute": simple_text_header("Scaling Extreme Startup", "extreme-startup"),
+    "logo_url": "/static/assets/Scaling_Extreme_Startup_logo.png",
+    "logo_substitute": simple_text_header(
+        "Scaling <span class=\"extreme-startup-highlight-text\">Extreme</span> Startup",
+        "extreme-startup"
+    ),
     "title": "Group Project",
     "status": "Published",
     "dates": {
@@ -168,8 +171,8 @@ SCALING_EXTREME_STARTUP = {
 MMMBOXES = {
     "class_prefix": "mmmboxes",
     "stylesheet_path": "mmmboxes.css",
-    "logo_path": None,
-    "logo_substitute": simple_text_header("Mmm...Boxes", "mmmboxes"),
+    "logo_url": "/static/assets/MmmmBoxes_logo.png",
+    "logo_substitute": simple_text_header("MmmmBoxes", "mmmboxes"),
     "title": "Group Project",
     "status": "Submitted",
     "dates": {
@@ -196,7 +199,7 @@ MMMBOXES = {
 WACC = {
     "class_prefix": "wacc",
     "stylesheet_path": "waccc.css",
-    "logo_path": None,
+    "logo_url": None,
     "logo_substitute": simple_text_header("WACC Compiler", "wacc"),
     "title": "Group Project",
     "status": "Submitted",
@@ -225,7 +228,7 @@ WACC = {
 DEVOPS_CICD = {
     "class_prefix": "devops-cicd",
     "stylesheet_path": "devops_cicd.css",
-    "logo_path": None,
+    "logo_url": None,
     "logo_substitute": simple_text_header("DevOps and CI/CD Project", "devops-cicd"),
     "title": "Group Project",
     "status": "Submitted",
@@ -254,7 +257,7 @@ DEVOPS_CICD = {
 PINTOS = {
     "class_prefix": "pintos",
     "stylesheet_path": "pintos.css",
-    "logo_path": None,
+    "logo_url": None,
     "logo_substitute": simple_text_header("PINTOS", "pintos"),
     "title": "Group Project",
     "status": "Submitted",
@@ -280,7 +283,7 @@ PINTOS = {
 ARM11_EMULATOR = {
     "class_prefix": "arm11-emulator",
     "stylesheet_path": "arm11_emulator.css",
-    "logo_path": None,
+    "logo_url": None,
     "logo_substitute": simple_text_header("ARM11 Emulator and Assembler", "arm11-emulator"),
     "title": "Group Project",
     "status": "Submitted",
@@ -306,7 +309,7 @@ ARM11_EMULATOR = {
 _SCALING_EXTREME_STARTUP = {
     "class_prefix": "extreme-startup",
     "stylesheet_path": "extreme_startup.css",
-    "logo_path": None,
+    "logo_url": None,
     "logo_substitute": simple_text_header("Scaling Extreme Startup", "extreme-startup"),
     "title": "Group Project",
     "status": "Published",
