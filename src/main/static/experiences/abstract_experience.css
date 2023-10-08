@@ -55,7 +55,9 @@
     border-top-width: 2px;
     border-top-style: solid;
     border-top-color: black;
-    padding: 1rem 1%;    
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right 1rem;
 }
 
 .exp-footer {

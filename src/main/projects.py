@@ -163,7 +163,7 @@ SCALING_EXTREME_STARTUP = {
         "Developed software in Scrum framework as a team of six people",
         "Produced an online game for competitive programmers",
         "Managed Frontend and Testing, as well as contributed to Backend and CI/CD",
-        "Successfully applied the product at CI/CD workshop at Deutsche Bank"
+        "Successfully applied the product at Deutsche Bank CI/CD workshop"
     ],
     "custom_content":"" 
 }
@@ -339,7 +339,7 @@ _SCALING_EXTREME_STARTUP = {
 PET_PROJECTS = [HEALTH_RECIPES, KCAL_CALC, BLUE_NOTES]
 ACADEMIC_PROJECTS = [
         SCALING_EXTREME_STARTUP, MMMBOXES, WACC, 
-        DEVOPS_CICD,             PINTOS,   ARM11_EMULATOR
+        #    DEVOPS_CICD,             PINTOS,   ARM11_EMULATOR
 ]
 
 
