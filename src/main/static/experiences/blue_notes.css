@@ -1,6 +1,6 @@
 .blue-notes-root {
     color: #2F4B78;
-    background: #a6c4f3;
+    background: linear-gradient(90deg, #a6c4f3, 1%, white, 82%, #a6c4f3);
     border: 2px solid #2F4B78;
 }
 
@@ -45,7 +45,6 @@
 }
 
 .blue-notes-content {
-    background: linear-gradient(90deg, #a6c4f3, 1%, white, 82%, #a6c4f3);
 }
 
 .blue-notes-keywords {

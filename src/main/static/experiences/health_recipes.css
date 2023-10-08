@@ -1,6 +1,6 @@
 .recipes-root {
     color: #711027;
-    background: #f7f1c6;
+    background: linear-gradient(90deg, #f7f1c6, 1%, white, 78%, #f7f1c6);
     border: 2px solid #711027;
 }
 
@@ -45,7 +45,6 @@
 }
 
 .recipes-content {
-    background: linear-gradient(90deg, #f7f1c6, 1%, white, 78%, #f7f1c6);
 }
 
 

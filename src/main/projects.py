@@ -198,7 +198,7 @@ MMMBOXES = {
 
 WACC = {
     "class_prefix": "wacc",
-    "stylesheet_path": "waccc.css",
+    "stylesheet_path": "wacc.css",
     "logo_url": None,
     "logo_substitute": simple_text_header("WACC Compiler", "wacc"),
     "title": "Group Project",

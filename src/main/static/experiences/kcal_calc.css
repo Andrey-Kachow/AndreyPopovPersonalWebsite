@@ -1,7 +1,7 @@
 .kcal-root {
     color: #33691E;
-    background: #d1f2d1;
     border: 2px solid #33691E;
+    background: linear-gradient(90deg, #d1f2d1, 1%, white, 79%, #d1f2d1);
 }
 
 .kcal-link:link, .kcal-link:visited {
@@ -37,7 +37,6 @@
 }
 
 .kcal-content {
-    background: linear-gradient(90deg, #d1f2d1, 1%, white, 79%, #d1f2d1);
 }
 
 .kcal-status {
