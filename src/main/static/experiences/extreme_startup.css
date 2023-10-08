@@ -46,16 +46,12 @@
 
 .extreme-startup-subheader {
     color: #f1f4f3;
-    padding-left: 0;
-    padding-right: 0;
     border-bottom: none;
     background: #2a324b;
 }
 
 .extreme-startup-title-wrapper {
     background: #5f3d65;
-    padding-left: 1rem;
-    padding-right: 1rem;
 }
 
 .extreme-startup-content {
@@ -63,12 +59,13 @@
 }
 
 .extreme-startup-status-wrapper {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
     background: #2a324b;
 }
 
 .extreme-startup-dates {
-    padding-left: 0.75rem;
-    padding-right: 1rem;
     background: #453558;
 }
 

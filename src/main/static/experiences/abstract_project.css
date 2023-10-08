@@ -36,7 +36,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 1rem;
     border-bottom: 2px solid black;
 }
 
@@ -53,14 +52,36 @@
 
 }
 
+.proj-subheader > div {
+    flex-basis: 4rem;
+}
+
+.proj-title-wrapper {
+    flex-grow: 7;
+    padding-left: 0.75rem;
+    padding-right: 0.5rem;
+}
+
+.proj-status-wrapper {
+    text-align: right;
+    flex-grow: 3;
+    padding-left: 0.1rem;
+    padding-right: 1rem;
+}
+
 .proj-dates {
+    flex-grow: 3;
+    flex-shrink: 2;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    column-gap: 1rem;
+    column-gap: 0.8rem;
     row-gap: 0.2rem;
+    font-size: 0.8rem;
     align-content: center;
     justify-content: right;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
 }
 
 .proj-dates > div {
