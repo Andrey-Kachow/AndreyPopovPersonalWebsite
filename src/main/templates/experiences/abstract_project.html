@@ -37,12 +37,14 @@
   <div class="proj-content {{ project.class_prefix }}-content">
     <div class="proj-interesting-things {{ project.class_prefix }}-interesting-things">
       <ul>
-        <li>
-          View
-          <a class="{{ project.class_prefix }}-link" href="{{ project.repo_link }}">
-            Source code repository
-          </a>
-        </li>
+        {% if project.repo_link != '#' %}
+          <li>
+            View
+            <a class="{{ project.class_prefix }}-link" href="{{ project.repo_link }}">
+              Source code repository
+            </a>
+          </li>
+        {% endif %}
         {% for interesting_thing in project.interesting_things %}
           <li>
             {{ interesting_thing }}
