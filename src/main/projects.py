@@ -163,7 +163,11 @@ SCALING_EXTREME_STARTUP = {
         "Developed software in Scrum framework as a team of six people",
         "Produced an online game for competitive programmers",
         "Managed Frontend and Testing, as well as contributed to Backend and CI/CD",
-        "Successfully applied the product at Deutsche Bank CI/CD workshop"
+        """
+        The product has been successfully applied at
+        <a class="extreme-startup-link" href="https://www.db.com/uk">Deutsche Bank</a>
+        CI/CD workshop
+        """
     ],
     "custom_content":"" 
 }

@@ -50,7 +50,7 @@
         {% endif %}
         {% for interesting_thing in project.interesting_things %}
           <li>
-            {{ interesting_thing }}
+            {{ interesting_thing|safe }}
           </li>
         {% endfor %}
       </ul>
