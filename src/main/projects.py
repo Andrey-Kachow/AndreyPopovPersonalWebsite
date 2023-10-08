@@ -135,8 +135,209 @@ BLUE_NOTES = {
         ),
 }
 
+SCALING_EXTREME_STARTUP = {
+    "class_prefix": "extreme-startup",
+    "stylesheet_path": "extreme_startup.css",
+    "logo_path": None,
+    "logo_substitute": simple_text_header("Scaling Extreme Startup", "extreme-startup"),
+    "title": "Group Project",
+    "status": "Published",
+    "dates": {
+        "display_anyway": True,
+        "since": "09/09/2022",
+        "until": "06/01/2023",
+    },
+    "keywords": [
+        "Python",
+        "Flask",
+        "React.js",
+        "MongoDB",
+        "AWS",
+        "Lambda",
+    ],
+    "repo_link": "https://github.com/mike-sorokin/extreme-startup",
+    "interesting_things": [ 
+        "Developed software in Scrum framework as a team of six people",
+        "Produced an online game for competitive programmers",
+        "Managed Frontend and Testing, as well as contributed to Backend and CI/CD",
+        "Successfully applied the product at CI/CD workshop at Deutsche Bank"
+    ],
+    "custom_content":"" 
+}
+
+MMMBOXES = {
+    "class_prefix": "mmmboxes",
+    "stylesheet_path": "mmmboxes.css",
+    "logo_path": None,
+    "logo_substitute": simple_text_header("Mmm...Boxes", "mmmboxes"),
+    "title": "Group Project",
+    "status": "Submitted",
+    "dates": {
+        "display_anyway": True,
+        "since": "15/05/2022",
+        "until": "25/06/2022",
+    },
+    "keywords": [
+        "Python",
+        "Flask",
+        "JavaScript",
+        "PostgreSQL",
+    ],
+    "repo_link": "#", # TODO
+    "interesting_things": [ 
+        "Identified a problem in the managing of package collection at universities",
+        "Created a system, in a group of four, that manages deliveries and storage",
+        "Deployed an application on Heroku with GitLab CI/CD pipeline being set",
+        "Contacted end users regularly for continuous feedback to adapt to their needs"
+    ],
+    "custom_content":"" 
+}
+
+WACC = {
+    "class_prefix": "wacc",
+    "stylesheet_path": "waccc.css",
+    "logo_path": None,
+    "logo_substitute": simple_text_header("WACC Compiler", "wacc"),
+    "title": "Group Project",
+    "status": "Submitted",
+    "dates": {
+        "display_anyway": True,
+        "since": "14/01/2022",
+        "until": "24/03/2022",
+    },
+    "keywords": [
+        "Kotlin",
+        "ANTLR",
+        "ARM",
+        "Python",
+        "Tkinter",
+    ],
+    "repo_link": "",
+    "interesting_things": [ 
+        "In a group of four developed a WACC programming language compiler",
+        "Implemented translation of a high level language WACC to ARM assembly",
+        "Created an IDE for WACC with syntax highlighting and error detection",
+        "Built a CI/CD pipeline to support quality control via rich test suite"
+    ],
+    "custom_content":"" 
+}
+
+DEVOPS_CICD = {
+    "class_prefix": "devops-cicd",
+    "stylesheet_path": "devops_cicd.css",
+    "logo_path": None,
+    "logo_substitute": simple_text_header("DevOps and CI/CD Project", "devops-cicd"),
+    "title": "Group Project",
+    "status": "Submitted",
+    "dates": {
+        "display_anyway": True,
+        "since": "01/01/2022",
+        "until": "13/01/2022",
+    },
+    "keywords": [
+        "Java",
+        "Python",
+        "Docker",
+        "GitLab-Runner",
+        "Haskell",
+    ],
+    "repo_link": "#",
+    "interesting_things": [ 
+        "Coordinated a group to deploy a Java servlet Web application on a virtual server",
+        "Set a working Build-Test-Deploy pipeline using GitLab-Runner",
+        "Used Docker for managing dependencies and extension tools",
+        "Implemented additional funcitonalit and Python and combined Docker container"
+    ],
+    "custom_content":"" 
+}
+
+PINTOS = {
+    "class_prefix": "pintos",
+    "stylesheet_path": "pintos.css",
+    "logo_path": None,
+    "logo_substitute": simple_text_header("PINTOS", "pintos"),
+    "title": "Group Project",
+    "status": "Submitted",
+    "dates": {
+        "display_anyway": True,
+        "since": "03/10/2021",
+        "until": "01/12/2022",
+    },
+    "keywords": [
+        "C",
+        "Operating-Systems",
+        "x86-Assembly",
+    ],
+    "repo_link": "#",
+    "interesting_things": [ 
+        "Worked in a group of four and commited to daily meetings",
+        "Extended the source code of an academic operating system PintOS",
+        "Implemented priority scheduling, user processes execution and virtual memory",
+    ],
+    "custom_content":"" 
+}
+
+ARM11_EMULATOR = {
+    "class_prefix": "arm11-emulator",
+    "stylesheet_path": "arm11_emulator.css",
+    "logo_path": None,
+    "logo_substitute": simple_text_header("ARM11 Emulator and Assembler", "arm11-emulator"),
+    "title": "Group Project",
+    "status": "Submitted",
+    "dates": {
+        "display_anyway": True,
+        "since": "12/05/2021",
+        "until": "17/06/2021",
+    },
+    "keywords": [
+        "C",
+        "Arm-Assembly",
+        "Emulation",
+    ],
+    "repo_link": "#",
+    "interesting_things": [ 
+        "Implemented Arm emulation and Assembly in C programming Language"
+        "Commited to a remote group work with a team of four people",
+        "Supported a subset of Arm instruction set",
+        "Familiarised myself with Git usage for team projects"
+    ],
+    "custom_content":"" 
+}
+_SCALING_EXTREME_STARTUP = {
+    "class_prefix": "extreme-startup",
+    "stylesheet_path": "extreme_startup.css",
+    "logo_path": None,
+    "logo_substitute": simple_text_header("Scaling Extreme Startup", "extreme-startup"),
+    "title": "Group Project",
+    "status": "Published",
+    "dates": {
+        "display_anyway": True,
+        "since": "09/09/2022",
+        "until": "06/01/2023",
+    },
+    "keywords": [
+        "Python",
+        "Flask",
+        "React.js",
+        "MongoDB",
+        "AWS",
+        "Lambda",
+    ],
+    "repo_link": "https://github.com/mike-sorokin/extreme-startup",
+    "interesting_things": [ 
+        "Developed software in Scrum framework as a team of six people",
+        "Produced an online game for competitive programmers",
+        "Managed Frontend and Testing, as well as contributed to Backend and CI/CD",
+        "Successfully applied the product at CI/CD workshop at Deutsche Bank"
+    ],
+    "custom_content":"" 
+}
+
 PET_PROJECTS = [HEALTH_RECIPES, KCAL_CALC, BLUE_NOTES]
-ACADEMIC_PROJECTS = []
+ACADEMIC_PROJECTS = [
+        SCALING_EXTREME_STARTUP, MMMBOXES, WACC, 
+        DEVOPS_CICD,             PINTOS,   ARM11_EMULATOR
+]
 
 
 

@@ -104,6 +104,14 @@
     {% endfor %}
   </div>
   <h2>
+    ACADEMIC PROJECTS
+  </h2>
+  <div class="idx-experience-cardview idx-academic-projects">
+    {% for project in academic_projects %}
+      {% include './experiences/abstract_project.html' %}
+    {% endfor %}
+  </div>
+  <h2>
     EDUCATION
   </h2>
   <div class="idx-experience-cardview idx-education">
@@ -128,12 +136,6 @@
     <div style="width: 1px"></div>
   </div>
   <!--
-  <h2>
-    ACADEMIC PROJECTS
-  </h2>
-  <div class="idx-experience-cardview idx-academic-projects">
-    Coming soon...
-  </div>
   <h2>
     TUTEES
   </h2>

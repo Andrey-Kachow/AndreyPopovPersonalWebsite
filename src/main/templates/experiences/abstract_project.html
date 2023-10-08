@@ -23,14 +23,16 @@
         </strong>
       </h4>
     </div>
-    <div class="proj-dates {{ project.class_prefix }}-dates">
-      <div>
-        {{ project.dates.since }}
+    {% if project.dates.display_anyway  %}
+      <div class="proj-dates {{ project.class_prefix }}-dates">
+        <div>
+          {{ project.dates.since }}
+        </div>
+        <div>
+          {{ project.dates.until }}
+        </div>
       </div>
-      <div>
-        {{ project.dates.until }}
-      </div>
-    </div>
+    {% endif %}
   </div>
   <div class="proj-content {{ project.class_prefix }}-content">
     <div class="proj-interesting-things {{ project.class_prefix }}-interesting-things">
