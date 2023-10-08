@@ -29,6 +29,29 @@
 {% endblock %}
 
 {% block header %}
+  <div class="base-welcome-block">
+    <h2 class="base-welcome-title">
+      Welcome To My Personal Platform.
+    </h2>
+    <p class="base-welcome-text">
+      My name is Andrey Popov.
+      I am professional software engineer and experienced computer science tutor.
+      Being an open person, I am sharing my experiences, success and failures in that website.
+      Feel free to browse the information displayed.
+    </p>
+  </div>
+  <div class="base-main-image">
+    <img class="base-tulpi" src="{{ url_for('static', filename='assets/tulpi.jpg') }}"/>
+  </div>
+  <div class="base-about-block">
+    <h2 class="base-about-title">
+      About Me
+    </h2>
+    <p class="base-about-text">
+      Motivated Software Engineer in the fourth year of MEng Computing at Imperial College London o    n a target for a 2:1. 
+      Experienced in software engineering in industry, personal tutoring, and many areas of compute    r science.
+    </p>
+  </div>
 {% endblock %}
 
 {% block content %}
