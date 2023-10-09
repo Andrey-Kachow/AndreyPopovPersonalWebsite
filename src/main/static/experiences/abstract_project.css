@@ -69,6 +69,10 @@
     padding-right: 1rem;
 }
 
+.proj-status-wrapper > h4 {
+    font-size: 0.9rem;
+}
+
 .proj-dates {
     flex-grow: 3;
     flex-shrink: 2;
