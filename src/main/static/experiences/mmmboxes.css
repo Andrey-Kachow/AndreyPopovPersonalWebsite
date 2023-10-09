@@ -24,13 +24,13 @@
 }
 
 .mmmboxes-footer {
-    background: #878787;
+    background: linear-gradient(90deg, #666666 0% 38.2% , #878787 38.2% 100%);
 }
 
 .mmmboxes-subheader {
     color: white;
     padding-left: 0;
-    background: #666666;
+    background: #878787;
     border: none;
 }
 
@@ -40,7 +40,7 @@
 }
 
 .mmmboxes-status-wrapper {
-    background: #878787;
+    background: #666666;
 }
 
 .mmmboxes-dates {
