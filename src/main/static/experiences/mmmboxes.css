@@ -39,7 +39,8 @@
     margin-right: 2rem;
 }
 
-.mmmboxes-status {
+.mmmboxes-status-wrapper {
+    background: #878787;
 }
 
 .mmmboxes-dates {

@@ -63,9 +63,9 @@
 }
 
 .proj-status-wrapper {
-    text-align: right;
+    text-align: center;
     flex-grow: 3;
-    padding-left: 0.1rem;
+    padding-left: 1rem;
     padding-right: 1rem;
 }
 
