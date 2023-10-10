@@ -1,0 +1,63 @@
+.devops-cicd-root {
+    color: #3c0545;
+    background: linear-gradient(90deg, #f2befa, 1%, white, 81%, #f2befa);
+    border: 2px solid #600270;
+}
+
+.devops-cicd-link:link, .devops-cicd-link:visited {
+    color: #600270;
+    text-decoration: underline;
+}
+.devops-cicd-link:hover {
+    color: cyan;
+}
+
+.devops-cicd-header {
+    background: linear-gradient(#d668e8 10%, #9c27b0);
+    color: white;
+}
+
+.devops-cicd-align-logo-sub {
+}
+
+.devops-cicd-footer {
+    background: #ce93d8;
+}
+
+.devops-cicd-subheader {
+    background: #ce93d8;
+    padding-left: 0;
+    border-bottom: none;
+}
+
+.devops-cicd-title-wrapper {
+    padding-left: 1rem;
+    margin-right: 2rem;
+}
+
+.devops-cicd-content {
+}
+
+.devops-cicd-status {
+}
+
+.devops-cicd-dates {
+}
+
+.devops-cicd-dtes > div {
+}
+
+.devops-cicd-keywords {
+}
+
+.devops-cicd-keyword {
+}
+
+.devops-cicd-keyword:nth-child(2) {
+    color: #0f0f0f;
+}
+
+.devops-cicd-download-apk, .devops-cicd-youtube-demo-link {
+}
+
+

@@ -1,0 +1,63 @@
+.pintos-root {
+    color: #3c0545;
+    background: linear-gradient(90deg, #f2befa, 1%, white, 81%, #f2befa);
+    border: 2px solid #600270;
+}
+
+.pintos-link:link, .pintos-link:visited {
+    color: #600270;
+    text-decoration: underline;
+}
+.pintos-link:hover {
+    color: cyan;
+}
+
+.pintos-header {
+    background: linear-gradient(#d668e8 10%, #9c27b0);
+    color: white;
+}
+
+.pintos-align-logo-sub {
+}
+
+.pintos-footer {
+    background: #ce93d8;
+}
+
+.pintos-subheader {
+    background: #ce93d8;
+    padding-left: 0;
+    border-bottom: none;
+}
+
+.pintos-title-wrapper {
+    padding-left: 1rem;
+    margin-right: 2rem;
+}
+
+.pintos-content {
+}
+
+.pintos-status {
+}
+
+.pintos-dates {
+}
+
+.pintos-dtes > div {
+}
+
+.pintos-keywords {
+}
+
+.pintos-keyword {
+}
+
+.pintos-keyword:nth-child(2) {
+    color: #0f0f0f;
+}
+
+.pintos-download-apk, .pintos-youtube-demo-link {
+}
+
+

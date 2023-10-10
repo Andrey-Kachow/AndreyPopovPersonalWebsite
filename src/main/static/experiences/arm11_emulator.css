@@ -1,0 +1,63 @@
+.arm11-emulator-root {
+    color: #3c0545;
+    background: linear-gradient(90deg, #f2befa, 1%, white, 81%, #f2befa);
+    border: 2px solid #600270;
+}
+
+.arm11-emulator-link:link, .arm11-emulator-link:visited {
+    color: #600270;
+    text-decoration: underline;
+}
+.arm11-emulator-link:hover {
+    color: cyan;
+}
+
+.arm11-emulator-header {
+    background: linear-gradient(#d668e8 10%, #9c27b0);
+    color: white;
+}
+
+.arm11-emulator-align-logo-sub {
+}
+
+.arm11-emulator-footer {
+    background: #ce93d8;
+}
+
+.arm11-emulator-subheader {
+    background: #ce93d8;
+    padding-left: 0;
+    border-bottom: none;
+}
+
+.arm11-emulator-title-wrapper {
+    padding-left: 1rem;
+    margin-right: 2rem;
+}
+
+.arm11-emulator-content {
+}
+
+.arm11-emulator-status {
+}
+
+.arm11-emulator-dates {
+}
+
+.arm11-emulator-dtes > div {
+}
+
+.arm11-emulator-keywords {
+}
+
+.arm11-emulator-keyword {
+}
+
+.arm11-emulator-keyword:nth-child(2) {
+    color: #0f0f0f;
+}
+
+.arm11-emulator-download-apk, .arm11-emulator-youtube-demo-link {
+}
+
+
