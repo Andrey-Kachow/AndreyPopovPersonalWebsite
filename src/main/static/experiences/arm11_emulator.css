@@ -1,11 +1,11 @@
 .arm11-emulator-root {
-    color: #3c0545;
-    background: linear-gradient(90deg, #f2befa, 1%, white, 81%, #f2befa);
-    border: 2px solid #600270;
+    color: #4d4d2a;
+    background: #ddd;
+    border: 2px solid #2b2b01;
 }
 
 .arm11-emulator-link:link, .arm11-emulator-link:visited {
-    color: #600270;
+    color: #4d4d2a;
     text-decoration: underline;
 }
 .arm11-emulator-link:hover {
@@ -13,19 +13,36 @@
 }
 
 .arm11-emulator-header {
-    background: linear-gradient(#d668e8 10%, #9c27b0);
-    color: white;
+    background: 
+                linear-gradient(rgba(255, 255, 255, 0.3) 5%, rgba(0, 0, 0, 0.3) 100% ),
+                repeating-linear-gradient(-50deg, rgba(219, 219, 20, 0.95) 0 8px, rgba(105, 105, 77, 0.95) 8px 16px);
+    padding: 1rem;    
+}
+
+.arm11-emulator-align-logo-sub {
+    margin: 0 auto;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 16px;
+    color: yellow;
+    text-shadow: 0 0 5px black;
+    background: rgba(128, 128, 128, 0.6);
+}
+
+.arm11-emulator-big-header-logo {
+    font-weight: 900;
 }
 
 .arm11-emulator-align-logo-sub {
 }
 
 .arm11-emulator-footer {
-    background: #ce93d8;
+    background: #666;
 }
 
 .arm11-emulator-subheader {
-    background: #ce93d8;
+    color: yellow;
+    background: #666;
     padding-left: 0;
     border-bottom: none;
 }
@@ -54,7 +71,7 @@
 }
 
 .arm11-emulator-keyword:nth-child(2) {
-    color: #0f0f0f;
+    color: #4d4d2a;
 }
 
 .arm11-emulator-download-apk, .arm11-emulator-youtube-demo-link {

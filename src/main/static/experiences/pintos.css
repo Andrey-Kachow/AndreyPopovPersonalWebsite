@@ -1,11 +1,11 @@
 .pintos-root {
-    color: #3c0545;
-    background: linear-gradient(90deg, #f2befa, 1%, white, 81%, #f2befa);
-    border: 2px solid #600270;
+    color: #570701;
+    background: linear-gradient(90deg, #fab9b4, 1%, white, 81%, #fab9b4);
+    border: 2px solid #570701;
 }
 
 .pintos-link:link, .pintos-link:visited {
-    color: #600270;
+    color: #570701;
     text-decoration: underline;
 }
 .pintos-link:hover {
@@ -13,7 +13,7 @@
 }
 
 .pintos-header {
-    background: linear-gradient(#d668e8 10%, #9c27b0);
+    background: linear-gradient(#f75245 10%, #a81105);
     color: white;
 }
 
@@ -21,11 +21,11 @@
 }
 
 .pintos-footer {
-    background: #ce93d8;
+    background: #f78e86;
 }
 
 .pintos-subheader {
-    background: #ce93d8;
+    background: #f78e86;
     padding-left: 0;
     border-bottom: none;
 }

@@ -1,7 +1,7 @@
 .devops-cicd-root {
-    color: #3c0545;
-    background: linear-gradient(90deg, #f2befa, 1%, white, 81%, #f2befa);
-    border: 2px solid #600270;
+    color: #013c3d;
+    background: linear-gradient(90deg, #b3f4f5, 1%, white, 81%, #b3f4f5);
+    border: 2px solid #013c3d;
 }
 
 .devops-cicd-link:link, .devops-cicd-link:visited {
@@ -13,7 +13,7 @@
 }
 
 .devops-cicd-header {
-    background: linear-gradient(#d668e8 10%, #9c27b0);
+    background: linear-gradient(#28dce0 5%, #28a3a6);
     color: white;
 }
 
@@ -21,11 +21,11 @@
 }
 
 .devops-cicd-footer {
-    background: #ce93d8;
+    background: #7bd2d4;
 }
 
 .devops-cicd-subheader {
-    background: #ce93d8;
+    background: #7bd2d4;
     padding-left: 0;
     border-bottom: none;
 }
