@@ -178,7 +178,7 @@ MMMBOXES = {
     "logo_url": "/static/assets/MmmmBoxes_logo.png",
     "logo_substitute": simple_text_header("MmmmBoxes", "mmmboxes"),
     "title": "Group Project",
-    "status": "Submitted",
+    "status": "Published",
     "dates": {
         "display_anyway": True,
         "since": "15/05/2022",
@@ -190,7 +190,7 @@ MMMBOXES = {
         "JavaScript",
         "PostgreSQL",
     ],
-    "repo_link": "#", # TODO
+    "repo_link": "https://github.com/Andrey-Kachow/MmmmBoxes",
     "interesting_things": [ 
         "Identified a problem in the managing of package collection at universities",
         "Created a system, in a group of four, that manages deliveries and storage",
@@ -290,7 +290,7 @@ ARM11_EMULATOR = {
     "logo_url": None,
     "logo_substitute": simple_text_header("ARM11 Emulator and Assembler", "arm11-emulator"),
     "title": "Group Project",
-    "status": "Submitted",
+    "status": "Published",
     "dates": {
         "display_anyway": True,
         "since": "12/05/2021",
@@ -301,7 +301,7 @@ ARM11_EMULATOR = {
         "Arm-Assembly",
         "Emulation",
     ],
-    "repo_link": "#",
+    "repo_link": "https://github.com/DFcupello/ARM-Project",
     "interesting_things": [ 
         "Implemented Arm emulation and Assembly in C programming Language"
         "Commited to a remote group work with a team of four people",

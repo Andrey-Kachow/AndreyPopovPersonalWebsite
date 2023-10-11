@@ -5,11 +5,11 @@
 }
 
 .arm11-emulator-link:link, .arm11-emulator-link:visited {
-    color: #4d4d2a;
+    color: black;
     text-decoration: underline;
 }
 .arm11-emulator-link:hover {
-    color: cyan;
+    color: magenta;
 }
 
 .arm11-emulator-header {
