@@ -96,7 +96,10 @@ IMPERIAL = {
     "duration": "4 ay",
     "start_date": "01/10/2020",
     "end_date": "01/07/2024",
-    "responsibilities": []
+    "responsibilities": [
+        "After successful 3 years currently on a target to 2:1",
+        "Industrial Placement as a part of a course",
+    ]
 }
 
 
