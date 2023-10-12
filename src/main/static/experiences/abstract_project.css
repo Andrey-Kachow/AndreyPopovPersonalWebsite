@@ -1,4 +1,5 @@
 .proj-root {
+    max-width: 100%;
     position: relative;
     color: black;
     background: white;

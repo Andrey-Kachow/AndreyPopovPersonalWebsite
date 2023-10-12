@@ -205,7 +205,7 @@ WACC = {
     "stylesheet_path": "wacc.css",
     "logo_url": None,
     "logo_substitute": simple_text_header("WACC Compiler", "wacc"),
-    "title": "Group Project",
+    "title": "Compliers Group Project",
     "status": "Submitted",
     "dates": {
         "display_anyway": True,
@@ -263,7 +263,7 @@ PINTOS = {
     "stylesheet_path": "pintos.css",
     "logo_url": None,
     "logo_substitute": simple_text_header("PINTOS", "pintos"),
-    "title": "Group Project",
+    "title": "OS Group Project",
     "status": "Submitted",
     "dates": {
         "display_anyway": True,
