@@ -69,6 +69,38 @@
 .extreme-startup-dates > div {
 }
 
+
+.extreme-startup-learnmore-wrapper {
+    position: relative;
+    padding: 0 auto;
+    margin-left: 1rem;
+}
+
+.extreme-startup-learnmore {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0.5rem 0.75rem;
+    margin-top: -0.5rem;
+    width: fit-content;
+}
+
+.extreme-startup-learnmore-link {
+    font-weight: 700;
+}
+
+.extreme-startup-learnmore-link:link, .extreme-startup-learnmore-link:visited {
+    color: #da627d;
+}
+
+.extreme-startup-link:hover {
+    text-decoration: underline;
+}
+
+.extreme-startup-link:active {
+    color: #f1f4f3;
+}
+
+
 .extreme-startup-keywords {
 }
 
@@ -81,5 +113,4 @@
 
 .extreme-startup-download-apk, .extreme-startup-youtube-demo-link {
 }
-
 
