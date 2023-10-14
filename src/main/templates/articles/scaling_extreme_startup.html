@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block style %}
+  <link rel="stylesheet" href="{{ url_for('static', filename='experiences/abstract_project.css') }}"/>
+  <link rel="stylesheet" href="{{ url_for('static', filename='experiences/extreme_startup.css') }}"/>
+{% endblock %}
+
+{% block content %}
+  
+  <div style="max-width: 450px"> 
+    {% include 'experiences/abstract_project.html' %}
+  </div>
+
+  <div class="ses-article-root">
+    <h2>
+      Scaling Extreme Startup
+    </h2>
+  </div>
+
+{% endblock %}

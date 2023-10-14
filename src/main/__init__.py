@@ -45,11 +45,12 @@ def create_app():
         response.headers['Content-Type'] = 'application/pdf'
         return response
 
-    # @app.route('/transcript')
-    # def cv():
-    #     response = make_response(send_file(TRANSCRIPT_PDF_PATH))
-    #     response.headers['Content-Type'] = 'application/pdf'
-    #     return response
+    @app.route('/scaling-extreme-startup')
+    def scaling_extreme_startup():
+        context = {
+            'project': ACADEMIC_PROJECTS[0]
+        }
+        return render_template('articles/scaling_extreme_startup.html', **context)
 
     return app
 
