@@ -5,9 +5,9 @@
 {% endblock %}
 
 {% block style %}
+  <link rel="stylesheet" href="{{ url_for('static', filename='articles/scaling_extreme_startup.css') }}"/>
   <link rel="stylesheet" href="{{ url_for('static', filename='experiences/abstract_project.css') }}"/>
   <link rel="stylesheet" href="{{ url_for('static', filename='experiences/extreme_startup.css') }}"/>
-  <link rel="stylesheet" href="{{ url_for('static', filename='articles/scaling_extreme_startup.css') }}"/>
 {% endblock %}
 
 {% block header %}
@@ -69,9 +69,7 @@
 {% block content %}
   
   <div class="ses-article-root">
-    <div class="ses-card-include">
-      {% include 'experiences/abstract_project.html' %}
-    </div>
+    {% include 'experiences/abstract_project.html' %}
     <div class="ses-block ses-intro">
       <h2>
         Scaling Extreme Startup Project
