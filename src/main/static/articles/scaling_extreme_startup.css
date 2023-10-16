@@ -66,6 +66,10 @@
     }
 }
 
+.ses-highlight {
+    color: #da627d;
+}
+
 .ses-link:link, .ses-link:visited {
     color: #da627d;
 }
