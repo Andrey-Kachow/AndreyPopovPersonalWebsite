@@ -1,0 +1,38 @@
+.ses-article-root {
+    color: #2a324b;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    column-gap: 1rem;
+}
+
+.ses-link:link, .ses-link:visited {
+    color: #da627d;
+}
+.ses-startup-link:hover {
+    text-decoration: underline;
+}
+
+.ses-article-root > div, header > div {
+    color: #2a324b;
+    text-align: justify;
+    background: #f1f4f3;
+    border: 2px solid #2a324b;
+    padding: 1rem;
+}
+
+.ses-article-root > div:first-child {
+    background: #f0dfb9;
+    border: none;
+}
+
+header > div > h1, h2, h3 {
+    color: #2a324b;
+    text-align: left;
+}
+
+.ses-card-include > div {
+    text-align: left;
+}

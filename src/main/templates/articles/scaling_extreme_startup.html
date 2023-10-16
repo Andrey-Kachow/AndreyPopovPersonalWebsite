@@ -1,49 +1,87 @@
 {% extends 'base.html' %}
 
+{% block title %}
+  Scaling Exteme Startup
+{% endblock %}
+
 {% block style %}
   <link rel="stylesheet" href="{{ url_for('static', filename='experiences/abstract_project.css') }}"/>
   <link rel="stylesheet" href="{{ url_for('static', filename='experiences/extreme_startup.css') }}"/>
+  <link rel="stylesheet" href="{{ url_for('static', filename='articles/scaling_extreme_startup.css') }}"/>
+{% endblock %}
+
+{% block header %}
+
+<div class="ses-overview-section">
+  <h1>
+    Scaling Extreme Startup
+  </h1>
+  <p>
+    Welcome to the overview article about the Scaling Extreme Startup Project.
+    Andrey Popov's view on the project.
+    Feel free to contact me in case if you have ideas how to improve it.
+  </p>
+</div>
+
+<div class="ses-extreme-startup-section">
+  <h2>
+    Extreme Startup
+  </h2>
+  <p>
+    Extreme Startup is a coding exercise game, created by 
+    <a class="ses-link" href="http://chatley.com/">
+      Robert Chatley.
+    </a>
+    It is used in software engineering workshops and 
+    the main goal of such games is to encourage developers to use CI/CD by showing the benefits of quick-release iterations.
+    During a workshop session the facilitator, 
+    the game admin, 
+    uses his computer to send HTTP requests with questions or riddles to players’ computers. 
+    Participants should write code that figures out how to solve the puzzles and sends HTTP responses back to the server. 
+    Correct answers give points and incorrect answers or timeouts result in points deduction. 
+    The key factor to succeed in that game is to set up a working deployment pipeline 
+    that enables them to deploy new versions of their player application quickly. 
+    The list of people who conducted Extreme Startup Pages can be found on the 
+    <a class="ses-link" href="https://github.com/rchatley/extreme_startup">
+      original repository's GitHub page.
+    </a>
+  </p>
+</div>
+
+<div class="ses-scaling-extreme-startup-section">
+  <h2>
+    Scaling Extreme Startup
+  </h2>
+  <p>
+    Scaling Extreme Startup Project is a recreation of the original game and an extension of its functionality, i
+    as well as an architecture behind it, 
+    that enables it to scale horizontally and support an increased number of games on demand. 
+    It is built in Python using Flask Web framework and React for the front end. 
+    The app has been later enhanced with AWS technologies, such as AWS Lambda, DynamoDB and Simple Queue Service. 
+    The tool was developed as an Imperial College Computing Year 3 Software Engineering Project by a team of six students. 
+    The project has been successfully submitted and presented,
+    as well as applied by Robert Chatley at the CI/CD workshop at Deutsche Bank in London.
+  </p>
+</div>
+
 {% endblock %}
 
 {% block content %}
   
   <div class="ses-article-root">
-    <div style="max-width: 450px"> 
+    <div class="ses-card-include">
       {% include 'experiences/abstract_project.html' %}
     </div>
     <div class="ses-block ses-intro">
       <h2>
-        Scaling Extreme Startup
+        Scaling Extreme Startup Project
       </h2>
       <p class="ses-paragrath">
-        lorem ipsum...
-        lorem ipsum...
-        lorem ipsum...
-        lorem ipsum...
-        lorem ipsum...
-        lorem ipsum...
-        lorem ipsum...
-        lorem ipsum...
-        lorem ipsum...
-        lorem ipsum...
-        lorem ipsum...
-        lorem ipsum...
-        lorem ipsum...
-        lorem ipsum...
-        lorem ipsum...
-        lorem ipsum...
-        lorem ipsum...
-        lorem ipsum...
-        lorem ipsum...
-        lorem ipsum...
-        lorem ipsum...
-        lorem ipsum...
-        lorem ipsum...
-        lorem ipsum...
+        Academic Project At Imperial College London. Part of a Computing year 3 course.
       </p>
-    </div>
-    <div class="ses-block ses-acknowledgements">
-      <h2>Project Supervisor</h2>
+      <h3>
+        Project Supervisor
+      </h3>
       <div class="ses-acknowledgement-row">
         <span>
           Dr Robert Chatley
@@ -55,10 +93,12 @@
           Website-2
         </a>
       </div>
-      <h2>Project Members</h2>
+      <h3>
+        Project Members
+      </h3>
       <div class="ses-acknowledgement-row">
         <span>
-          Andrey Popov
+          Andrey Popov (Me)
         </span>
       </div>
       <div class="ses-acknowledgement-row">
@@ -87,7 +127,103 @@
         </span>
       </div>
     </div>
-
+    <div class="ses-extreme-extension">
+      <h2>
+        Extreme Extension
+      </h2>
+      <p>
+        The new version of the application has been modified and extended in various ways.
+        First, the minimalist UI was replaced with a range of React and Mantine components 
+        that enabled responsive design as well as easier control over visual appearance. 
+        Second, the facilitator got admin features as well as the ability to add moderators. 
+        A dashboard could show the players' assistance state and many more. 
+        In addition, new updates made it possible to create games and choose settings, 
+        add players without hardcoding or restarting the app with new environmental variables. 
+        Finally, the game chart, the leaderboard line graph 
+        that shows the score against time is fully recorded and saved into a game report with different stats. 
+        Overall, the application was enriched with new features and new ideas were sparking frequently at different stages 
+        and the only limitation of the extension was time.
+      </p>
+    </div>
+    <div class="ses-extreme-monolith">
+      <h2>
+        Extreme Monolith
+      </h2>
+      <p>
+        The replication and extension stages had an application deployed on a single server on one machine.
+        The main disadvantages of such an approach significantly affect the app’s usability and maintenance costs.
+        Having a single point of failure, if a server goes down, all current game data is lost.
+        That also implies that deploying new updates when games are played is impossible.
+        Another disadvantage is that the usage rate of the application is not constant.
+        When a game is played, many requests are made and a lot of computational power is required.
+        Meanwhile, the app is not used at any workshop, it is idle and the powerful CPU of a rented VPS is underutilised.
+        That may lead to a problem when the game becomes popular.
+        Which leads to the attractive option of migrating to the cloud.
+      </p>
+    </div>
+    <div class="ses-extreme-scaling">
+      <h2>
+        Extreme Scaling
+      </h2>
+      <p>
+        The scaling of such a project is achieved with such services as follows.
+        Simple Queue Service receives messages and is used as a Schedule for the events 
+          that invoke AWS Lambda 
+          that handles it. 
+        There are two main types of messages. 
+        The first one is a player question event that requires sending the request,
+          receiving an answer, 
+          assigning a score, 
+          and scheduling the next check, sending it to SQS.
+        The second one is the monitor Lambda 
+          which can stop further scheduling of player FaaS invocations
+          that belong to a particular game session. 
+        DynamoDB was used as a fast persistence storage that contains the state of the games and supports many quick games. 
+        The Flask server did not go, but now became the initiator of FaaS computation and did not execute any game logic. 
+        Only queried DynamoDB to give updates to the React App that the user sees. 
+        That reduced the server’s responsibilities and it enabled its redeployment during the game session.
+      </p>
+    </div>
+    <div class="ses-my-extreme-contributions">
+      <h2>
+        My Extreme Contributions
+      </h2>
+      <p>
+        As a team of equally experienced individuals,
+          we had a shared leadership that had some downsides but gave me a chance to take the first step. 
+        I designed a REST API between the Backend and Frontend with my colleague Mihhail Sorokin. 
+        I was responsible for the maintenance of the REST API spec and had to make sure i
+          that Flask and React apps had proper communication. 
+        As a result, when we split the work for the first two stages, Recreation and Extension, 
+          I had mixed responsibilities of a ratio of 60:20:20 of Frontend, Testing and Backend respectively
+          and whenever we had to extend the set of REST entry 
+          points, I was the person to update the pdf and send it to everyone. 
+        In the latter stage of the project, Scaling, 
+          I was the AWS account holder and implemented the Lambda as well as created a pipeline 
+          that created a lambda archive in a way that a common code could be shared between the Flask and AWS components. 
+        Overall, I was pleased to be a part of the Scaling Extreme Startup Repository. 
+        Key outcomes of the project include new React experience, 
+          extended and tuned AWS management skills, 
+          expanded my horizon in web development and learning how to work in a larger team of six.
+        <!---->
+      </p>
+    </div>
+    <div class="extreme-acknowledgements">
+      <h2>
+        Extreme Acknowledgements
+      </h2>
+      <p>
+        Thank you, Oscar, Johnathan, Jamie, Mihhail, and Devendra for working with me 
+          and thank you, Robert, for giving us the opportunity to work on that project with invaluable practical components. 
+        As an AWS account manager, 
+          I am also glad that we managed to stay in a free AWS tier during the development process (wink).
+        <br/>
+        <br/>
+        Andrey Popov
+        <br/>
+        <br/>
+        2022
+      </p>
+    </div>
   </div>
-
 {% endblock %}
