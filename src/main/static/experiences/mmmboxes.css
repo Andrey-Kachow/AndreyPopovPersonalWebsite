@@ -29,14 +29,11 @@
 
 .mmmboxes-subheader {
     color: white;
-    padding-left: 0;
     background: #878787;
     border: none;
 }
 
 .mmmboxes-title-wrapper {
-    padding-left: 1rem;
-    margin-right: 2rem;
 }
 
 .mmmboxes-status-wrapper {
