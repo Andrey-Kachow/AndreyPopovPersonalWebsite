@@ -1,13 +1,13 @@
 {% extends 'base.html' %}
 
 {% block meta %}
+  <meta property="og:url" content="http://andreypopov.xyz" />
+  <meta property="og:title" content="Andrey Popov"/>
   <meta name="author" content="Andrey Popov"/>
-  <meta name="image" content="{{ url_for('static', filename='assets/tulpi.jpg') }}"/>
+  <meta property="og:image" content="{{ url_for('static', filename='assets/tulpi.jpg') }}"/>
   <meta 
-    name="description" 
-    content=
-      "My name is Andrey Popov.
-      I am professional software engineer and experienced computer science tutor..."
+    property="og:description" 
+    content="My name is Andrey Popov. I am professional software engineer and experienced computer science tutor..."
   />
 {% endblock %}
 
