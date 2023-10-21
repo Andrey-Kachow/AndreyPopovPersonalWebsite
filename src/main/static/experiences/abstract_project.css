@@ -102,10 +102,6 @@
     font-style: italic;
 }
 
-.proj-keyword:nth-child(2) {
-    color: #0f0f0f;
-}
-
 .proj-download-apk, .proj-youtube-demo-link {
     padding: 0 1rem;
 }
