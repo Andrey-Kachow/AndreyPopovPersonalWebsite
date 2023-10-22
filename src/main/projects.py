@@ -1,3 +1,5 @@
+import os
+
 SAMPLE_PROJECT = {
     "class_prefix": "proj",
     "stylesheet_path": "abstract_project.css",
@@ -161,6 +163,9 @@ PADAVAN = {
     "custom_content": ""
 }
 
+webmin = ""
+with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "templates", "includes", "website_miniature.html")) as f:
+    webmin = f.read()
 
 ANDREY_POPOV_XYZ = {
     "class_prefix": "andrey-popov-xyz",
@@ -183,9 +188,9 @@ ANDREY_POPOV_XYZ = {
     "interesting_things": [ 
         "The website objserved is also my pet project",
     ],
-    "custom_content": """
+    "custom_content": f"""
         <div style="width: 100%; height: 12rem; padding: 1rem;">
-            {% include 'includes/website_miniature.html' %}
+            {webmin}
         </div>
     """
 }
