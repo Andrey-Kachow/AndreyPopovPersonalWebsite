@@ -135,6 +135,85 @@ BLUE_NOTES = {
         ),
 }
 
+PADAVAN = {
+    "class_prefix": "padavan",
+    "stylesheet_path": "padavan.css",
+    "logo_url": None,
+    "logo_substitute": simple_text_header("Padavan", "padavan"),
+    "title": "Teaching Resourcecs Repo",
+    "status": "Active",
+    "dates": {
+        "since": "01/02/2022",
+        "until": "Present",
+    },
+    "keywords": [
+        "Python",
+        "C/C++",
+        "Java",
+        "Tutoring"
+    ],
+    "repo_link": "https://github.com/Andrey-Kachow/PadavanPy",
+    "interesting_things": [ 
+        "Collection of demos and small projects in different languages",
+        "Used for teaching my students",
+        "Successful exercises are reused and shared with other tutees"
+    ],
+    "custom_content": ""
+}
+
+
+ANDREY_POPOV_XYZ = {
+    "class_prefix": "andrey-popov-xyz",
+    "stylesheet_path": "andrey_popov_xyz.css",
+    "logo_url": None,
+    "logo_substitute": simple_text_header("AndreyPopov.xyz", "andrey-popov-xyz"),
+    "title": "Website Project",
+    "status": "Released",
+    "dates": {
+        "since": "17/09/2022",
+        "until": "Present",
+    },
+    "keywords": [
+        "Python",
+        "Flask",
+        "html/css/js",
+        "Vim"
+    ],
+    "repo_link": "https://github.com/Andrey-Kachow/AndreyPopovPersonalWebsite",
+    "interesting_things": [ 
+        "The website objserved is also my pet project",
+    ],
+    "custom_content": """
+        <div style="width: 100%; height: 12rem; padding: 1rem;">
+            {% include 'includes/website_miniature.html' %}
+        </div>
+    """
+}
+
+FRESHLIFE = {
+    "class_prefix": "freshlife",
+    "stylesheet_path": "freshlife.css",
+    "logo_url": None,
+    "logo_substitute": simple_text_header("FRESHLIFE", "freshlife"),
+    "title": "Web App Project",
+    "status": "MVP Completed",
+    "dates": {
+        "since": "01/09/2018",
+        "until": "Present",
+    },
+    "keywords": [
+        "Python",
+        "Django",
+        "html-css-js"
+    ],
+    "repo_link": "https://github.com/Andrey-Kachow/NeaFreshLife",
+    "interesting_things": [ 
+        "Meal Planner and Calorie Calculator with web based interface",
+        "A-Level Computer Science NEA Project",
+    ],
+    "custom_content": "" 
+}
+
 SCALING_EXTREME_STARTUP = {
     "class_prefix": "extreme-startup",
     "stylesheet_path": "extreme_startup.css",
@@ -348,7 +427,10 @@ _SCALING_EXTREME_STARTUP = {
     "custom_content":"" 
 }
 
-PET_PROJECTS = [HEALTH_RECIPES, KCAL_CALC, BLUE_NOTES]
+PET_PROJECTS = [
+        HEALTH_RECIPES, KCAL_CALC,        BLUE_NOTES,
+        PADAVAN,        ANDREY_POPOV_XYZ, FRESHLIFE
+]
 ACADEMIC_PROJECTS = [
         SCALING_EXTREME_STARTUP, MMMBOXES, WACC, 
         DEVOPS_CICD,             PINTOS,   ARM11_EMULATOR
