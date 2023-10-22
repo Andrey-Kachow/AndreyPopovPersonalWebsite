@@ -16,9 +16,6 @@
     color: white;
 }
 
-.andrey-popov-xyz-align-logo-sub {
-}
-
 .andrey-popov-xyz-footer {
     background: #674743;
 }
@@ -29,31 +26,52 @@
     border-bottom: none;
 }
 
-.andrey-popov-xyz-title-wrapper {
+.webmin-header {
+    background: #C95E3C;
+    width: 100%;
+    height: 15%;
 }
 
-.andrey-popov-xyz-content {
+.webmin-nav {
+    background: #54748c;
+    width: 100%;
+    height: 7%;
 }
 
-.andrey-popov-xyz-status {
+.webmin-content-wrapper {
+    background: #f0dfb9;
+    width: 100%;
+    height: 70%;
+    border-left: 1px solid #3b4758;
+    border-right: 1px solid #3b4758;
+    padding: 1% 5%;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    row-gap: 2%;
+    justify-content: space-around;
 }
 
-.andrey-popov-xyz-dates {
+.webmin-row {     
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    column-gap: 3%;
+    justify-content: space-around;
+    height: 30%;
 }
 
-.andrey-popov-xyz-dtes > div {
+.webmin-block {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 28%;
+    height: 100%;
 }
 
-.andrey-popov-xyz-keywords {
+.webmin-footer {
+    background: #674743;
+    width: 100%;
+    height: 8%;
 }
-
-.andrey-popov-xyz-keyword {
-}
-
-.andrey-popov-xyz-keyword:nth-child(2) {
-}
-
-.andrey-popov-xyz-download-apk, .andrey-popov-xyz-youtube-demo-link {
-}
-
 
