@@ -167,6 +167,12 @@ webmin = ""
 with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "templates", "includes", "website_miniature.html")) as f:
     webmin = f.read()
 
+for i in range(3):
+    webmin = webmin.replace(
+        f"<!-- Begin Fractal -->",
+        f"<!-- Begin Fractal done -->\n{webmin}"
+    )
+
 ANDREY_POPOV_XYZ = {
     "class_prefix": "andrey-popov-xyz",
     "stylesheet_path": "andrey_popov_xyz.css",
