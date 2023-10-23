@@ -142,7 +142,7 @@ PADAVAN = {
     "stylesheet_path": "padavan.css",
     "logo_url": None,
     "logo_substitute": simple_text_header("Padavan", "padavan"),
-    "title": "Teaching Resourcecs Repo",
+    "title": "Teaching Resources Repository",
     "status": "Active",
     "dates": {
         "since": "01/02/2022",

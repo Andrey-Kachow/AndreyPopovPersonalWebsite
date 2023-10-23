@@ -1,0 +1,34 @@
+.padavan-root {
+    color: #e6e8ea;
+    background: linear-gradient(#1e415e 10%, #2b5b84 90%); 
+    border: 2px solid #570701;
+}
+
+.padavan-link:link, .padavan-link:visited {
+    color: #ffd343;
+}
+.padavan-link:hover {
+    text-decoration: underline;
+}
+
+.padavan-header {
+    background: linear-gradient(#3776ab 30%, #2d618c 95%);
+    color: #ffd343;
+}
+
+.padavan-align-logo-sub {
+}
+
+.padavan-footer {
+    /*
+    background: linear-gradient(#1e415e 10%, #2b5b84 90%);
+    */
+    background: linear-gradient(#3776ab 30%, #2d618c 95%);
+}
+
+.padavan-subheader {
+    background: none;
+    border-bottom: none;
+}
+
+
