@@ -192,7 +192,7 @@ ANDREY_POPOV_XYZ = {
     ],
     "repo_link": "https://github.com/Andrey-Kachow/AndreyPopovPersonalWebsite",
     "interesting_things": [ 
-        "The website objserved is also my pet project",
+        "The website observed is also my pet project",
     ],
     "custom_content": f"""
         <div style="width: 100%; height: 14rem; padding-left: 1rem; padding-bottom: 0.5rem;">
