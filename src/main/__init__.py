@@ -20,9 +20,9 @@ from flask import (
     send_file
 )
 
-CV_PDF_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'documents')
-CV_PDF_PATH = os.path.join(CV_PDF_DIR, 'CV.pdf')    
-# TRANSCRIPT_PDF_PATH = os.path.join(CV_PDF_DIR, 'transcript.pdf')
+DOCUMENTS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'documents')
+CV_PDF_PATH = os.path.join(DOCUMENTS_DIR, 'CV.pdf')    
+FRESHIFE_PDF_PATH = os.path.join(DOCUMENTS_DIR, 'freshlife_writeup.pdf')
 
 
 def create_app():
@@ -42,6 +42,12 @@ def create_app():
     @app.route('/cv')
     def cv():
         response = make_response(send_file(CV_PDF_PATH))
+        response.headers['Content-Type'] = 'application/pdf'
+        return response
+    
+    @app.route('/freshlife-writeup')
+    def freshlife_writeup():
+        response = make_response(send_file(FRESHIFE_PDF_PATH))
         response.headers['Content-Type'] = 'application/pdf'
         return response
 

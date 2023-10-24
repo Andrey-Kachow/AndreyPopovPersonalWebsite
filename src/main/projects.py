@@ -221,8 +221,17 @@ FRESHLIFE = {
     "interesting_things": [ 
         "Meal Planner and Calorie Calculator with web based interface",
         "A-Level Computer Science NEA Project",
+        """
+            <span>
+                View
+            </san>
+            <a class="freshlife-link" href="/freshlife-writeup">
+                written report
+            </a>
+        """
     ],
-    "custom_content": "" 
+    "custom_content": """
+    """
 }
 
 SCALING_EXTREME_STARTUP = {
