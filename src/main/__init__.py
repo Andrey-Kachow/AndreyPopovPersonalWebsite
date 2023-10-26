@@ -58,5 +58,11 @@ def create_app():
         }
         return render_template('articles/scaling_extreme_startup.html', **context)
 
+    @app.route('/blog/hobbies')
+    def hobbies():
+        context = {
+        }
+        return render_template('blog/hobbies/hobby_index.html')
+
     return app
 
