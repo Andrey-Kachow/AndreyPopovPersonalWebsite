@@ -40,6 +40,13 @@ a:active {
     color: #c95e3c;
 }
 
+.base-red-link:link, .base-red-link:visited {
+    color: #c95e3c;
+}
+.base-red-link:active {
+    color: #4e3a2f;
+}
+
 ul {
     margin: 0;
 }
