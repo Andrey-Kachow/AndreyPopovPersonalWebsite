@@ -47,6 +47,18 @@
     <a class="ses-link" href="https://github.com/rchatley/extreme_startup">
       original repository's GitHub page.
     </a>
+    <h2>
+      What is Extreme Startup
+    </h2>
+    <img 
+      class="ses-img ses-our-objectives-img"
+      src="{{ 
+        url_for(
+          'static',
+          filename='assets/articles/scaling_extreme_startup/what-is-extreme-startup.png'
+        )
+      }}"
+    />
   </p>
 </div>
 
@@ -69,6 +81,15 @@
     The project has been successfully submitted and presented,
     as well as applied by Robert Chatley at the CI/CD workshop at Deutsche Bank in London.
   </p>
+  <h2>
+    Our Objectives
+  </h2>
+  <img 
+    class="ses-img ses-our-objectives-img"
+    src="{{ 
+      url_for('static', filename='assets/articles/scaling_extreme_startup/our-objectives.png')
+    }}"
+  />
 </div>
 
 {% endblock %}
@@ -132,17 +153,6 @@
         </span>
       </div>
     </div>
-    <div class="ses-our-objectives">
-      <h2>
-        Our Objectives
-      </h2>
-      <img 
-        class="ses-img ses-our-objectives-img"
-        src="{{ 
-          url_for('static', filename='assets/articles/scaling_extreme_startup/our-objectives.png')
-        }}"
-      />
-    </div>
     <div class="ses-extreme-extension">
       <h2>
         Extreme Extension
@@ -160,8 +170,6 @@
         Overall, the application was enriched with new features and new ideas were sparking frequently at different stages 
         and the only limitation of the extension was time.
       </p>
-    </div>
-    <div class="ses-our-objectives">
       <h2>
         Frontend and Backend Stack
       </h2>
@@ -169,31 +177,6 @@
         class="ses-img ses-our-objectives-img"
         src="{{ 
           url_for('static', filename='assets/articles/scaling_extreme_startup/front-end-and-backend-stack.png')
-        }}"
-      />
-    </div>
-    <div class="ses-our-objectives">
-      <h2>
-        What is Extreme Startup
-      </h2>
-      <img 
-        class="ses-img ses-our-objectives-img"
-        src="{{ 
-          url_for(
-            'static',
-            filename='assets/articles/scaling_extreme_startup/what-is-extreme-startup.png'
-          )
-        }}"
-      />
-    </div>
-    <div class="ses-our-objectives">
-      <h2>
-        Architecture &mdash; a Bigger Picture
-      </h2>
-      <img 
-        class="ses-img ses-our-objectives-img"
-        src="{{ 
-          url_for('static', filename='assets/articles/scaling_extreme_startup/architecture-bigger-picture.png')
         }}"
       />
     </div>
@@ -212,8 +195,23 @@
         That may lead to a problem when the game becomes popular.
         Which leads to the attractive option of migrating to the cloud.
       </p>
+      <img 
+        class="ses-img ses-our-objectives-img"
+        src="{{ 
+          url_for('static', filename='assets/articles/scaling_extreme_startup/architecture-bigger-picture.png')
+        }}"
+      />
     </div>
     <div class="ses-extreme-scaling">
+      <h2>
+        AWS Services Employed
+      </h2>
+      <img 
+        class="ses-img ses-our-objectives-img"
+        src="{{ 
+          url_for('static', filename='assets/articles/scaling_extreme_startup/aws-services-employed.png')
+        }}"
+      />
       <h2>
         Extreme Scaling
       </h2>
@@ -235,19 +233,6 @@
         Only queried DynamoDB to give updates to the React App that the user sees. 
         That reduced the server’s responsibilities and it enabled its redeployment during the game session.
       </p>
-    </div>
-    <div class="ses-our-objectives">
-      <h2>
-        AWS Services Employed
-      </h2>
-      <img 
-        class="ses-img ses-our-objectives-img"
-        src="{{ 
-          url_for('static', filename='assets/articles/scaling_extreme_startup/aws-services-employed.png')
-        }}"
-      />
-    </div>
-    <div class="ses-our-objectives">
       <h2>
         Scaled Architecture
       </h2>
