@@ -1,5 +1,16 @@
 {% extends 'base.html' %}
 
+{% block meta %}
+  <meta property="og:url" content="http://andreypopov.xyz" />
+  <meta property="og:title" content="Andrey Popov"/>
+  <meta name="author" content="Andrey Popov"/>
+  <meta property="og:image" content="{{ url_for('static', filename='assets/tulpi.jpg') }}"/>
+  <meta 
+    property="og:description" 
+    content="My name is Andrey Popov. I am professional software engineer and experienced computer science tutor..."
+  />
+{% endblock %}
+
 {% block title %}
   Andrey Popov
 {% endblock %}
@@ -143,6 +154,26 @@
     Coming soon...
   </div>
   -->
+  <h2>
+    INTERESTS AND HOBBIES
+  </h2>
+  <ul>
+    <li>Boxing and MMA</li>
+    <li>Building Sustainable Environment</li>
+    <li>Painting and Miniature Creating</li>
+    <li>Cooking (Especially Soups)</li>
+    <li>
+      <span>
+        Click
+      </span>
+      <a class="base-red-link" href="/blog/hobbies">
+        here
+      </a>
+      <span>
+        to learn more about my hobbies...
+      </span>
+    </li>
+  </ul>
 {% endblock %}
 
 {% block footer %}

@@ -66,8 +66,8 @@
 .proj-status-wrapper {
     text-align: center;
     flex-grow: 3;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
 }
 
 @media only screen and (max-width: 400px) {
@@ -100,10 +100,6 @@
 
 .proj-keyword {
     font-style: italic;
-}
-
-.proj-keyword:nth-child(2) {
-    color: #0f0f0f;
 }
 
 .proj-download-apk, .proj-youtube-demo-link {

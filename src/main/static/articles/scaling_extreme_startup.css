@@ -74,9 +74,7 @@
     text-align: left;
 }
 
-.ses-img {
-    max-width: max(35vw, 250px);
-}
+
 
 header > div > h1, .ses-artile-root > div > h2, .ses-artile-root > div > h3 {
     color: #2a324b;

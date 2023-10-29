@@ -130,10 +130,13 @@ WELLINGTON = {
         "prefix": "AS-Level",
         "highlight": "",
     },
-    "duration": "<span class=\"wellington-orange\">1 ay<span>",
-    "start_date": "<span class=\"wellington-yellow\">01/09/2017<span>",
+    "duration": "<span class=\"wellington-orange\">1 ay</span>",
+    "start_date": "<span class=\"wellington-yellow\">01/09/2017</span>",
     "end_date": "<span class=\"wellington-cyan\">25/06/2018</span>",
-    "responsibilities": ["Math, Further Math, Computer Science, Physics"]
+    "responsibilities": [
+        "Math, Further Math, Computer Science, Physics",
+        "Prize Winner. Awarded on Speech Day 2018"
+    ]
 }
 
 SAMPLE_EXPERIENCE = {

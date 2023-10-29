@@ -1,0 +1,57 @@
+.freshlife-root {
+    color: #091d34;
+    background: #F0F7D4;
+    border: 2px solid #091d34;
+}
+
+.freshlife-link:link, .freshlife-link:visited {
+    color: #579202;
+}
+.freshlife-link:hover {
+    text-decoration: underline;
+}
+
+.freshlife-header {
+    background: #98ca32;
+}
+
+.freshlife-align-logo-sub {
+}
+
+.freshlife-footer {
+    background: linear-gradient(90deg, #98ca32 0 38.2%, #091d34 32.8% 100%);
+}
+
+.freshlife-subheader {
+    background: #091d34;
+    color: #EBF7D4;
+    border-bottom: none;
+}
+
+.freshlife-title-wrapper {
+    padding-left: 1rem;
+    margin-right: 2rem;
+}
+
+.freshlife-content {
+}
+
+.freshlife-status {
+}
+
+.freshlife-dates {
+}
+
+.freshlife-dtes > div {
+}
+
+.freshlife-keywords {
+}
+
+.freshlife-keyword {
+}
+
+.freshlife-download-apk, .freshlife-youtube-demo-link {
+}
+
+
