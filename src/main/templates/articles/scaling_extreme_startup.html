@@ -14,123 +14,145 @@
 
 {% block header %}
 
-<div class="ses-overview-section">
-  <h1>
-    Scaling Extreme Startup
-  </h1>
-  <p>
-    Welcome to the overview article about the Scaling Extreme Startup Project.
-    Andrey Popov's view on the project.
-    Feel free to contact me in case if you have ideas how to improve it.
-  </p>
-</div>
-
-<div class="ses-extreme-startup-section">
-  <h2>
-    Extreme Startup
-  </h2>
-  <p>
-    Extreme Startup is a coding exercise game, created by 
-    <a class="ses-link" href="http://chatley.com/">
-      Robert Chatley.
-    </a>
-    It is used in software engineering workshops and 
-    the main goal of such games is to encourage developers to use CI/CD by showing the benefits of quick-release iterations.
-    During a workshop session the facilitator, 
-    the game admin, 
-    uses his computer to send HTTP requests with questions or riddles to players’ computers. 
-    Participants should write code that figures out how to solve the puzzles and sends HTTP responses back to the server. 
-    Correct answers give points and incorrect answers or timeouts result in points deduction. 
-    The key factor to succeed in that game is to set up a working deployment pipeline 
-    that enables them to deploy new versions of their player application quickly. 
-    The list of people who conducted Extreme Startup sessions can be found on the 
-    <a class="ses-link" href="https://github.com/rchatley/extreme_startup">
-      original repository's GitHub page.
-    </a>
-  </p>
-</div>
-
-<div class="ses-scaling-extreme-startup-section">
-  <h2>
-    <span class="ses-highlight">
-      Scaling
-    </span> 
-    <span>
-      Extreme Startup
-    </span>
-  </h2>
-  <p>
-    Scaling Extreme Startup Project is a recreation of the original game and an extension of its functionality, i
-    as well as an architecture behind it, 
-    that enables it to scale horizontally and support an increased number of games on demand. 
-    It is built in Python using Flask Web framework and React for the front end. 
-    The app has been later enhanced with AWS technologies, such as AWS Lambda, DynamoDB and Simple Queue Service. 
-    The tool was developed as an Imperial College Computing Year 3 Software Engineering Project by a team of six students. 
-    The project has been successfully submitted and presented,
-    as well as applied by Robert Chatley at the CI/CD workshop at Deutsche Bank in London.
-  </p>
-</div>
+  <div class="ses-overview-section">
+    <h1>
+      Scaling Extreme Startup
+    </h1>
+    <p>
+      Welcome to the overview article about the Scaling Extreme Startup Project.
+      Andrey Popov's view on the project.
+      Feel free to contact me in case if you have ideas how to improve it.
+    </p>
+  </div>
+  <div id="ses-card-wrapper">
+    {% include 'experiences/abstract_project.html' %}
+  </div>
+  <div class="ses-block ses-intro">
+    <h2>
+      Scaling Extreme Startup Project
+    </h2>
+    <p class="ses-paragrath">
+      Academic Project At Imperial College London. Part of a Computing year 3 course.
+    </p>
+    <h3>
+      Project Supervisor
+    </h3>
+    <div class="ses-acknowledgement-row">
+      <span>
+        Dr Robert Chatley
+      </span>
+      <a class="ses-link" href="http://chatley.com/">
+        Website-1
+      </a>
+      <a class="ses-link" href="https://www.doc.ic.ac.uk/~rbc/">
+        Website-2
+      </a>
+    </div>
+    <h3>
+      Project Members
+    </h3>
+    <div class="ses-acknowledgement-row">
+      <span>
+        Andrey Popov (Me)
+      </span>
+    </div>
+    <div class="ses-acknowledgement-row">
+      <span>
+        Mihhail Sorokin
+      </span>
+    </div>
+    <div class="ses-acknowledgement-row">
+      <span>
+        Devendra Sethia
+      </span>
+    </div>
+    <div class="ses-acknowledgement-row">
+      <span>
+        Oscar Velasco Newell Garcia
+      </span>
+    </div>
+    <div class="ses-acknowledgement-row">
+      <span>
+        Jamie Todd
+      </span>
+    </div>
+    <div class="ses-acknowledgement-row">
+      <span>
+        Jonathan Foo
+      </span>
+    </div>
+  </div>
 
 {% endblock %}
 
 {% block content %}
   
   <div class="ses-article-root">
-    {% include 'experiences/abstract_project.html' %}
-    <div class="ses-block ses-intro">
+    <div class="ses-extreme-startup-section">
       <h2>
-        Scaling Extreme Startup Project
+        Extreme Startup
       </h2>
-      <p class="ses-paragrath">
-        Academic Project At Imperial College London. Part of a Computing year 3 course.
-      </p>
-      <h3>
-        Project Supervisor
-      </h3>
-      <div class="ses-acknowledgement-row">
-        <span>
-          Dr Robert Chatley
-        </span>
+      <p>
+        Extreme Startup is a coding exercise game, created by 
         <a class="ses-link" href="http://chatley.com/">
-          Website-1
+          Robert Chatley.
         </a>
-        <a class="ses-link" href="https://www.doc.ic.ac.uk/~rbc/">
-          Website-2
+        It is used in software engineering workshops and 
+        the main goal of such games is to encourage developers to use CI/CD by showing the benefits of quick-release iterations.
+        During a workshop session the facilitator, 
+        the game admin, 
+        uses his computer to send HTTP requests with questions or riddles to players’ computers. 
+        Participants should write code that figures out how to solve the puzzles and sends HTTP responses back to the server. 
+        Correct answers give points and incorrect answers or timeouts result in points deduction. 
+        The key factor to succeed in that game is to set up a working deployment pipeline 
+        that enables them to deploy new versions of their player application quickly. 
+        The list of people who conducted Extreme Startup sessions can be found on the 
+        <a class="ses-link" href="https://github.com/rchatley/extreme_startup">
+          original repository's GitHub page.
         </a>
-      </div>
-      <h3>
-        Project Members
-      </h3>
-      <div class="ses-acknowledgement-row">
+        <h2>
+          What is Extreme Startup
+        </h2>
+        <img 
+          class="ses-img ses-our-objectives-img"
+          src="{{ 
+            url_for(
+              'static',
+              filename='assets/articles/scaling_extreme_startup/what-is-extreme-startup.png'
+            )
+          }}"
+        />
+      </p>
+    </div>
+
+    <div class="ses-scaling-extreme-startup-section">
+      <h2>
+        <span class="ses-highlight">
+          Scaling
+        </span> 
         <span>
-          Andrey Popov (Me)
+          Extreme Startup
         </span>
-      </div>
-      <div class="ses-acknowledgement-row">
-        <span>
-          Mihhail Sorokin
-        </span>
-      </div>
-      <div class="ses-acknowledgement-row">
-        <span>
-          Devendra Sethia
-        </span>
-      </div>
-      <div class="ses-acknowledgement-row">
-        <span>
-          Oscar Velasco Newell Garcia
-        </span>
-      </div>
-      <div class="ses-acknowledgement-row">
-        <span>
-          Jamie Todd
-        </span>
-      </div>
-      <div class="ses-acknowledgement-row">
-        <span>
-          Jonathan Foo
-        </span>
-      </div>
+      </h2>
+      <p>
+        Scaling Extreme Startup Project is a recreation of the original game and an extension of its functionality, i
+        as well as an architecture behind it, 
+        that enables it to scale horizontally and support an increased number of games on demand. 
+        It is built in Python using Flask Web framework and React for the front end. 
+        The app has been later enhanced with AWS technologies, such as AWS Lambda, DynamoDB and Simple Queue Service. 
+        The tool was developed as an Imperial College Computing Year 3 Software Engineering Project by a team of six students. 
+        The project has been successfully submitted and presented,
+        as well as applied by Robert Chatley at the CI/CD workshop at Deutsche Bank in London.
+      </p>
+      <h2>
+        Our Objectives
+      </h2>
+      <img 
+        class="ses-img ses-our-objectives-img"
+        src="{{ 
+          url_for('static', filename='assets/articles/scaling_extreme_startup/our-objectives.png')
+        }}"
+      />
     </div>
     <div class="ses-extreme-extension">
       <h2>
@@ -149,6 +171,15 @@
         Overall, the application was enriched with new features and new ideas were sparking frequently at different stages 
         and the only limitation of the extension was time.
       </p>
+      <h2>
+        Frontend and Backend Stack
+      </h2>
+      <img 
+        class="ses-img ses-our-objectives-img"
+        src="{{ 
+          url_for('static', filename='assets/articles/scaling_extreme_startup/front-end-and-backend-stack.png')
+        }}"
+      />
     </div>
     <div class="ses-extreme-monolith">
       <h2>
@@ -165,8 +196,23 @@
         That may lead to a problem when the game becomes popular.
         Which leads to the attractive option of migrating to the cloud.
       </p>
+      <img 
+        class="ses-img ses-our-objectives-img"
+        src="{{ 
+          url_for('static', filename='assets/articles/scaling_extreme_startup/architecture-bigger-picture.png')
+        }}"
+      />
     </div>
     <div class="ses-extreme-scaling">
+      <h2>
+        AWS Services Employed
+      </h2>
+      <img 
+        class="ses-img ses-our-objectives-img"
+        src="{{ 
+          url_for('static', filename='assets/articles/scaling_extreme_startup/aws-services-employed.png')
+        }}"
+      />
       <h2>
         Extreme Scaling
       </h2>
@@ -188,6 +234,15 @@
         Only queried DynamoDB to give updates to the React App that the user sees. 
         That reduced the server’s responsibilities and it enabled its redeployment during the game session.
       </p>
+      <h2>
+        Scaled Architecture
+      </h2>
+      <img 
+        class="ses-img ses-our-objectives-img"
+        src="{{ 
+          url_for('static', filename='assets/articles/scaling_extreme_startup/scaled-architecture.png')
+        }}"
+      />
     </div>
     <div class="ses-my-extreme-contributions">
       <h2>
