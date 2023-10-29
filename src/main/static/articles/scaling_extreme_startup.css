@@ -11,6 +11,7 @@
     column-gap: 1rem;
 }
 
+
 .ses-img {
     max-width: 100%;
 }
@@ -36,9 +37,6 @@
     header > div, .ses-article-root > div {
         font-size: 1.1rem;
     }
-    .ses-img {
-        max-width: max(50%, 420px);
-    }
     .ses-intro {
     }
     .ses-extreme-extension {
@@ -57,9 +55,6 @@
 @media only screen and (min-width: 1080px) {    
     .ses-article-root > div {
         font-size: 1.2rem;
-    }
-    .ses-img {
-        max-width: max(50%, 420px);
     }
     .ses-intro {
     }
@@ -135,5 +130,22 @@ h1, h2, h3, h4 {
         padding: 0.6rem;
         row-gap: 0.6rem;
         column-gap: 0.6rem;
+    }
+}
+
+.ses-column {
+    flex-grow: 1;
+}
+
+.ses-what-is-extreme-startup {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 3rem;
+}
+
+@media only screen and (min-width: 800px) {    
+    .ses-column {
+        flex-basis: 45%;
     }
 }
