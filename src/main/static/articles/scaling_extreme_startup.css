@@ -11,9 +11,20 @@
     column-gap: 1rem;
 }
 
+.ses-hidden {
+    visibility: hidden;
+}
 
 .ses-img {
     max-width: 100%;
+}
+
+.ses-image-description {
+   padding-top: 0.3rem;
+   padding-left: 2rem;
+   padding-right: 2rem;
+   font-size: 0.85rem;
+   text-align: center;
 }
 
 #ses-card-wrapper {

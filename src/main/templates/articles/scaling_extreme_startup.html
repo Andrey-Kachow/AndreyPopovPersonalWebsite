@@ -172,6 +172,27 @@
         <h2>
           Extreme Extension
         </h2>
+        <img 
+          class="ses-img ses-our-objectives-img"
+          src="{{ 
+            url_for(
+              'static',
+              filename='assets/articles/scaling_extreme_startup/front-end-and-backend-stack.png'
+            )
+          }}"
+        />
+        <div class="ses-image-description">
+          <span>
+            The figure above briefly shows the idea of separate apps for frontend and backend.
+            Communication via HTTP requests in JSON formats enables independent implementation
+              of the two software system components.
+          </span>
+        </div>
+      </div>
+      <div class="ses-column">
+        <h2 class="ses-hidden">
+          (Hidden) Extreme Extension
+        </h2>
         <p>
           The new version of the application has been modified and extended in various ways.
           First, the minimalist UI was replaced with a range of React and Mantine components 
@@ -188,20 +209,6 @@
             and the only limitation of the extension was time.
           <!---->
         </p>
-      </div>
-      <div class="ses-column">
-        <h2>
-          Frontend and Backend Stack
-        </h2>
-        <img 
-          class="ses-img ses-our-objectives-img"
-          src="{{ 
-            url_for(
-              'static',
-              filename='assets/articles/scaling_extreme_startup/front-end-and-backend-stack.png'
-            )
-          }}"
-        />
       </div>
     </div>
     <div class="ses-columns-section ses-extreme-monolith">
@@ -234,6 +241,13 @@
             )
           }}"
         />
+        <div class="ses-image-description">
+          <span>
+            An overview of the system components interaction and journey of game logic.
+            The dashed boundary outlines the components that live in a server machine
+              including the frontend that acts as a gateway.
+          </span>
+        </div>
       </div>
     </div>
     <div class="ses-columns-section ses-extreme-scaling">
