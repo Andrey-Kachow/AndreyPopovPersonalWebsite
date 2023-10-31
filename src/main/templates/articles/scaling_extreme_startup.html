@@ -168,113 +168,135 @@
       </div>
     </div>
     <div class="ses-columns-section ses-extreme-extension">
-      <h2>
-        Extreme Extension
-      </h2>
-      <p>
-        The new version of the application has been modified and extended in various ways.
-        First, the minimalist UI was replaced with a range of React and Mantine components 
-          that enabled responsive design as well as easier control over visual appearance. 
-        Second, the facilitator got admin features as well as the ability to add moderators. 
-        A dashboard could show the players' assistance state and many more. 
-        In addition, new updates made it possible to create games and choose settings, 
-          add players without hardcoding or restarting the app with new environmental variables. 
-        Finally, the game chart, the leaderboard line graph 
-          that shows the score against time is fully recorded and 
-          saved into a game report with different stats. 
-        Overall, the application was enriched with new features 
-          and new ideas were sparking frequently at different stages 
-          and the only limitation of the extension was time.
-        <!---->
-      </p>
-      <h2>
-        Frontend and Backend Stack
-      </h2>
-      <img 
-        class="ses-img ses-our-objectives-img"
-        src="{{ 
-          url_for(
-            'static',
-            filename='assets/articles/scaling_extreme_startup/front-end-and-backend-stack.png'
-          )
-        }}"
-      />
+      <div class="ses-column">
+        <h2>
+          Extreme Extension
+        </h2>
+        <p>
+          The new version of the application has been modified and extended in various ways.
+          First, the minimalist UI was replaced with a range of React and Mantine components 
+            that enabled responsive design as well as easier control over visual appearance. 
+          Second, the facilitator got admin features as well as the ability to add moderators. 
+          A dashboard could show the players' assistance state and many more. 
+          In addition, new updates made it possible to create games and choose settings, 
+            add players without hardcoding or restarting the app with new environmental variables. 
+          Finally, the game chart, the leaderboard line graph 
+            that shows the score against time is fully recorded and 
+            saved into a game report with different stats. 
+          Overall, the application was enriched with new features 
+            and new ideas were sparking frequently at different stages 
+            and the only limitation of the extension was time.
+          <!---->
+        </p>
+      </div>
+      <div class="ses-column">
+        <h2>
+          Frontend and Backend Stack
+        </h2>
+        <img 
+          class="ses-img ses-our-objectives-img"
+          src="{{ 
+            url_for(
+              'static',
+              filename='assets/articles/scaling_extreme_startup/front-end-and-backend-stack.png'
+            )
+          }}"
+        />
+      </div>
     </div>
-    <div class="ses-extreme-monolith">
-      <h2>
-        Extreme Monolith
-      </h2>
-      <p>
-        The replication and extension stages 
-          had an application deployed on a single server on one machine.
-        The main disadvantages of such an approach 
-          significantly affect the app’s usability and maintenance costs.
-        Having a single point of failure, if a server goes down, all current game data is lost.
-        That also implies that deploying new updates when games are played is impossible.
-        Another disadvantage is that the usage rate of the application is not constant.
-        When a game is played, many requests are made and a lot of computational power is required.
-        Meanwhile, the app is not used at any workshop, 
-          it is idle and the powerful CPU of a rented VPS is underutilised.
-        That may lead to a problem when the game becomes popular.
-        Which leads to the attractive option of migrating to the cloud.
-      </p>
-      <img 
-        class="ses-img ses-our-objectives-img"
-        src="{{ 
-          url_for(
-            'static', 
-            filename='assets/articles/scaling_extreme_startup/architecture-bigger-picture.png'
-          )
-        }}"
-      />
+    <div class="ses-columns-section ses-extreme-monolith">
+      <div class="ses-column">
+        <h2>
+          Extreme Monolith
+        </h2>
+        <p>
+          The replication and extension stages 
+            had an application deployed on a single server on one machine.
+          The main disadvantages of such an approach 
+            significantly affect the app’s usability and maintenance costs.
+          Having a single point of failure, if a server goes down, all current game data is lost.
+          That also implies that deploying new updates when games are played is impossible.
+          Another disadvantage is that the usage rate of the application is not constant.
+          When a game is played, many requests are made and a lot of computational power is required.
+          Meanwhile, the app is not used at any workshop, 
+            it is idle and the powerful CPU of a rented VPS is underutilised.
+          That may lead to a problem when the game becomes popular.
+          Which leads to the attractive option of migrating to the cloud.
+        </p>
+      </div>
+      <div class="ses-column">
+        <img 
+          class="ses-img ses-our-objectives-img"
+          src="{{ 
+            url_for(
+              'static', 
+              filename='assets/articles/scaling_extreme_startup/architecture-bigger-picture.png'
+            )
+          }}"
+        />
+      </div>
     </div>
-    <div class="ses-extreme-scaling">
-      <h2>
-        AWS Services Employed
-      </h2>
-      <img 
-        class="ses-img ses-aws-services-employed-img"
-        src="{{ 
-          url_for(
-            'static', 
-            filename='assets/articles/scaling_extreme_startup/aws-services-employed.png'
-          )
-        }}"
-      />
-      <h2>
-        Extreme Scaling
-      </h2>
-      <p>
-        The scaling of such a project is achieved with such services as follows.
-        Simple Queue Service receives messages and is used as a Schedule for the events 
-          that invoke AWS Lambda 
-          that handles it. 
-        There are two main types of messages. 
-        The first one is a player question event that requires sending the request,
-          receiving an answer, 
-          assigning a score, 
-          and scheduling the next check, sending it to SQS.
-        The second one is the monitor Lambda 
-          which can stop further scheduling of player FaaS invocations
-          that belong to a particular game session. 
-        DynamoDB was used as a fast persistence storage 
-          that contains the state of the games and supports many quick games. 
-        The Flask server did not go, 
-          but now became the initiator of FaaS computation and did not execute any game logic. 
-        Only queried DynamoDB to give updates to the React App that the user sees. 
-        That reduced the server’s responsibilities 
-          and it enabled its redeployment during the game session.
-        <!---->
-      </p>
-      <h2>
-        Scaled Architecture
-      </h2>
-      <img 
-        class="ses-img ses-scaled-architecture-img"
-        src="{{ 
-          url_for('static', filename='assets/articles/scaling_extreme_startup/scaled-architecture.png')
-        }}"
-      />
+    <div class="ses-columns-section ses-extreme-scaling">
+      <div class="ses-column">
+        <h2>
+          AWS Services Employed
+        </h2>
+        <img 
+          class="ses-img ses-aws-services-employed-img"
+          src="{{ 
+            url_for(
+              'static', 
+              filename='assets/articles/scaling_extreme_startup/aws-services-employed.png'
+            )
+          }}"
+        />
+      </div>
+      <div class="ses-column">
+        <h2>
+          Extreme Scaling
+        </h2>
+        <p>
+          The scaling of such a project is achieved with such services as follows.
+          Simple Queue Service receives messages and is used as a Schedule for the events 
+            that invoke AWS Lambda 
+            that handles it. 
+          There are two main types of messages. 
+          The first one is a player question event that requires sending the request,
+            receiving an answer, 
+            assigning a score, 
+            and scheduling the next check, sending it to SQS.
+          The second one is the monitor Lambda 
+            which can stop further scheduling of player FaaS invocations
+            that belong to a particular game session. 
+          DynamoDB was used as a fast persistence storage 
+            that contains the state of the games and supports many quick games. 
+          The Flask server did not go, 
+            but now became the initiator of FaaS computation and did not execute any game logic. 
+          Only queried DynamoDB to give updates to the React App that the user sees. 
+          That reduced the server’s responsibilities 
+            and it enabled its redeployment during the game session.
+          <!---->
+        </p>
+      </div>
+      <div class="ses-column">
+        <h2>
+          AWS Approach &mdash; Detailed Picture
+        </h2>
+      </div>
+      <div class="ses-column">
+        <h2>
+          Scaled Architecture
+        </h2>
+        <img 
+          class="ses-img ses-scaled-architecture-img"
+          src="{{ 
+            url_for(
+              'static',
+              filename='assets/articles/scaling_extreme_startup/scaled-architecture.png'
+            )
+          }}"
+        />
+      </div>
     </div>
     <div class="ses-live-tests">
       <h2>
