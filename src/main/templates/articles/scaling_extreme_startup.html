@@ -104,7 +104,7 @@
         />
       </div>
       <div class="ses-column">
-        <h2>
+        <h2 class="ses-hidden">
           Extreme Startup
         </h2>
         <p>
@@ -152,7 +152,13 @@
           The tool was developed as an Imperial College Computing Year 3 Software Engineering Project 
             by a team of six students. 
           The project has been successfully submitted and presented,
-          as well as applied by Robert Chatley at the CI/CD workshop at Deutsche Bank in London.
+            as well as applied by Robert Chatley
+              at the CI/CD workshop in the London office of 
+              <a class="ses-link" href="https://country.db.com/uk/index">
+                Deutsche Bank
+              </a>
+            and at Imperial College London.
+          <!---->
         </p>
       </div>
       <div class="ses-column">
@@ -209,6 +215,28 @@
             and the only limitation of the extension was time.
           <!---->
         </p>
+      </div>
+      <div class="ses-column">
+        <p>
+          
+        </p>
+      </div>
+      <div class="ses-column">
+        <img 
+          class="ses-img ses-bounded-image ses-our-objectives-img"
+          src="{{ 
+            url_for(
+              'static',
+              filename='assets/articles/scaling_extreme_startup/leaderboard-screenshot.png'
+            )
+          }}"
+        />
+        <div class="ses-image-description">
+          <span>
+            A screenshot from the game. Leaderboard is represented as a chart of scores against time.
+            Green and red markers represent the correctness of participants' answers to the requests.
+          </span>
+        </div>
       </div>
     </div>
     <div class="ses-columns-section ses-extreme-monolith">
@@ -326,7 +354,7 @@
         }}"
       />
       <img 
-        class="ses-img ses-deutsche-bank-live-test-img"
+        class="ses-img ses-bounded-image ses-imperial-live-test-img"
         src="{{ 
           url_for(
             'static',
