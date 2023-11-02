@@ -223,6 +223,9 @@
         </p>
       </div>
       <div class="ses-column">
+        <h2>
+          New UI and Features
+        </h2>
         <p>
           Another way to address the convinience was modern approach to User Interfaces in Web.
           React App was used for the front end 
@@ -233,22 +236,23 @@
             and added a JSON as a payload.
           Backend replied with a status code and respoinse JSON.
         </p>
-        <p>
-          The new version of the application has been modified and extended in various ways.
-          First, the minimalist UI was replaced with a range of React and Mantine components 
-            that enabled responsive design as well as easier control over visual appearance. 
-          Second, the facilitator got admin features as well as the ability to add moderators. 
-          A dashboard could show the players' assistance state and many more. 
-          In addition, new updates made it possible to create games and choose settings, 
-            add players without hardcoding or restarting the app with new environmental variables. 
-          Finally, the game chart, the leaderboard line graph 
-            that shows the score against time is fully recorded and 
-            saved into a game report with different stats. 
-          Overall, the application was enriched with new features 
-            and new ideas were sparking frequently at different stages 
-            and the only limitation of the extension was time.
-          <!---->
-        </p>
+      </div>
+      <div class="ses-column">
+        <img 
+          class="ses-img ses-bounded-image ses-homepage-sreenshot-img"
+          src="{{ 
+            url_for(
+              'static',
+              filename='assets/articles/scaling_extreme_startup/homepage-screenshot-wide.png'
+            )
+          }}"
+        />
+        <div class="ses-image-description">
+          <span>
+            A screenshot of the App homepage. 
+            Interactive and engaging way to create or join a game with a fancy dark theme.
+          </span>
+        </div>
       </div>
       <div class="ses-column">
         <img 
@@ -266,6 +270,24 @@
             Green and red markers represent the correctness of participants' answers to the requests.
           </span>
         </div>
+      </div>
+      <div class="ses-column">
+        <p>
+          The new version of the application has been modified and extended in various ways.
+          First, the minimalist UI was replaced with a range of React and Mantine components 
+            that enabled responsive design as well as easier control over visual appearance. 
+          Second, the facilitator got admin features as well as the ability to add moderators. 
+          A dashboard could show the players' assistance state and many more. 
+          In addition, new updates made it possible to create games and choose settings, 
+            add players without hardcoding or restarting the app with new environmental variables. 
+          Finally, the game chart, the leaderboard line graph 
+            that shows the score against time is fully recorded and 
+            saved into a game report with different stats. 
+          Overall, the application was enriched with new features 
+            and new ideas were sparking frequently at different stages 
+            and the only limitation of the extension was time.
+          <!---->
+        </p>
       </div>
     </div>
     <div class="ses-columns-section ses-extreme-monolith">
