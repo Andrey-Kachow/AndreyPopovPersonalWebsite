@@ -343,7 +343,7 @@
     <div class="ses-columns-section ses-extreme-scaling">
       <div class="ses-column">
         <h2>
-          AWS Services Employed
+          Extreme Scaling
         </h2>
         <img 
           class="ses-img ses-aws-services-employed-img"
@@ -354,10 +354,17 @@
             )
           }}"
         />
+        <div class="ses-image-description">
+          <span>
+            The figure above shows a list 
+              of three main AWS services employed for the scaled version of Extreme Startup
+            <!---->
+          </span>
+        </div>
       </div>
       <div class="ses-column">
-        <h2>
-          Extreme Scaling
+        <h2 class="ses-hidden">
+          Extreme Scaling (Hidden)
         </h2>
         <p>
           The scaling of such a project is achieved with such services as follows.
@@ -388,9 +395,6 @@
         </h2>
       </div>
       <div class="ses-column">
-        <h2>
-          Scaled Architecture
-        </h2>
         <img 
           class="ses-img ses-scaled-architecture-img"
           src="{{ 
@@ -400,30 +404,53 @@
             )
           }}"
         />
+        <div class="ses-image-description">
+          <span>
+            An overview of the AWS enhanced scalable architecture.
+            There are now two main areas.
+            The gray box indicates the single core server that has minimized workload.
+            The orange box indicates the main computation and storage that can scale on demand.
+            <!---->
+          </span>
+        </div>
       </div>
     </div>
-    <div class="ses-live-tests">
-      <h2>
-        Live Tests
-      </h2>
-      <img 
-        class="ses-img ses-deutsche-bank-live-test-img"
-        src="{{ 
-          url_for(
-            'static',
-            filename='assets/articles/scaling_extreme_startup/deutsche-bank-live-test.png'
-          )
-        }}"
-      />
-      <img 
-        class="ses-img ses-bounded-image ses-imperial-live-test-img"
-        src="{{ 
-          url_for(
-            'static',
-            filename='assets/articles/scaling_extreme_startup/imperial-live-test.jpg'
-          )
-        }}"
-      />
+    <div class="ses-columns-section ses-live-tests">
+      <div class="ses-column">
+        <h2>
+          Live Tests
+        </h2>
+        <img 
+          class="ses-img ses-deutsche-bank-live-test-img"
+          src="{{ 
+            url_for(
+              'static',
+              filename='assets/articles/scaling_extreme_startup/deutsche-bank-live-test.png'
+            )
+          }}"
+        />
+      </div>
+      <div class="ses-column">
+        <h3>
+          Duetsche Bank
+        </h3>
+      </div>
+      <div class="ses-column">
+        <h3>
+          Imperial College London
+        </h3>
+      </div>
+      <div class="ses-column">
+        <img 
+          class="ses-img ses-bounded-image ses-imperial-live-test-img"
+          src="{{ 
+            url_for(
+              'static',
+              filename='assets/articles/scaling_extreme_startup/imperial-live-test.jpg'
+            )
+          }}"
+        />
+      </div>
     </div>
     <div class="ses-my-extreme-contributions">
       <h2>
