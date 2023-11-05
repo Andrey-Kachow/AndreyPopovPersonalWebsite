@@ -379,13 +379,14 @@
           The second one is the monitor Lambda 
             which can stop further scheduling of player FaaS invocations
             that belong to a particular game session. 
+          <!---->
+        </p>
+        <p>
           DynamoDB was used as a fast persistence storage 
             that contains the state of the games and supports many quick games. 
-          The Flask server did not go, 
-            but now became the initiator of FaaS computation and did not execute any game logic. 
-          Only queried DynamoDB to give updates to the React App that the user sees. 
-          That reduced the server’s responsibilities 
-            and it enabled its redeployment during the game session.
+          The main reason for choosing DynamoDB is the speed and schema flexibility of NoSQL.
+          It worked very well for games that included one hundred players,
+            and the supporting evidence is the automated tests with simple bots with their entry points.
           <!---->
         </p>
       </div>
@@ -393,6 +394,31 @@
         <h2>
           AWS Approach &mdash; Detailed Picture
         </h2>
+        <p>
+          The Flask server did not go, 
+            but now became the initiator of FaaS computation and did not execute any game logic. 
+          Only queried DynamoDB to give updates to the React App that the user sees. 
+          That reduced the server’s responsibilities 
+            and it enabled its redeployment during the game session.
+          It has been successfully demonstrated in one of the weekly meetings of development team and project supervisor.
+        </p>
+        <p>
+          The AWS Lambda computations persisted during the Flask server redeployment
+            because once the game has been initialized it is maintained by AWS alone.
+          It becomes read-only process that can be observed or killed by the host server.
+        </p>
+        <p>
+          The core component,
+            AWS Game Manager object,
+            is the one that orchestrated the process of starting the game computations
+            and queried the game state stored in DynamoDB.
+          The two Question Factory components represent the shared code
+            that lives on both Flask and AWS.
+          Rate Controller is the object that makes sure 
+            that the players who perform poorly get less requests as a part of market demand simulaion.
+          It controls the duration of a delay until the next request.
+          
+        </p>
       </div>
       <div class="ses-column">
         <img 
