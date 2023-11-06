@@ -167,4 +167,12 @@ h1, h2, h3, h4 {
     .ses-column {
         flex-basis: 45%;
     }
+    div.ses-my-extreme-contributions {
+        padding-right: 4rem;
+        flex-basis: 58%;
+    }
+    div.ses-extreme-acknowledgements {
+        padding-left: 4rem;
+        flex-basis: 33%;
+    }
 }
