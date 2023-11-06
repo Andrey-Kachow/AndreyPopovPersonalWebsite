@@ -410,7 +410,7 @@ ARM11_EMULATOR = {
     ],
     "repo_link": "https://github.com/DFcupello/ARM-Project",
     "interesting_things": [ 
-        "Implemented Arm emulation and Assembly in C programming Language"
+        "Implemented Arm emulation and Assembly in C programming Language",
         "Commited to a remote group work with a team of four people",
         "Supported a subset of Arm instruction set",
         "Familiarised myself with Git usage for team projects"
