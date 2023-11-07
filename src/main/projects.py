@@ -242,6 +242,7 @@ SCALING_EXTREME_STARTUP = {
         "Scaling <span class=\"extreme-startup-highlight-text\">Extreme</span> Startup",
         "extreme-startup"
     ),
+    "header_link_url": "https://extreme-startup.fly.dev/",
     "title": "Group Project",
     "status": "Published",
     "dates": {
@@ -258,15 +259,22 @@ SCALING_EXTREME_STARTUP = {
         "Lambda",
     ],
     "repo_link": "https://github.com/mike-sorokin/extreme-startup",
-    "interesting_things": [ 
+    "interesting_things": [
         "Developed software in Scrum framework as a team of six people",
         "Produced an online game for competitive programmers",
         "Managed Frontend and Testing, as well as contributed to Backend and CI/CD",
         """
-        The product has been successfully applied at
-        <a class="extreme-startup-link" href="https://www.db.com/uk">Deutsche Bank</a>
-        CI/CD workshop
+            The product has been successfully applied at
+            <a class="extreme-startup-link" href="https://www.db.com/uk">
+                Deutsche Bank
+            </a>
+            CI/CD workshop
+        """,
         """
+            The application is 
+            <a class="extreme-startup-link" href="https://extreme-startup.fly.dev/">
+                available online here</a>.
+        """,
     ],
     "custom_content": """
         <div class="extreme-startup-learnmore-wrapper">

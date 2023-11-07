@@ -1,17 +1,27 @@
 <div class="proj-root {{ project.class_prefix }}-root">
   <div class="proj-header {{ project.class_prefix }}-header">
-    {% if project.logo_url %}
-      <img 
-       class="proj-logo-img {{ project.class_prefix }}-logo-img"
-       src="{{ project.logo_url }}"
-      />
-    {% elif project.logo_substitute %}
-      {{ project.logo_substitute|safe }}
-    {% else %}
-      <div style="text-align: center; padding: 1rem;">
-        Pet Project
-      </div>
+    <!--{BEGIN CONDITIONAL LINK}-->
+    {% if project.header_link_url %}
+      <a class="proj-header-link" href="{{ project.header_link_url }}">
     {% endif %}
+    <!--{OPEN CONDITIONAL LINK}-->
+        {% if project.logo_url %}
+          <img 
+           class="proj-logo-img {{ project.class_prefix }}-logo-img"
+           src="{{ project.logo_url }}"
+          />
+        {% elif project.logo_substitute %}
+          {{ project.logo_substitute|safe }}
+        {% else %}
+          <div style="text-align: center; padding: 1rem;">
+            Pet Project
+          </div>
+        {% endif %}
+    <!--{CLOSE CONDTIONAL LINK}-->
+    {% if project.header_link_url %}
+      </a>
+    {% endif %}
+    <!--{END CONDITIONAL LINK}-->
   </div>
   <div class="proj-subheader {{ project.class_prefix }}-subheader">
     <div class="proj-title-wrapper {{ project.class_prefix }}-title-wrapper">
