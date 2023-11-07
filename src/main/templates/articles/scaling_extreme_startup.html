@@ -6,6 +6,30 @@
   Scaling Exteme Startup
 {% endblock %}
 
+{% block meta %}
+  <meta property="og:url" content="http://andreypopov.xyz/scaling-extreme-startup" />
+  <meta property="og:title" content="Scaling Extreme Startup"/>
+  <meta name="author" content="Andrey Popov"/>
+  <meta 
+    property="og:image"
+    content="{{ 
+      url_for(
+        'static',
+        filename='assets/articles/scaling_extreme_startup/homepage-screenshot-wide.png'
+      ) 
+    }}"
+  />
+  <meta 
+    property="og:description" 
+    content=
+      "Extreme Startup is a coding exercise game,"
+      "created by Robert Chatley."
+      "It is used in software engineering workshops"
+      "and the main goal of such games is to encourage developers to use CI/CD" 
+      "by showing the benefits of quick-release iterations."
+  />
+{% endblock %}
+
 {% block style %}
   <link rel="stylesheet" href="{{ url_for('static', filename='articles/scaling_extreme_startup.css') }}"/>
   <link rel="stylesheet" href="{{ url_for('static', filename='experiences/abstract_project.css') }}"/>
