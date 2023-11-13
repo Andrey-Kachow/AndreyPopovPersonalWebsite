@@ -4,6 +4,14 @@
     border-color: #003e74;
 }
 
+.imperial-link:link, .imperial-link:visited {
+    color: #003e74;
+    text-decoration: underline; 
+}
+.imperial-link:hover {
+    color: magenta;
+}
+
 .imperial-header {
 }
 

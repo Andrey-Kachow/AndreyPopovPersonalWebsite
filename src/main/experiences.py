@@ -99,6 +99,17 @@ IMPERIAL = {
     "responsibilities": [
         "After successful 3 years currently on a target to 2:1",
         "Industrial Placement as a part of a course",
+        """
+            <span>
+                View 
+            </span>
+            <a class="imperial-link" href="/iclmodules">
+                summary<!--          
+            --></a>
+            <span>
+                of courses completed
+            </span>
+        """
     ]
 }
 
