@@ -273,7 +273,7 @@ SCALING_EXTREME_STARTUP = {
         """
             The application is 
             <a class="extreme-startup-link" href="https://extreme-startup.fly.dev/">
-                available online here</a>.
+                available online here</a>
         """,
     ],
     "custom_content": """
