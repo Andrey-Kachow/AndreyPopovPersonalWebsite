@@ -103,7 +103,7 @@ IMPERIAL = {
             <span>
                 View 
             </span>
-            <a class="imperial-link" href="/iclmodules">
+            <a class="imperial-link" href="/icmodules">
                 summary<!--          
             --></a>
             <span>

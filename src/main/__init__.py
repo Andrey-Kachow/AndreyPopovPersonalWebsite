@@ -64,5 +64,9 @@ def create_app():
         }
         return render_template('blog/hobbies/hobby_index.html')
 
+    @app.route('/icmodules')
+    def icmodules():
+        return render_template('experiences/imperial/icmodules.html')
+
     return app
 

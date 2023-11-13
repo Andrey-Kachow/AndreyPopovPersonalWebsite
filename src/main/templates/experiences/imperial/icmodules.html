@@ -1,0 +1,189 @@
+{% extends 'base.html' %}
+
+{% block meta %}
+  <meta property="og:url" content="http://andreypopov.xyz" />
+  <meta property="og:title" content="Andrey Popov"/>
+  <meta name="author" content="Andrey Popov"/>
+  <meta property="og:image" content="{{ url_for('static', filename='assets/tulpi.jpg') }}"/>
+  <meta 
+    property="og:description" 
+    content="My name is Andrey Popov. I am professional software engineer and experienced computer science tutor..."
+  />
+{% endblock %}
+
+{% block title %}
+  Andrey Popov
+{% endblock %}
+
+{% block style %}
+  <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+  <link 
+    rel="stylesheet" 
+    href="{{ url_for('static', filename='experiences/abstract_experience.css') }}"
+  />
+  <link 
+    rel="stylesheet" 
+    href="{{ url_for('static', filename='experiences/abstract_project.css') }}"
+  />
+  {% for experience in work_experiences + education_experiences + research_experiences %}
+    <link 
+      rel="stylesheet" 
+      href="{{ url_for('static', filename='experiences/' + experience.stylesheet_path) }}"
+    />
+  {% endfor %}
+  {% for project in pet_projects + academic_projects %}
+    <link 
+      rel="stylesheet" 
+      href="{{ url_for('static', filename='experiences/' + project.stylesheet_path) }}"
+    />
+  {% endfor %}
+{% endblock %}
+
+{% block header %}
+  <div class="base-welcome-block">
+    <h2 class="base-welcome-title">
+      Welcome To My Personal Platform
+    </h2>
+    <p class="base-welcome-text">
+      My name is Andrey Popov.
+      I am professional software engineer and experienced computer science tutor.
+      Being an open person, I am sharing my experiences, success and failures in that website.
+      Feel free to browse the information displayed.
+    </p>
+  </div>
+  <div class="base-main-image">
+    <img class="base-tulpi" src="{{ url_for('static', filename='assets/tulpi.jpg') }}"/>
+  </div>
+  <div class="base-about-block">
+    <h2 class="base-about-title">
+      About Me
+    </h2>
+    <p class="base-about-text">
+      Motivated Software Engineer 
+        in the fourth year of MEng Computing 
+        at Imperial College London 
+        on a target for a 2:1.
+      Experienced in 
+        software engineering in industry,
+        personal tutoring,
+        and many areas of computer science.
+    </p>
+  </div>
+{% endblock %}
+
+{% block content %}
+  <h2>
+    RESOURCES
+  </h2>
+  <div>
+
+  </div>
+  <div class="idx-cv-link-box">
+    <p>
+      <span>
+        My Resume can be found 
+      </span>
+      <a class="idx-cv-link" href="/cv">
+        here
+      </a>
+    </p>
+    <p>
+      <span>
+        My GitHub:
+      </span>
+      <a class="idx-cv-link" href="https://github.com/Andrey-Kachow">
+        https://github.com/Andrey-Kachow
+      </a>
+    </p>
+    <p>
+      <span>
+        Linkedin:
+      </span>
+      <a class="idx-cv-link" href="https://www.linkedin.com/in/andrey-popov-10x/">
+        linkedin.com/in/andrey-popov-10x
+      </a>
+    </p>
+  </div>
+  <h2>
+    WORK EXPERIENCE
+  </h2>
+  <div class="idx-experience-cardview idx-work-experiences">
+    {% for experience in work_experiences %}
+      {% include './experiences/abstract_experience.html' %}
+    {% endfor %}
+  </div>
+  <h2>
+    PET PROJECTS
+  </h2>
+  <div class="idx-experience-cardview idx-pet-projects">
+    {% for project in pet_projects %}
+      {% include './experiences/abstract_project.html' %}
+    {% endfor %}
+  </div>
+  <h2>
+    ACADEMIC PROJECTS
+  </h2>
+  <div class="idx-experience-cardview idx-academic-projects">
+    {% for project in academic_projects %}
+      {% include './experiences/abstract_project.html' %}
+    {% endfor %}
+  </div>
+  <h2>
+    EDUCATION
+  </h2>
+  <div class="idx-experience-cardview idx-education">
+    {% for experience in education_experiences %}
+      {% include './experiences/abstract_experience.html' %}
+    {% endfor %}
+    <!-- Interesting trick to preserve flex items to become too broad -->
+    <!--
+      <div style="width: 1px"></div>
+      <div style="width: 1px"></div>
+      <div style="width: 1px"></div>
+    -->
+  </div>
+  <h2>
+    RESEARCH
+  </h2>
+  <div class="idx-experience-cardview idx-research">
+    {% for experience in research_experiences %}
+      {% include './experiences/abstract_experience.html' %}
+    {% endfor %}
+    <div style="width: 1px"></div>
+    <div style="width: 1px"></div>
+  </div>
+  <!--
+  <h2>
+    TUTEES
+  </h2>
+  <div class="idx-experience-cardview idx-tutees">
+    Coming soon...
+  </div>
+  -->
+  <h2>
+    INTERESTS AND HOBBIES
+  </h2>
+  <ul>
+    <li>Boxing and MMA</li>
+    <li>Building Sustainable Environment</li>
+    <li>Painting and Miniature Creating</li>
+    <li>Cooking (Especially Soups)</li>
+    <!--
+      <li>
+        <span>
+          Click
+        </span>
+        <a class="base-red-link" href="/blog/hobbies">
+          here
+        </a>
+        <span>
+          to learn more about my hobbies...
+        </span>
+      </li>
+    -->
+  </ul>
+{% endblock %}
+
+{% block footer %}
+{% endblock %}
+
