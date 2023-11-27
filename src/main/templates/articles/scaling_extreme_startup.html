@@ -3,7 +3,7 @@
 <!-- Scaling Extreme Startup branch  -->
 
 {% block title %}
-  Scaling Exteme Startup
+  Scaling Extreme Startup
 {% endblock %}
 
 {% block meta %}
@@ -174,7 +174,7 @@
         <p>
           Scaling Extreme Startup Project 
             is a recreation of the original game and an extension of its functionality,
-            as well as an architecture behind it, 
+            as well as the architecture behind it, 
             that enables it to scale horizontally and support an increased number of games on demand. 
           It is built in Python using Flask Web framework and React for the front end. 
           The app has been later enhanced with AWS technologies, 
@@ -219,7 +219,7 @@
         />
         <div class="ses-image-description">
           <span>
-            The figure above briefly shows the idea of separate apps for frontend and backend.
+            The figure above briefly shows the idea of separate apps for the front end and back end.
             Communication via HTTP requests in JSON formats enables independent implementation
               of the two software system components.
             <!---->
@@ -239,17 +239,17 @@
             had been viable and was used in workshops already.
           </span>
           <span>
-            However, the problem of the old version was the lack of convinience
+            However, the problem with the old version was the lack of convenience
               when running configurations and moderating the game.
             For instance, the Extreme Startup game includes a warmup round and then the actual game.
             In order to proceed to the first round of the game that follows the warmup,
-              game facilitator had to restart the application with a different environment variable.
-            There were also a lack of functionality for the admin and helpers to administer the game.
+              the game facilitator had to restart the application with a different environment variable.
+            There was also a lack of functionality for the admin and helpers to administer the game.
             The most important goal of the remaster was to address that problem.
-            That was done by creating a Flask webserver application 
+            That was done by creating a Flask web server application 
               that stored a game session details in its internal state
               and therefore it enabled users to pass the warmup and proceed to the first round.
-            The app could aslo support multiple games as all objects now had unique identifiers.
+            The app could also support multiple games as all objects now had unique identifiers.
           </span>
         </p>
       </div>
@@ -258,17 +258,17 @@
           New UI and Features
         </h2>
         <p>
-          Another way to address the convinience was modern approach to User Interfaces in Web.
+          Another way to address the convenience was the modern approach to User Interfaces on the Web.
           React App was used for the front end 
             and the user could communicate with the game via control elements
             such as buttons and switches.
-          The communication between the two apps were achieved by Rest API.
-          Front end app accessed the server with one of the permitted URL
+          The communication between the two apps was achieved by Rest API.
+          The Front-end app accessed the server with one of the permitted URLs
             and added a JSON as a payload.
-          Backend replied with a status code and response JSON.
-          The JSON data got transformed and displayed in different UI elements.
+          The backend replied with a status code and response JSON.
+          The JSON data was transformed and displayed in different UI elements.
           When it comes to the Visual components 
-            there were a massive improvement compared to the previous minimalist design.
+            there was a massive improvement compared to the previous minimalist design.
           <!---->  
         </p>
       </div>
@@ -285,7 +285,7 @@
         <div class="ses-image-description">
           <span>
             A screenshot of the App homepage. 
-            Interactive and engaging way to create or join a game with a fancy dark theme.
+            An interactive and engaging way to create or join a game with a fancy dark theme.
           </span>
         </div>
       </div>
@@ -301,7 +301,7 @@
         />
         <div class="ses-image-description">
           <span>
-            A screenshot from the game. Leaderboard is represented as a chart of scores against time.
+            A screenshot from the game. The leaderboard is represented as a chart of scores against time.
             The green and red markers represent the correctness 
               of participants' answers to the requests.
             <!---->
@@ -324,7 +324,7 @@
         </p>
         <p>
           Overall, the application was enriched with new features 
-            and new ideas were sparking frequently at different stages 
+            and new ideas were sparked frequently at different stages 
             and the only limitation of the extension was time.
           <!---->
         </p>
@@ -398,7 +398,7 @@
         </h2>
         <p>
           The scaling of such a project is achieved with such services as follows.
-          Simple Queue Service receives messages and is used as a Schedule for the events 
+          Simple Queue Service receives messages and is used as a Schedule for events 
             that invoke AWS Lambda 
             that handles it. 
           There are two main types of messages. 
@@ -431,12 +431,12 @@
           That reduced the server’s responsibilities 
             and it enabled its redeployment during the game session.
           It has been successfully demonstrated in one of the weekly meetings
-            of development team and project supervisor.
+            of the development team and project supervisor.
         </p>
         <p>
           The AWS Lambda computations persisted during the Flask server redeployment
             because once the game has been initialized it is maintained by AWS alone.
-          It becomes read-only process that can be observed or killed by the host server.
+          It becomes a read-only process that can be observed or killed by the host server.
         </p>
         <p>
           The core component,
@@ -445,10 +445,9 @@
             and queried the game state stored in DynamoDB.
           The two Question Factory components represent the shared code
             that lives on both Flask and AWS.
-          Rate Controller is the object that makes sure 
-            that the players who perform poorly get less requests as a part of market demand simulaion.
+          The Rate Controller is the object that makes sure 
+            that the players who perform poorly get fewer requests as a part of market demand simulation.
           It controls the duration of a delay until the next request.
-          
         </p>
       </div>
       <div class="ses-column">
@@ -465,7 +464,7 @@
           <span>
             An overview of the AWS enhanced scalable architecture.
             There are now two main areas.
-            The gray box indicates the single core server that has minimized workload.
+            The grey box indicates the single-core server that has minimized workload.
             The orange box indicates the main computation and storage that can scale on demand.
             <!---->
           </span>
@@ -492,18 +491,18 @@
           (Hidden) Live Tests
         </h2>
         <p>
-          Year 3 academic project went beyond the scope of assessment.
-          It has been successfully applied in the United Kindom and United States.
+          The year 3 academic project went beyond the scope of assessment.
+          It has been successfully applied in the United Kingdom and the United States.
           <span>
             The 
             <a>
               source code
             </a>
             of the project got published under GPL-3.0 License
-              and anyone can host it and apply in their teaching.
+              and anyone can host it and apply it in their teaching.
             <!---->
           </span>
-          There are two honorable mentions of demostrations that we are proud of. 
+          There are two honourable mentions of demonstrations that we are proud of. 
           As follows:
         </p>
         <h3>
@@ -512,17 +511,17 @@
         <p>
           The live test at Deutsche Bank was the first attempt to run the game with real players.
           Our team has been invited to the London office and it was an honor.
-          Overall, the game session were successfull.
+          Overall, the game sessions were successful.
           A few bugs that were discovered during the game did not ruin the experience
             and were fixed afterwards.
         </p>
         <p>
-          Participants learned from the game about importance of a good CI/CD pipeline.
-          They saw advantage of the fast deploy to respond quickly and get more points in the game.
-          Some particiants even managed to implement unit tests as a part of their pipeline.
+          Participants learned from the game about the importance of a good CI/CD pipeline.
+          They saw the advantage of the fast deployment to respond quickly and get more points in the game.
+          Some participants even managed to implement unit tests as a part of their pipeline.
           That prevented them from losing points after accidentally pushing new code
             that broke some cases.
-          But the most important acomplishment was that people had a good time.
+          But the most important accomplishment was that people had a good time.
           <!---->
         </p>
       </div>
@@ -532,16 +531,16 @@
         </h3>
         <p>
           Starting the new academic year after the project,
-            Robert Chatley included Extreme Startup workshop into curriculum.
+            Robert Chatley included the Extreme Startup workshop in the curriculum.
           The academic module is called Software Systems Engineering
             and it is a new course for MSc Computing.
-          Me and other project members had a pleasure of moderating the game 
+          Me and other project members had the pleasure of moderating the game 
             and helping participants with the setup and the game experience.
           Many students enjoyed the experience and had fun.
-          Unfortunatelly, a fire alarm interrupted the session,
+          Unfortunately, a fire alarm interrupted the session,
             but participants came back to play.
           Luckily, Robert paused the game when it all started,
-            which made me proud of us implementing that functionality.
+            which made me proud of us for implementing that functionality.
 
           <!---->
         </p>
@@ -549,10 +548,10 @@
           Future of Extreme Startup
         </h3>
         <p>
-          The project is alive and after live tests there were some feature suggestions.
+          The project is alive and after live tests, there were some feature suggestions.
           It might take some time for them to be implemented
-            and with continuous feedback from future workshops there might be more to add or fix.
-          There is no limit of getting better.
+            and with continuous feedback from future workshops, there might be more to add or fix.
+          There is no limit to getting better.
         </p>
       </div>
       <div class="ses-column">
@@ -576,8 +575,8 @@
           we had a shared leadership that had some downsides 
           but gave me a chance to take the first step. 
         I designed a REST API between the Backend and Frontend with my colleague Mihhail Sorokin. 
-        I was responsible for the maintenance of the REST API spec and had to make sure i
-          that Flask and React apps had proper communication. 
+        I was responsible for the maintenance of the REST API spec and had to make sure I
+          those Flask and React apps had proper communication. 
         As a result, when we split the work for the first two stages, Recreation and Extension, 
           I had mixed responsibilities of a ratio of 60:20:20 
           of Frontend, Testing and Backend respectively
@@ -602,9 +601,9 @@
         Thank you, Oscar, Johnathan, Jamie, Mihhail, and Devendra for working with me 
           and thank you, Robert, 
           for giving us the great opportunity 
-            to work on that project that included 
+            to work on that project included 
             not only invaluable practical components, 
-            but also real world application. 
+            but also real-world applications. 
         I would like to add that as an AWS account manager, 
           I am also glad that we managed to stay in a free AWS tier during the development process 
           (wink).
