@@ -170,23 +170,23 @@ SAMPLE_EXPERIENCE = {
     ]
 }
 
-SAMPLE_EXPERIENCE = {
-    "class_prefix": "testpr",
-    "stylesheet_path": "abstract_experience.css",
+MENG_PROJECT_SAT = {
+    "class_prefix": "sat",
+    "stylesheet_path": "meng_sat.css",
     "reference_url": "#",
     "logo_path": "#",
     "title": {
-        "prefix": "Software Engineering",
-        "highlight": "Pro",
+        "prefix": "Self-Attachment Technique",
+        "highlight": "MEng Project",
     },
-    "duration": "100 yrs",
-    "start_date": "31/10/1999",
-    "end_date": "31/10/2099",
+    "duration": "1ay",
+    "start_date": "01/11/2023",
+    "end_date": "24/06/2024",
     "responsibilities": [
-        "Was cool and fun",
-        "Did interesting projects",
-        "Something sample third",
-        "Mo idea what is supposed to be here"
+        "TODO",
+        "TODO",
+        "TODO",
+        "TODO"
     ]
 }
 
