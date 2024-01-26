@@ -280,7 +280,7 @@ SCALING_EXTREME_STARTUP = {
         <div class="extreme-startup-learnmore-wrapper">
             <div class="extreme-startup-learnmore">
                 <a href="/scaling-extreme-startup" class="extreme-startup-learnmore-link">
-                    Lean More...
+                    Learn More...
                 </a>
             </div>
         </div>
