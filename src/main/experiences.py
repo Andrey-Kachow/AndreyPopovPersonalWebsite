@@ -73,11 +73,11 @@ REPETITOR_RU = {
         "prefix": "Computer Science",
         "highlight": "Tutor",
     },
-    "duration": "3 mos",
+    "duration": "<2 yrs",
     "start_date": "03/07/2022",
-    "end_date": "02/10/2022",
+    "end_date": "Present",
     "responsibilities": [
-        "Tutored Python, C/C++, and Java",
+        "Tutored Python, C/C++, and Java for more than 20 students",
         "Guided beginners and intermediate level adults and kids",
         "Created lesson plans tailored to the personal requirements of each client",
         "Improved tutees’ academic performance and understanding of the subject"
