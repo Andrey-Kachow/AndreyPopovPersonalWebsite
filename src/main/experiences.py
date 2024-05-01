@@ -98,18 +98,18 @@ IMPERIAL = {
     "end_date": "01/07/2024",
     "responsibilities": [
         "After successful 3 years currently on a target to 2:1",
-        "Industrial Placement as a part of a course",
-        """
-            <span>
-                View 
-            </span>
-            <a class="imperial-link" href="/icmodules">
-                summary<!--          
-            --></a>
-            <span>
-                of courses completed
-            </span>
-        """
+        "Industrial Placement as a part of a course"# ,
+        #"""
+        #    <span>
+        #        View 
+        #    </span>
+        #    <a class="imperial-link" href="/icmodules">
+        #        summary<!--          
+        #    --></a>
+        #    <span>
+        #        of courses completed
+        #    </span>
+        #"""
     ]
 }
 
