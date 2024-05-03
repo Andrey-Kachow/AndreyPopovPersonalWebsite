@@ -113,18 +113,18 @@
     {% endfor %}
   </div>
   <h2>
-    PET PROJECTS
-  </h2>
-  <div class="idx-experience-cardview idx-pet-projects">
-    {% for project in pet_projects %}
-      {% include './experiences/abstract_project.html' %}
-    {% endfor %}
-  </div>
-  <h2>
     ACADEMIC PROJECTS
   </h2>
   <div class="idx-experience-cardview idx-academic-projects">
     {% for project in academic_projects %}
+      {% include './experiences/abstract_project.html' %}
+    {% endfor %}
+  </div>
+  <h2>
+    PET PROJECTS
+  </h2>
+  <div class="idx-experience-cardview idx-pet-projects">
+    {% for project in pet_projects %}
       {% include './experiences/abstract_project.html' %}
     {% endfor %}
   </div>
