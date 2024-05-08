@@ -8,8 +8,9 @@ from main.experiences import (
 
 from main.projects import (
     PET_PROJECTS,
-    ACADEMIC_PROJECTS
-)
+    ACADEMIC_PROJECTS,
+    SELF_ATTACHMENT_TECHNIQUE_MENG_PROJECT
+    )
 
 from flask import (
     Flask,
@@ -30,12 +31,13 @@ def create_app():
 
     @app.route('/')
     def index():
+        
         context = {
             'work_experiences': WORK_EXPERIENCES,
             'pet_projects': PET_PROJECTS,
             'academic_projects': ACADEMIC_PROJECTS,
             'education_experiences': EDUCATION_EXPERIENCES,
-            'research_experiences': RESEARCH_EXPERIENCES,
+            'research_experiences': RESEARCH_EXPERIENCES + [SELF_ATTACHMENT_TECHNIQUE_MENG_PROJECT],
         }
         return render_template('index.html', **context)
 

@@ -425,7 +425,42 @@ ARM11_EMULATOR = {
     ],
     "custom_content":"" 
 }
-_SCALING_EXTREME_STARTUP = {
+
+
+
+
+SELF_ATTACHMENT_TECHNIQUE_MENG_PROJECT = {
+    "display_type": "abstract_project",
+    "class_prefix": "imperial",
+    "stylesheet_path": "imperial.css",
+    "logo_url": "/static/assets/imperial_logo.svg",
+    "logo_substitute": simple_text_header("Self Attachment Protocol", "imperial"),
+    "title": "MEng Project",
+    "status": "In progress",
+    "dates": {
+        "display_anyway": True,
+        "since": "01/11/2023",
+        "until": "Present",
+    },
+    "keywords": [
+        "Unity",
+        "WebGL",
+        "Flask",
+        "JavaScript"
+    ],
+    "repo_link": "#",
+    "interesting_things": [ 
+        "Developed Unity 3D Game that helps patients follow exercises for the SAT psychotherapeutic protocol",
+        "Deployed the product as a WebGL build facilitated by the Flask server hosted on a private Hostinger VPS",
+        "Implemented functionality of creating a human avatar model from an image using AI-enhanced SDK",
+        "Supervised by Imperial AHD researchers, conducted a human trial and delivered MEng project (expected)"
+    ],
+    "custom_content":"" 
+}
+
+
+'''
+____sample__SCALING_EXTREME_STARTUP = {
     "class_prefix": "extreme-startup",
     "stylesheet_path": "extreme_startup.css",
     "logo_url": None,
@@ -454,6 +489,8 @@ _SCALING_EXTREME_STARTUP = {
     ],
     "custom_content":"" 
 }
+'''
+
 
 PET_PROJECTS = [
         HEALTH_RECIPES, KCAL_CALC,        BLUE_NOTES,
