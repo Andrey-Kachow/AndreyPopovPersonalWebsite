@@ -368,7 +368,7 @@ DEVOPS_CICD = {
         "Coordinated a group to deploy a Java servlet Web application on a virtual server",
         "Set a working Build-Test-Deploy pipeline using GitLab-Runner",
         "Used Docker for managing dependencies and extension tools",
-        "Implemented additional funcitonalit and Python and combined Docker container"
+        "Took advantage of virtual containerization and extended app with Python"
     ],
     "custom_content":"" 
 }

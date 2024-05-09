@@ -37,7 +37,7 @@ def create_app():
             'pet_projects': PET_PROJECTS,
             'academic_projects': ACADEMIC_PROJECTS,
             'education_experiences': EDUCATION_EXPERIENCES,
-            'research_experiences': RESEARCH_EXPERIENCES + [SELF_ATTACHMENT_TECHNIQUE_MENG_PROJECT],
+            'research_experiences': RESEARCH_EXPERIENCES # + [SELF_ATTACHMENT_TECHNIQUE_MENG_PROJECT],
         }
         return render_template('index.html', **context)
 
