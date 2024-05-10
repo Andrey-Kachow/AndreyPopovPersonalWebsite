@@ -300,17 +300,14 @@ MMMBOXES = {
         "until": "25/06/2022",
     },
     "keywords": [
-        "Python",
-        "Flask",
-        "JavaScript",
-        "PostgreSQL",
+        'Python', 'Flask', 'JavaScript', 'Pytest', 'SQL (Postgres)', 'OCR'
     ],
     "repo_link": "https://github.com/Andrey-Kachow/MmmmBoxes",
     "interesting_things": [ 
-        "Identified a problem in the managing of package collection at universities",
-        "Created a system, in a group of four, that manages deliveries and storage",
-        "Deployed an application on Heroku with GitLab CI/CD pipeline being set",
-        "Contacted end users regularly for continuous feedback to adapt to their needs"
+        "Produced solution for an existing problem in the managing of the package collection at universities",
+        "Configured CI/CD pipeline that tests and deploys Flask Web application on Heroku",
+        "Integrated OCR module for package label scanning and wrote a rich test suite for the database with Pytest",
+        "Worked in a team of four with regular customer interaction for continuous feedback"
     ],
     "custom_content":"" 
 }
