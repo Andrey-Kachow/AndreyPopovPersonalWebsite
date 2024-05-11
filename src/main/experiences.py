@@ -17,7 +17,7 @@ SAMPLE_EXPERIENCE = {
         "Was cool and fun",
         "Did interesting projects",
         "Something sample third",
-        "Mo idea what is supposed to be here"
+        "No idea what is supposed to be here?"
     ]
 }
 
@@ -57,7 +57,7 @@ IMPERIAL_PPT = {
     "end_date": "23/03/2023",
     "responsibilities": [
         "Worked as a Personal Programming Tutor and provided teaching support",
-        "Tutored Java, Kotlin and Haskell for the assigned group of first year students",
+        "Tutored Java, Kotlin and Haskell for the assigned group of first-year students",
         "Conducted Question-Answer seminars and revision sessions",
         "Reviewed and marked students’ work and provided constructive feedback"
     ]
@@ -97,7 +97,7 @@ IMPERIAL = {
     "start_date": "01/10/2020",
     "end_date": "01/07/2024",
     "responsibilities": [
-        "After successful 3 years currently on a target to 2:1",
+        "After successful three years, currently on a target to 2:1",
         "Industrial Placement as a part of a course"# ,
         #"""
         #    <span>
@@ -166,7 +166,7 @@ SAMPLE_EXPERIENCE = {
         "Was cool and fun",
         "Did interesting projects",
         "Something sample third",
-        "Mo idea what is supposed to be here"
+        "No idea what is supposed to be here?"
     ]
 }
 
