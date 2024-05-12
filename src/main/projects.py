@@ -18,7 +18,7 @@ SAMPLE_PROJECT = {
     ],
     "repo_link": "#",
     "interesting_things": [ 
-        "Something interesting about this projects",
+        "Something interesting about this project",
         "Another interesting thing",
         "Third exciting feature"
     ],
@@ -36,7 +36,7 @@ def android_app_demo_and_apk_html(class_name, apk_name, youtube_link):
         <div class="proj-youtube-demo-link {class_name}-youtube-demo-link">
             YouTube:
             <a class="{class_name}-link" href="{youtube_link}">
-                video Demostration
+                video Demonstration
             </a>
         </div>
     """
@@ -127,7 +127,7 @@ BLUE_NOTES = {
     "repo_link": "https://github.com/Andrey-Kachow/BlueNotes.git",
     "interesting_things": [ 
         "A simple TODO list notes beginner app",
-        "Self educating project",
+        "Self-educating project",
     ],
     "custom_content": 
         android_app_demo_and_apk_html(
@@ -187,7 +187,7 @@ ANDREY_POPOV_XYZ = {
     "keywords": [
         "Python",
         "Flask",
-        "html/css/js",
+        "HTML/CSS/js",
         "Vim"
     ],
     "repo_link": "https://github.com/Andrey-Kachow/AndreyPopovPersonalWebsite",
@@ -219,7 +219,7 @@ FRESHLIFE = {
     ],
     "repo_link": "https://github.com/Andrey-Kachow/NeaFreshLife",
     "interesting_things": [ 
-        "Meal Planner and Calorie Calculator with web based interface",
+        "Meal Planner and Calorie Calculator with web-based interface",
         "A-Level Computer Science NEA Project",
         """
             <span>
@@ -334,7 +334,7 @@ WACC = {
     "repo_link": "#",
     "interesting_things": [ 
         "In a group of four developed a WACC programming language compiler",
-        "Implemented translation of a high level language WACC to ARM assembly",
+        "Implemented translation of a high-level language WACC to ARM assembly",
         "Created an IDE for WACC with syntax highlighting and error detection",
         "Built a CI/CD pipeline to support quality control via rich test suite"
     ],
@@ -389,7 +389,7 @@ PINTOS = {
     ],
     "repo_link": "#",
     "interesting_things": [ 
-        "Worked in a group of four and commited to daily meetings",
+        "Worked in a group of four and committed to daily meetings",
         "Extended the source code of an academic operating system PintOS",
         "Implemented priority scheduling, user processes execution and virtual memory",
     ],
@@ -416,9 +416,9 @@ ARM11_EMULATOR = {
     "repo_link": "https://github.com/DFcupello/ARM-Project",
     "interesting_things": [ 
         "Implemented Arm emulation and Assembly in C programming Language",
-        "Commited to a remote group work with a team of four people",
+        "Committed to a remote group work with a team of four people",
         "Supported a subset of Arm instruction set",
-        "Familiarised myself with Git usage for team projects"
+        "Achieved the confidence of Git usage for team projects"
     ],
     "custom_content":"" 
 }
