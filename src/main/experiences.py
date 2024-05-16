@@ -80,8 +80,9 @@ REPETITOR_RU = {
         "Tutored Python, C/C++, and Java for more than 20 students",
         "Guided beginners and intermediate level adults and kids",
         "Created lesson plans tailored to the personal requirements of each client",
-        "Improved tutees’ academic performance and understanding of the subject"
-    ]
+        "Improved tutees’ academic performance and understanding of the subject",
+    ],
+    "custom_content": learn_more_about_project("repetitor", "/tutoring-journey"),
 }
 
 IMPERIAL = {

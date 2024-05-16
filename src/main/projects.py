@@ -276,15 +276,7 @@ SCALING_EXTREME_STARTUP = {
                 available online here</a>
         """,
     ],
-    "custom_content": """
-        <div class="extreme-startup-learnmore-wrapper">
-            <div class="extreme-startup-learnmore">
-                <a href="/scaling-extreme-startup" class="extreme-startup-learnmore-link">
-                    Learn More...
-                </a>
-            </div>
-        </div>
-    """
+    "custom_content": learn_more_about_project("extreme-startup", "/scaling-extreme-startup")
 }
 
 MMMBOXES = {
