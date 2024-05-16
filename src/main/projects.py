@@ -1,5 +1,7 @@
 import os
 
+from main.utils import *
+
 SAMPLE_PROJECT = {
     "class_prefix": "proj",
     "stylesheet_path": "abstract_project.css",

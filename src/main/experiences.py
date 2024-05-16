@@ -1,5 +1,6 @@
 from flask import url_for
 
+from main.utils import *
 
 SAMPLE_EXPERIENCE = {
     "class_prefix": "testpr",
