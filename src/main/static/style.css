@@ -50,20 +50,8 @@ a:active {
     color: var(--rah-crimson);
 }
 
-.base-red-link:link, .base-red-link:visited {
-    color: var(--rah-crimson);
-}
-.base-red-link:active {
-    color: var(--rah-dark-brown);
-}
-
 ul {
     margin: 0;
-}
-
-.clr1-block {
-    background: var(--rah-crimson);
-    color: #f0dfb9;
 }
 
 header {
@@ -149,34 +137,13 @@ h1 {
     color: #e3e3e6;
 }
 
-.base-home-link {
-    border: 4px var(--rah-crimson) solid;
-    font-size: 1.2rem;
-    padding: 0.75rem;
-    width: 6rem;
-    text-align: center;
-}
-
 .clr2-accent {
     background: var(--rah-silver);
-}
-
-.separator-v {
-    background: var(--rah-silver);
-    width: 4px;
-}
-
-.separator-h {
-    height: 0.5rem;
-    background: #7b858d;
 }
 
 .base-content-wrapper {
     background: #f0dfb9;
     padding: 0.5rem;
-}
-
-h2 {
 }
 
 footer {
