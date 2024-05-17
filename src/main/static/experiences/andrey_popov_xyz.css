@@ -1,7 +1,7 @@
 .andrey-popov-xyz-root {
-    color: #3b4758;
+    color: var(--rah-dark-blue-txt);
     background: #f0dfb9;
-    border: 2px solid #3b4758;
+    border: 2px solid var(--rah-dark-blue-txt);
 }
 
 .andrey-popov-xyz-link:link, .andrey-popov-xyz-link:visited {
@@ -42,8 +42,8 @@
     background: #f0dfb9;
     width: 100%;
     height: 70%;
-    border-left: 1px solid #3b4758;
-    border-right: 1px solid #3b4758;
+    border-left: 1px solid var(--rah-dark-blue-txt);
+    border-right: 1px solid var(--rah-dark-blue-txt);
     padding: 2% 3%;
 
     display: flex;
