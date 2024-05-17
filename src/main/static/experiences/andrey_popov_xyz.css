@@ -5,14 +5,14 @@
 }
 
 .andrey-popov-xyz-link:link, .andrey-popov-xyz-link:visited {
-    color: #c95e3c;
+    color: var(--rah-crimson);
 }
 .andrey-popov-xyz-link:hover {
     text-decoration: underline;
 }
 
 .andrey-popov-xyz-header {
-    background: #C95E3C;
+    background: var(--rah-crimson);
     color: white;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .webmin-header {
-    background: #C95E3C;
+    background: var(--rah-crimson);
     width: 100%;
     height: 15%;
 }

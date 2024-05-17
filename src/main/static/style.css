@@ -6,6 +6,13 @@
         albhal-crimson: C95E3C;
 */
 
+:root {
+    --rah-dark-gray: #95A1A0;
+    --rah-silver: #c6deea;
+    --rah-dark-brown: #4E3A2F;
+    --rah-crimson: #C95E3C;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -29,7 +36,7 @@ a {
 }
 
 a:link, a:visited {
-    color: #95a1a0;
+    color: var(--rah-dark-gray);
 }
 
 a:hover {
@@ -37,14 +44,14 @@ a:hover {
 }
 
 a:active {
-    color: #c95e3c;
+    color: var(--rah-crimson);
 }
 
 .base-red-link:link, .base-red-link:visited {
-    color: #c95e3c;
+    color: var(--rah-crimson);
 }
 .base-red-link:active {
-    color: #4e3a2f;
+    color: var(--rah-dark-brown);
 }
 
 ul {
@@ -52,7 +59,7 @@ ul {
 }
 
 .clr1-block {
-    background: #c95e3c;
+    background: var(--rah-crimson);
     color: #f0dfb9;
 }
 
@@ -67,7 +74,7 @@ header {
     align-content: stretch;
     padding: 1rem;
     color: #bc7c72;
-    background: #C95E3C; 
+    background: var(--rah-crimson); 
 }
 
 @media screen and (min-width: calc(264px + 264px + 3rem)) {
@@ -97,7 +104,7 @@ header > div {
 
 .base-welcome-block {
     padding: 0 1rem;
-    background: #c6deea;
+    background: var(--rah-silver);
     color: #3b4758;
 }
 
@@ -122,7 +129,7 @@ nav {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: -1px;
-    border-top: 1px solid #C95E3C; /* Hack to make this website look nice on ubuntu chrome */
+    border-top: 1px solid var(--rah-crimson); /* Hack to make this website look nice on ubuntu chrome */
     left: 0;
     display: flex;
     flex-direction: row;
@@ -140,7 +147,7 @@ h1 {
 }
 
 .base-home-link {
-    border: 4px #c95e3c solid;
+    border: 4px var(--rah-crimson) solid;
     font-size: 1.2rem;
     padding: 0.75rem;
     width: 6rem;
@@ -148,11 +155,11 @@ h1 {
 }
 
 .clr2-accent {
-    background: #c6deea;
+    background: var(--rah-silver);
 }
 
 .separator-v {
-    background: #c6deea;
+    background: var(--rah-silver);
     width: 4px;
 }
 
