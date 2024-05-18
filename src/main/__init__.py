@@ -60,15 +60,13 @@ def create_app():
         }
         return render_template('articles/scaling_extreme_startup.html', **context)
 
-    @app.route('/blog/hobbies')
-    def hobbies():
-        context = {
-        }
-        return render_template('blog/hobbies/hobby_index.html')
+    # @app.route('/blog/hobbies')
+    # def hobbies():
+    #     return render_template('blog/hobbies/hobby_index.html')
 
-    @app.route('/icmodules')
-    def icmodules():
-        return render_template('experiences/imperial/icmodules.html')
+    # @app.route('/icmodules')
+    # def icmodules():
+    #     return render_template('experiences/imperial/icmodules.html')
 
     return app
 
