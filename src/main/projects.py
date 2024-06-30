@@ -420,15 +420,15 @@ ARM11_EMULATOR = {
 }
 
 def include(path):
-    with open (os.path.join(Paths.MAIN, 'templates', 'includes', path)) as f:
+    with open (os.path.join(Paths.MAIN, 'templates', *path.split('/'))) as f:
         return f.read()
 
 SELF_ATTACHMENT_TECHNIQUE_MENG_PROJECT = {
     "display_type": "abstract_project",
     "class_prefix": "sat-meng",
     "stylesheet_path": "sat_meng.css",
-    "logo_url": '/static/assets/imperial_logo_new.webp',
-    "logo_substitute": include('imperial_svg.html'),
+    "logo_url": None,
+    "logo_substitute": include('experiences/custom_content/sat_meng_header.html'),
     "title": "MEng Project",
     "status": "Completed",
     "dates": {

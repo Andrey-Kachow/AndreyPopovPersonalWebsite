@@ -5,9 +5,41 @@
 }
 
 .sat-meng-header {
-    padding: 2% 7.2%;
-    /* background: #F4C9B9; */
+    padding: 0;
+}
+
+.sat-meng-subheaders {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.sat-meng-subheaders>div {
+    width: 50%;
+}
+
+.sat-meng-ahd-subheader {
+    background: white;
+    padding: 1% 1%;
+    border-bottom: #002147 2px solid;
+}
+
+.sat-meng-imperial-subheader {
+    padding: 0 2%;
     background: #002147;
+}
+
+.sat-meng-img-wrap {
+    width: 100%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.sat-meng-img-wrap>img {
+    width: 100%;
 }
 
 .sat-meng-highlight-text {
