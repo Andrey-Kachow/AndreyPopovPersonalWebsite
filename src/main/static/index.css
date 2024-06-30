@@ -1,6 +1,8 @@
-.idx-cv-link:link, .idx-cv-link:visited {
+.idx-cv-link:link,
+.idx-cv-link:visited {
     color: var(--rah-crimson);
 }
+
 .idx-cv-link:active {
     color: var(--rah-dark-brown);
 }
@@ -16,7 +18,7 @@
     align-items: stretch;
 }
 
-.idx-experience-cardview > div {
+.idx-experience-cardview>div {
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 299px;
@@ -30,7 +32,7 @@
 }
 
 @media only screen and (min-width: 1400px) {
-    .idx-experience-cardview > div {
+    .idx-experience-cardview>div {
         flex-basis: 450px;
     }
 }
@@ -42,7 +44,7 @@
     -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
     transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
-  
+
 .levitating-box::after {
     content: "";
     border-radius: 5px;
@@ -67,7 +69,22 @@
     opacity: 1;
 }
 
-.idx-featured-project-wrapper {
-    padding-left: 2%;
-    padding-right: 2%;
+
+.idx-resources-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.idx-resources-top>div { 
+    flex-grow: 4;
+    flex-shrink: 2;
+    flex-basis: 299px;
+    /* background: red; */
+}
+
+div.idx-featured-project-wrapper {
+    flex-grow: 1;
 }

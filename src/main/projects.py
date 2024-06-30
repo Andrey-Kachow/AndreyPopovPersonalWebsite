@@ -426,7 +426,7 @@ def include(path):
 SELF_ATTACHMENT_TECHNIQUE_MENG_PROJECT = {
     "display_type": "abstract_project",
     "class_prefix": "sat-meng",
-    "stylesheet_path": "sat-meng.css",
+    "stylesheet_path": "sat_meng.css",
     "logo_url": '/static/assets/imperial_logo_new.webp',
     "logo_substitute": include('imperial_svg.html'),
     "title": "MEng Project",

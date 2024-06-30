@@ -4,6 +4,11 @@
     border-color: black;
 }
 
+.sat-meng-header {
+    padding: 2% 7.2%;
+    background: #F4C9B9;
+}
+
 .sat-meng-highlight-text {
     color: black;
 }
