@@ -104,6 +104,11 @@
         </p>
       </div>
     </div>
+    <div class="idx-featured-project-wrapper">
+      {% with project = featured %}
+        {% include './experiences/abstract_project.html' %}
+      {% endwith %}
+    </div>
     <div>
       <h3>
         Other Info

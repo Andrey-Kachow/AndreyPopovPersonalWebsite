@@ -12,6 +12,8 @@ from main.projects import (
     SELF_ATTACHMENT_TECHNIQUE_MENG_PROJECT
     )
 
+from main.constants import *
+
 from flask import (
     Flask,
     render_template,
@@ -21,10 +23,6 @@ from flask import (
     send_file
 )
 
-DOCUMENTS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'documents')
-CV_PDF_PATH = os.path.join(DOCUMENTS_DIR, 'CV.pdf')    
-FRESHIFE_PDF_PATH = os.path.join(DOCUMENTS_DIR, 'freshlife_writeup.pdf')
-
 
 def create_app():
     app = Flask(__name__, instance_relative_config=True)
@@ -33,6 +31,7 @@ def create_app():
     def index():
         
         context = {
+            'featured': SELF_ATTACHMENT_TECHNIQUE_MENG_PROJECT,
             'work_experiences': WORK_EXPERIENCES,
             'pet_projects': PET_PROJECTS,
             'academic_projects': ACADEMIC_PROJECTS,
@@ -43,13 +42,13 @@ def create_app():
 
     @app.route('/cv')
     def cv():
-        response = make_response(send_file(CV_PDF_PATH))
+        response = make_response(send_file(Paths.CV_PDF_PATH))
         response.headers['Content-Type'] = 'application/pdf'
         return response
     
     @app.route('/freshlife-writeup')
     def freshlife_writeup():
-        response = make_response(send_file(FRESHIFE_PDF_PATH))
+        response = make_response(send_file(Paths.FRESHIFE_PDF_PATH))
         response.headers['Content-Type'] = 'application/pdf'
         return response
 

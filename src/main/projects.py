@@ -1,6 +1,8 @@
 import os
 
 from main.utils import *
+from main.constants import *
+
 
 SAMPLE_PROJECT = {
     "class_prefix": "proj",
@@ -417,17 +419,18 @@ ARM11_EMULATOR = {
     "custom_content":"" 
 }
 
-
-
+def include(path):
+    with open (os.path.join(Paths.MAIN, 'templates', 'includes', path)) as f:
+        return f.read()
 
 SELF_ATTACHMENT_TECHNIQUE_MENG_PROJECT = {
     "display_type": "abstract_project",
-    "class_prefix": "imperial",
-    "stylesheet_path": "imperial.css",
-    "logo_url": "/static/assets/imperial_logo.svg",
-    "logo_substitute": simple_text_header("Self Attachment Protocol", "imperial"),
+    "class_prefix": "sat-meng",
+    "stylesheet_path": "sat-meng.css",
+    "logo_url": '/static/assets/imperial_logo_new.webp',
+    "logo_substitute": include('imperial_svg.html'),
     "title": "MEng Project",
-    "status": "In progress",
+    "status": "Completed",
     "dates": {
         "display_anyway": True,
         "since": "01/11/2023",

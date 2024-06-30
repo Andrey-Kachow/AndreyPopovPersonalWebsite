@@ -66,3 +66,8 @@
 .levitating-box:hover::after {
     opacity: 1;
 }
+
+.idx-featured-project-wrapper {
+    padding-left: 2%;
+    padding-right: 2%;
+}

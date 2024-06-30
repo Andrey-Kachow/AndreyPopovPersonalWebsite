@@ -1,0 +1,21 @@
+.sat-meng-root {
+    background: white;
+    color: black;
+    border-color: black;
+}
+
+.sat-meng-highlight-text {
+    color: black;
+}
+
+.sat-meng-lowlight-text {
+    color: black;
+}
+
+.sat-meng-content { 
+    border-top-color: black;
+}
+
+.sat-meng-footer {
+    background: black;
+}
