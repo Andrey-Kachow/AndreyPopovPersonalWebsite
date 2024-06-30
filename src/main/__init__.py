@@ -25,7 +25,11 @@ from flask import (
 
 
 def create_app():
-    app = Flask(__name__, instance_relative_config=True)
+    app = Flask(
+        __name__,
+        instance_relative_config=True,
+    )
+    app.config['DEBUG'] = os.environ.get('FLASK_ENV') == 'development'
 
     @app.route('/')
     def index():
