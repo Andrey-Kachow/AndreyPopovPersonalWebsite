@@ -19,10 +19,15 @@
     width: 50%;
 }
 
+.sat-meng-project-title-header {
+    background: white;
+}
+
 .sat-meng-ahd-subheader {
     background: white;
     padding: 1% 1%;
     border-bottom: #002147 2px solid;
+    border-top: #002147 2px solid;
 }
 
 .sat-meng-imperial-subheader {
