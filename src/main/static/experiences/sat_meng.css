@@ -32,6 +32,7 @@
 
 .sat-meng-project-logo {
     padding: 0;
+    display: block;
 }
 
 .sat-meng-img-wrap {
@@ -44,6 +45,7 @@
 
 .sat-meng-img-wrap>img {
     width: 100%;
+    display: block;
 }
 
 .sat-meng-highlight-text {
