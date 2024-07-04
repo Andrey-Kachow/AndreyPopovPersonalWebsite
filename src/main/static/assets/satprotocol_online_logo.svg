@@ -1,0 +1,24 @@
+<svg width="1971" height="444" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xml:space="preserve" overflow="hidden">
+    <g transform="translate(-1352 -0)">
+        <text font-family="Consolas,Consolas_MSFontService,sans-serif"
+            font-weight="400" font-size="211" 
+            text-decoration="underline" transform="matrix(1 0 0 1 1478.76 266)">
+            sat
+        </text>
+        <text 
+            font-family="Consolas,Consolas_MSFontService,sans-serif" 
+            font-weight="400" 
+            font-size="211" 
+            transform="matrix(1 0 0 1 1825.95 266)">
+            protocol
+        </text>
+        <text font-family="Consolas,Consolas_MSFontService,sans-serif" 
+            font-weight="400" 
+            font-size="128" 
+            transform="matrix(1 0 0 1 2751.78 266)">
+            .online
+        </text>
+    </g>
+</svg>

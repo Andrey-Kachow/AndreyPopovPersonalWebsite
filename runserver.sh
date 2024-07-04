@@ -8,6 +8,8 @@ flask run -h localhost -p 5001
 #
 # $Env:FLASK_APP = 'src/main'
 # $Env:FLASK_ENV = 'development'
+# flask run
+# or
 # flask run -h localhost -p 5001 --debug
 # or
 # SET FLASK_APP='src/main'
