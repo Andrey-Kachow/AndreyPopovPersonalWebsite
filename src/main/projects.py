@@ -437,17 +437,19 @@ SELF_ATTACHMENT_TECHNIQUE_MENG_PROJECT = {
         "until": "Present",
     },
     "keywords": [
+        "Python,"
         "Unity",
         "WebGL",
         "Flask",
-        "JavaScript"
+        "JavaScript",
+        "Sqlite"
     ],
     "repo_link": "#",
     "interesting_things": [ 
-        "Developed Unity 3D Game that helps patients follow exercises for the SAT psychotherapeutic protocol",
-        "Deployed the product as a WebGL build facilitated by the Flask server hosted on a private Hostinger VPS",
-        "Implemented functionality of creating a human avatar model from an image using AI-enhanced SDK",
-        "Supervised by Imperial AHD researchers, conducted a human trial and delivered MEng project (expected)"
+        "Developed cross-platform Unity 3D game that helps patients follow the SAT protocol in psychotherapy",
+        "Continuously delivered production Flask website facilitating WebGL game hosted on Apache VPS",
+        "Integrated creation of a humanoid 3D model from an image using AI-enhanced Avatar SDK",
+        "Conducted non-clinical human trials with over 50 participants to improve usability",
     ],
     "custom_content":"" 
 }
