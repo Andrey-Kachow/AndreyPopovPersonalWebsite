@@ -430,7 +430,7 @@ SELF_ATTACHMENT_TECHNIQUE_MENG_PROJECT = {
     "logo_url": None,
     "logo_substitute": include('experiences/custom_content/sat_meng_header.html'),
     "title": "MEng Project",
-    "status": "Completed",
+    "status": "",
     "dates": {
         "display_anyway": True,
         "since": "01/11/2023",
