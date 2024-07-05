@@ -63,6 +63,13 @@ def create_app():
         }
         return render_template('articles/scaling_extreme_startup.html', **context)
 
+    @app.route('/sat-protocol-online-article')
+    def sat_protocol_online_article():
+        context = {
+            'project': SELF_ATTACHMENT_TECHNIQUE_MENG_PROJECT
+        }
+        return render_template('articles/imperial/sat/sat_protocol_online.html', **context)
+
     # @app.route('/blog/hobbies')
     # def hobbies():
     #     return render_template('blog/hobbies/hobby_index.html')

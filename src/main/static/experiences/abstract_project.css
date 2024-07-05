@@ -110,3 +110,25 @@ a.proj-header-link {
 .proj-download-apk, .proj-youtube-demo-link {
     padding: 0 1rem;
 }
+
+.proj-learnmore-wrapper {
+    position: relative;
+    padding: 0 auto;
+    margin-left: 1rem;
+}
+
+.proj-learnmore {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0.5rem 0.75rem;
+    margin-top: -0.5rem;
+    width: fit-content;
+}
+
+.proj-learnmore-link {
+    font-weight: 700;
+}
+
+.proj-learnmore-link:link, .proj-learnmore-link:visited {
+    /* color: #da627d; */
+}
