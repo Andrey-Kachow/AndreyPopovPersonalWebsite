@@ -451,7 +451,7 @@ SELF_ATTACHMENT_TECHNIQUE_MENG_PROJECT = {
         "Integrated creation of a humanoid 3D model from an image using AI-enhanced Avatar SDK",
         "Conducted non-clinical human trials with over 50 participants to improve usability",
     ],
-    "custom_content": learn_more_about_project("sat-meng", "/sat-protocol-online-article")
+    "custom_content": "" # learn_more_about_project("sat-meng", "/sat-protocol-online-article")
 }
 
 
