@@ -79,13 +79,30 @@
 }
 
 .idx-resources-top>div { 
-    flex-grow: 4;
+    flex-grow: 5;
     flex-shrink: 2;
     flex-basis: 299px;
     /* background: red; */
 }
 
 div.idx-featured-project-wrapper {
-    flex-grow: 1;
+    flex-grow: 3;
     max-width: 60rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.idx-featured-project-wrapper > div {
+  flex-grow: 3;
+  flex-shrink: 2;
+  flex-basis: 299px;
+}
+
+div.idx-whats-new-wrapper {
+  flex-grow: 1;
+  flex-shrink: 2;
+  flex-basis: unset;
 }
