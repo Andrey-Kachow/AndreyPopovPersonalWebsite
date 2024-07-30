@@ -33,8 +33,8 @@ def create_app():
 
     @app.route('/')
     def index():
-        
         context = {
+            'is_index': True,
             'featured': SELF_ATTACHMENT_TECHNIQUE_MENG_PROJECT,
             'work_experiences': WORK_EXPERIENCES,
             'pet_projects': PET_PROJECTS,

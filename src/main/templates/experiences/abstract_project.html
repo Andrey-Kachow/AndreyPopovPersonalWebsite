@@ -65,7 +65,7 @@
         {% endfor %}
       </ul>
     </div>
-    {% if project.custom_content %}
+    {% if project.custom_content and is_index %}
       <div class="proj-custom-content">
         {{ project.custom_content|safe }}
       </div>
