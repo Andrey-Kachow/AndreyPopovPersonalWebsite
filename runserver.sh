@@ -2,7 +2,8 @@
 
 export FLASK_APP=src/main
 export FLASK_ENV=development
-flask run -h localhost -p 5001
+export FLASK_APP_SECRET_KEY='some_secret_key_for_tests'
+flask run -h localhost -p 5000
 
 ## Windows
 #
