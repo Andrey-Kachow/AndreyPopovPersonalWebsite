@@ -1,18 +1,17 @@
-import os
-
+import main.apps as apps
 from main.experiences import (
     WORK_EXPERIENCES,
     EDUCATION_EXPERIENCES,
     RESEARCH_EXPERIENCES,
 )
-
 from main.projects import (
     PET_PROJECTS,
     ACADEMIC_PROJECTS,
     SELF_ATTACHMENT_TECHNIQUE_MENG_PROJECT
-    )
-
+)
 from main.constants import *
+
+import os
 
 from flask import (
     Flask,
@@ -30,6 +29,8 @@ def create_app():
         instance_relative_config=True,
     )
     app.config['DEBUG'] = os.environ.get('FLASK_ENV') == 'development'
+
+    app.register_blueprint(apps.bp)
 
     @app.route('/')
     def index():
