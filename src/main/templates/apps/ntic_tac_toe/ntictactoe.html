@@ -11,8 +11,74 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <style>
-      
-    </style>
+      .ttt-wrapper {
+
+      }
+      .ttt-notice-board {
+
+      }
+      .ttt-container {
+
+      }
+      .ttt-major3x3 {
+
+      }
+      .ttt-minor {
+
+      }
+      .ttt-icon {
+
+      }
+      .ttt-btn-panel {
+
+      }
+      .ttt-btn {
+        padding: 0.3rem 1.2rem;
+        width: 50%;
+        font-size: 1rem;
+        font-family: Arial;
+        font-weight: bold;
+        display: inline-block;
+        cursor: pointer;
+        text-decoration: none;
+        border-radius: 6px;
+        color: #ffffff;
+      }
+      .ttt-btn:active {
+        position: relative;
+        top: 2px;
+      }
+      .ttt-btn:disabled {
+        box-shadow: inset 0px 10px 14px -7px #5a5a5a;
+        background: linear-gradient(to bottom, #989898 5%, #959595 100%);
+        background-color: #989898;
+        border: 1px solid #6f6f6f;
+        text-shadow: 0px 1px 0px #737373;
+        cursor: not-allowed;
+      }
+      .ttt-quit-btn {
+          box-shadow: inset 0px 1px 0px 0px #cf866c;
+          background: linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+          background-color: #d0451b;
+          border: 1px solid #942911;
+          text-shadow: 0px 1px 0px #854629;
+      }
+      .ttt-quit-btn:hover {
+        background: linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+        background-color: #bc3315;
+      }
+      .ttt-restart-btn {
+        box-shadow: inset 0px 10px 14px -7px #3e7327;
+        background: linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+        background-color: #77b55a;
+        border: 1px solid #4b8f29;
+        text-shadow: 0px 1px 0px #5b8a3c;
+      }
+      .ttt-restart-btn:hover {
+        background: linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+        background-color: #72b352;
+      }
+      </style>
   </head>
   <body>
     <div class="ttt-wrapper">
@@ -24,7 +90,7 @@
           <div class="ttt-major3x3">
             {% for j in range(9) %}
               <div class="ttt-minor">
-                <img src="#"/>
+                <img class="ttt-icon" src="#"/>
               </div>
             {% endfor %}
           </div>
