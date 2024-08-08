@@ -86,13 +86,15 @@
 }
 
 div.idx-featured-project-wrapper {
-  flex-grow: 3;
+  flex-grow: 4;
   max-width: 60rem;
+  flex-basis: 399px;
 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+  column-gap: 1rem;
 }
 
 .idx-featured-project-wrapper>div {
@@ -104,5 +106,5 @@ div.idx-featured-project-wrapper {
 div.idx-whats-new-wrapper {
   flex-grow: 1;
   flex-shrink: 2;
-  flex-basis: unset;
+  max-width: 15rem;
 }
