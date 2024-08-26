@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 167 55" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <style bx:fonts="Open Sans">@import url(https://fonts.googleapis.com/css2?family=Open+Sans%3Aital%2Cwght%400%2C300%3B0%2C400%3B0%2C500%3B0%2C600%3B0%2C700%3B0%2C800%3B1%2C300%3B1%2C400%3B1%2C500%3B1%2C600%3B1%2C700%3B1%2C800&amp;display=swap);</style>
+  </defs>
+  <rect width="167" height="55" style="stroke: rgb(71, 98, 130); fill: rgb(71, 98, 130);">
+    <title>Backgroud</title>
+  </rect>
+  <text style="fill: rgb(255, 255, 255); font-family: 'Open Sans'; font-size: 23px; white-space: pre; text-anchor: middle;" transform="matrix(0.993401, 0, 0, 0.992193, -49.823407, -67.629754)"><title>MainmLogo</title><tspan x="134.214" y="93.827">ASHBOURNE</tspan><tspan x="134.214" dy="1em">​</tspan><tspan>COLLEGE</tspan></text>
+  <text style="fill: rgba(255, 255, 255, 0.14); font-family: 'Open Sans'; font-size: 77px; white-space: pre;" x="117.944" y="55.411" transform="matrix(1, 0, 0, 1.006016, -0.943993, -0.499253)">A</text>
+</svg>

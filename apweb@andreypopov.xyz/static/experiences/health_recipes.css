@@ -1,0 +1,59 @@
+.recipes-root {
+    color: #711027;
+    background: linear-gradient(90deg, #f7f1c6, 1%, white, 78%, #f7f1c6);
+    border: 2px solid #711027;
+}
+
+.recipes-link:link, .recipes-link:visited {
+    color: #711027;
+    text-decoration: underline;
+}
+.recipes-link:hover {
+    color: magenta;
+}
+
+.recipes-header {
+    background: linear-gradient(#fad35c 15% , #FFA000)
+}
+
+.recipes-align-logo-sub {
+}
+
+.recipes-footer {
+    background: #fad35c;
+}
+
+.recipes-subheader {
+    padding-left: 0;
+    background: #fad35c;
+    
+    border-bottom: 1px solid #FFA000;
+}
+
+.recipes-title-wrapper {
+    padding-left: 1rem;
+    margin-right: 2rem;
+}
+
+.recipes-status {
+}
+
+.recipes-dates {
+}
+
+.recipes-dtes > div {
+}
+
+.recipes-content {
+}
+
+
+.recipes-keywords {
+}
+
+.recipes-keyword {
+}
+
+
+.recipes-download-apk, .recipes-youtube-demo-link {
+}

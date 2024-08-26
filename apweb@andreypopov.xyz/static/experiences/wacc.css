@@ -1,0 +1,60 @@
+.wacc-root {
+    color: #3c0545;
+    background: linear-gradient(90deg, #f2befa, 1%, white, 81%, #f2befa);
+    border: 2px solid #600270;
+}
+
+.wacc-link:link, .wacc-link:visited {
+    color: #600270;
+    text-decoration: underline;
+}
+.wacc-link:hover {
+    color: cyan;
+}
+
+.wacc-header {
+    background: linear-gradient(#d668e8 10%, #9c27b0);
+    color: white;
+}
+
+.wacc-align-logo-sub {
+}
+
+.wacc-footer {
+    background: #ce93d8;
+}
+
+.wacc-subheader {
+    background: #ce93d8;
+    border-bottom: none;
+}
+
+.wacc-title-wrapper {
+}
+
+.wacc-content {
+}
+
+.wacc-status {
+}
+
+.wacc-dates {
+}
+
+.wacc-dtes > div {
+}
+
+.wacc-keywords {
+}
+
+.wacc-keyword {
+}
+
+.wacc-keyword:nth-child(2) {
+    color: #0f0f0f;
+}
+
+.wacc-download-apk, .wacc-youtube-demo-link {
+}
+
+

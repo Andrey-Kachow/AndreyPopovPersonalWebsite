@@ -1,0 +1,17 @@
+@bp.route("/avatarsdk/download", methods=["POST"])
+def start_download_glb_now():
+    """Download AvatarSDK 3D Metaperson model via provided URL and store it on the server"""
+    avatar_data = request.get_json()
+    destination_filename = os.path.join(AvatarStorage.GUESTS, avatar_data['avatar_code'] + '.glb')
+    try:
+        with requests.get(avatar_data['download_url'], stream=True) as response_stream:
+            response_stream.raise_for_status()
+            with open(destination_filename, 'wb') as f_glb:
+                for chunk in response_stream.iter_content(chunk_size=AvatarStorage.DOWNLOAD_CHUNK_SIZE): 
+                    f_glb.write(chunk)
+    except requests.HTTPError as err:
+        get_alerter().alert(err)
+        return ResponseCodes.GLB_DOWNLOAD_FAIL
+
+    get_alerter().alert("Successful Download")
+    return ResponseCodes.SUCCESS_200

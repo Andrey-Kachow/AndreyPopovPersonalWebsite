@@ -1,0 +1,34 @@
+:root {
+    --pres-background: #F9E0D7;
+    --pres-saturated: #AB5122;
+}
+
+.sat-pres-root {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    color: black;
+    background: var(--pres-background);
+}
+
+.sat-pres-header {
+    height: 5rem;
+    background: var(--pres-saturated);
+}
+
+.sat-pres-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.sat-pres-row>div {
+    flex-basis: 299px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.sat-pres-footer {
+    height: 5rem;
+    background: var(--pres-saturated);
+}

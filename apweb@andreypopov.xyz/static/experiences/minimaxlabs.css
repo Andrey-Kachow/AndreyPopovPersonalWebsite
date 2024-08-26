@@ -1,0 +1,35 @@
+.mmx-root {
+    background: white;
+    color: #22265C;
+    border-color: #22265C;
+}
+
+.mmx-header {
+}
+
+.mmx-logo-wrapper {
+    background: #22265C;
+}
+
+.mmx-role-title {
+}
+
+.mmx-logo-image {
+}
+
+.mmx-highlight-text, .mmx-lowlight-text {
+    color: #28a745;
+}
+
+.mmx-dates {
+}
+
+.mmx-content {
+    border-top-color: #22265c;
+}
+
+.mmx-footer {
+    height: 1.5rem;
+    width: 100%;
+    background: #22265c;
+}

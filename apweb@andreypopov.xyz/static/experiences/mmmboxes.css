@@ -1,0 +1,61 @@
+.mmmboxes-root {
+    color: black;
+    background: #e8e8e8;
+    border: 2px solid #666666;
+}
+
+.mmmboxes-link:link, .mmmboxes-link:visited {
+    color: black;
+    text-decoration: underline;
+}
+.mmmboxes-link:hover {
+    color: magenta;
+}
+
+.mmmboxes-header {
+    background: #666666;
+}
+
+.mmmboxes-logo-img {
+    opacity: 0.85;
+}
+
+.mmmboxes-align-logo-sub {
+}
+
+.mmmboxes-footer {
+    background: linear-gradient(90deg, #666666 0% 38.2% , #878787 38.2% 100%);
+}
+
+.mmmboxes-subheader {
+    color: white;
+    background: #878787;
+    border: none;
+}
+
+.mmmboxes-title-wrapper {
+}
+
+.mmmboxes-status-wrapper {
+    background: #666666;
+}
+
+.mmmboxes-dates {
+}
+
+.mmmboxes-dtes > div {
+}
+
+.mmmboxes-content {
+    background: #e8e8e8;
+}
+
+
+.mmmboxes-keywords {
+}
+
+.mmmboxes-keyword {
+}
+
+.mmmboxes-download-apk, .mmmboxes-youtube-demo-link {
+}
