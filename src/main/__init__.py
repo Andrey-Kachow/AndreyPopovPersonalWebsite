@@ -51,6 +51,12 @@ def create_app():
         response.headers['Content-Type'] = 'application/pdf'
         return response
     
+    @app.route('/resume')
+    def russian_cv():
+        response = make_response(send_file(Paths.CV_RU_PDF_PATH))
+        response.headers['Content-Type'] = 'application/pdf'
+        return response
+
     @app.route('/freshlife-writeup')
     def freshlife_writeup():
         response = make_response(send_file(Paths.FRESHIFE_PDF_PATH))
