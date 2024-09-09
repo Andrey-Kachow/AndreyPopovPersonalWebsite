@@ -1,0 +1,207 @@
+
+%-------------------------
+% Resume in Latex
+% Author: Andrey Popov
+% Based off of: https://github.com/jakegut/resume
+% License: MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english, russian]{babel}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\plusplus}{$\mathbf{++}$}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+    \textbf{\huge \scshape Попов Андрей Константинович} \\ \vspace{1pt}
+    \href{mailto:x@x.com}{\underline{andr10xp@gmail.com}} 
+    $|$ 
+    \href{https://github.com/Andrey-Kachow}{\underline{Github: Andrey-Kachow}} $|$
+    \href{http://andreypopov.xyz/}{\underline{andreypopov.xyz}}
+    $|$
+    \href{https://www.linkedin.com/in/andrey-popov-10x/}{\underline{Linkedin: andrey-popov-10x}} 
+\end{center}
+
+\begin{justify}
+Целеустремленный ИТ-специалист с глубокими познаниями алгоритмов и структур данных и широким набором языков, включая Python, Java, JavaScript (React).
+Я разбираюсь в Web-разработке, Бэкенде, облачных сервисах, и CI/CD \& Agile.
+Благодаря своему трудолюбию и желанию учиться новому, я могу решать сложнейшие и незнакомые задачи ответственно, креативно и с вниманием к деталяим.
+\end{justify}
+
+%-----------EXPERIENCE-----------
+\section{Опыт Работы}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Програмный Инженер (6 мес.)}{Апрель 2023 -- Сентябрь 2023}
+      {Компания ``Minimax Labs Limited''}{London, UK}
+      \resumeItemListStart
+        \resumeItem{Добился успешной демонстрации функционала клиенту, разработав код быстно и обеспечив ранний релиз}
+        \resumeItem{Разрабатывал на Java приложение для газового бизнеса, Основанное на Eclipse Platform}
+        \resumeItem{Создал новый вебсайт компании, трепетно и внимательно относясь к меняющимся бизнес-требованиям}
+        \resumeItem{Реализовал множество новых UI компонентов для программы оптимизации транспортировки газа}
+        \resumeItem{Ответственно подошел и справился с задачей презентации своего проекта клиенту в видеозвонке}
+        \resumeItem{Обеспечил стабильную работу системы, дополняя код грамотными JUnit тестами}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Куратор студентов и Ассистент Преподавателя (6 мес.)}{Oct. 2022 -- Mar. 2023}
+      {Кафедра компьютерных наук ``Imperial College London''}{London, UK}
+      \resumeItemListStart
+        \resumeItem{Организовывал и проводил воркшопы по Git, SQL и другим инструментам для 17 студентов}
+        \resumeItem{Усилил навык коммуникабельности, преподавая вживую Java, Kotlin и Haskell первокурсникам}
+        \resumeItem{Проводил Code Review, проверяя курсовые и предоставлял индивидуальную поддержку и менторство}
+    \resumeItemListEnd
+
+    \resumeSubheading
+    {Частный Преподаватель Программирования (2 года)}{Июль 2022 -- Настоящее}
+    {Самозанятый}{Дистанционно}
+    \resumeItemListStart
+        \resumeItem{Развил умение находить подход к людям и объяснять сложные вещи просто и понятно более 20 студентам}
+        \resumeItem{Обучая учеников Python, Java, C/C\plusplus, помог людям и собрал много положительных отзывов}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Проекты}
+    \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+      {\textbf{Pokemon Help Centre} $|$ \emph{Python, Django, Flutter, Sqlite}}{Июнь 2024 -- Июль 2024}
+      \resumeItemListStart
+        \resumeItem{Разработал приложение Support-чата с сотрудниками-покемонами, загружая информацию с PokeAPI}
+        \resumeItem{Написал бэкенд на Django, включая REST framework и базу данных SQLite}
+        \resumeItem{Реализовал мобильное приложение на Flutter, с личным кабинетом и чатом поддержки}
+      \resumeItemListEnd
+    
+      \resumeProjectHeading
+          {\textbf{Scaling Extreme Startup} $|$ \emph{Python, Flask, React.js, Docker, AWS, MongoDB}}{Октябрь 2022 -- Январь 2023}
+          \resumeItemListStart
+            \resumeItem{Working in a group of six created an educational tool for an MSc course at Imperial College}
+            \resumeItem{Командой из 6 человек разработали образовательный инструмент взятый Imperial College в обращение}
+            \resumeItem{Реализовал бэкенд на Flask REST API, и фронтендом на React объединенное в Docker контейнер}
+            \resumeItem{Используя AWS Lambda, SQS и DynamoDB сделал систему горизонтально масштабируемой}
+          \resumeItemListEnd
+
+    \resumeProjectHeading
+        {\textbf{Проект MmmmBoxes} $|$ \emph{Python, Flask, JavaScript, Pytest, SQL (Postgres)}}{Май 2022 -- Июнь 2022}
+        \resumeItemListStart
+            \resumeItem{Разработал Веб-ПО для обеспечения хранения и мониторинга посылок в общежития ВУЗов}
+            \resumeItem{Насроил CI/CD пайплайн, тестируюший и Flask Веб-приложение на платформу Heroku}
+            \resumeItem{Работал в команде и собирал обратную связь у пользователей и клиентов}
+        \resumeItemListEnd
+          
+  \resumeProjectHeading
+      {\textbf{SAT: Платформа Терапии} $|$ \emph{Python, Flask, JavaScript, Unity, SQLite}}{Октябрь 2023 -- Июнь 2024}
+      \resumeItemListStart
+        \resumeItem{Разработал кросс-платформ игру на Unity, помогающую пройти психотерапевтический протокол SAT}
+        \resumeItem{Написал Бэкенд на Python Flask и обеспечил непрерывную работу проекта и регулярные релизы}
+      \resumeItemListEnd
+          
+    \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Образование}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Imperial College London}{London, UK}
+      {Магистр Компьютерных Наук (MEng in Computing)}{2020 -- 2024}
+  \resumeSubHeadingListEnd
+  
+%-----------PROGRAMMING SKILLS-----------
+\section{Технические Навыки}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Языки}{: Python, SQL, JavaScript, Java, C\#, C/C++, Kotlin, HTML/CSS, Haskell} \\
+     \textbf{Фреймворки}{: Django, React, Pytest, Eclipse EMF, JUnit, Flask, Flutter, Android SDK} \\
+     \textbf{Инструменты}{: Git, Docker, AWS, GitLab-CI, Firebase, Unity, Godot, Apache HTTP Server} \\
+     \textbf{Библиотеки}{: Requests, Boto3, NumPy, Pandas, Psycopg2, SDL2, SWT, Retrofit, TKinter, ANTLR} \\
+    }}
+ \end{itemize}
+%-------------------------------------------
+\end{document}
