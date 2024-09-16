@@ -434,7 +434,7 @@ SELF_ATTACHMENT_TECHNIQUE_MENG_PROJECT = {
     "dates": {
         "display_anyway": True,
         "since": "01/11/2023",
-        "until": "Present",
+        "until": "17/06/2024",
     },
     "keywords": [
         "Python,"
