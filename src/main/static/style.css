@@ -86,7 +86,7 @@ header > div {
     max-height: 262px;
     background: #7b858d;
     padding: 3px;
-    border: 3px solid #f0dfb9;
+    /* border: 3px solid #f0dfb9; */
 }
 
 .base-tulpi {
