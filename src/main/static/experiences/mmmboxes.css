@@ -20,9 +20,6 @@
     opacity: 0.85;
 }
 
-.mmmboxes-align-logo-sub {
-}
-
 .mmmboxes-footer {
     background: linear-gradient(90deg, #666666 0% 38.2% , #878787 38.2% 100%);
 }
@@ -33,29 +30,10 @@
     border: none;
 }
 
-.mmmboxes-title-wrapper {
-}
-
 .mmmboxes-status-wrapper {
     background: #666666;
 }
 
-.mmmboxes-dates {
-}
-
-.mmmboxes-dtes > div {
-}
-
 .mmmboxes-content {
     background: #e8e8e8;
-}
-
-
-.mmmboxes-keywords {
-}
-
-.mmmboxes-keyword {
-}
-
-.mmmboxes-download-apk, .mmmboxes-youtube-demo-link {
 }

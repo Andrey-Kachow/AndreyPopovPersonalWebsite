@@ -4,22 +4,13 @@
     border-color: #282828;
 }
 
-.repetitor-header {
-}
-
 .repetitor-logo-wrapper {
     border-bottom: 1px solid #282828;
     background: #15b079;
 }
 
-.repetitor-logo-image {
-}
-
 .repetitor-highlight-text, .repetitor-lowlight-text {
     color: #d62d30;
-}
-
-.repetitor-dates {
 }
 
 .repetitor-content {

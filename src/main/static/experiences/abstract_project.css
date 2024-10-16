@@ -54,10 +54,6 @@ a.proj-header-link {
     margin-bottom: 1rem;
 }
 
-.proj-status {
-
-}
-
 .proj-subheader > div {
     flex-basis: 4rem;
 }
@@ -96,9 +92,6 @@ a.proj-header-link {
     padding-right: 0.75rem;
 }
 
-.proj-dates > div {
-}
-
 .proj-keywords {
     padding: 4px 1rem;
 }
@@ -127,8 +120,4 @@ a.proj-header-link {
 
 .proj-learnmore-link {
     font-weight: 700;
-}
-
-.proj-learnmore-link:link, .proj-learnmore-link:visited {
-    /* color: #da627d; */
 }

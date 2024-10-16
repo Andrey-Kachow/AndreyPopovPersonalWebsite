@@ -16,9 +16,6 @@
     background: linear-gradient(#fad35c 15% , #FFA000)
 }
 
-.recipes-align-logo-sub {
-}
-
 .recipes-footer {
     background: #fad35c;
 }
@@ -33,27 +30,4 @@
 .recipes-title-wrapper {
     padding-left: 1rem;
     margin-right: 2rem;
-}
-
-.recipes-status {
-}
-
-.recipes-dates {
-}
-
-.recipes-dtes > div {
-}
-
-.recipes-content {
-}
-
-
-.recipes-keywords {
-}
-
-.recipes-keyword {
-}
-
-
-.recipes-download-apk, .recipes-youtube-demo-link {
 }

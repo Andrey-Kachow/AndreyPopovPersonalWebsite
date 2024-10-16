@@ -4,9 +4,6 @@
     border-color: #0a0a0a;
 }
 
-.wellington-header {
-}
-
 .wellington-logo-wrapper {
     background: linear-gradient(90deg, #fff 0 27.3%, #f27d00 24% 100%);
     padding: 0;
@@ -15,9 +12,6 @@
 .wellington-role-title {
     background: #f7d117;
     width: 61.8%;
-}
-
-.wellington-logo-image {
 }
 
 .wellington-highlight-text {

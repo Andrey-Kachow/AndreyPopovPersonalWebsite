@@ -33,9 +33,6 @@
     font-weight: 900;
 }
 
-.arm11-emulator-align-logo-sub {
-}
-
 .arm11-emulator-footer {
     background: #666;
 }
@@ -52,29 +49,6 @@
     margin-right: 2rem;
 }
 
-.arm11-emulator-content {
-}
-
-.arm11-emulator-status {
-}
-
-.arm11-emulator-dates {
-}
-
-.arm11-emulator-dtes > div {
-}
-
-.arm11-emulator-keywords {
-}
-
-.arm11-emulator-keyword {
-}
-
 .arm11-emulator-keyword:nth-child(2) {
     color: #4d4d2a;
 }
-
-.arm11-emulator-download-apk, .arm11-emulator-youtube-demo-link {
-}
-
-
