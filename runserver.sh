@@ -18,3 +18,4 @@ flask run -h localhost -p 5000
 # flask run
 #    or
 # python -m flask run -h localhost -p 5001 --debug
+        # sudo chmod -R 775 Website
