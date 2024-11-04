@@ -36,10 +36,13 @@ MINIMAX_LABS = {
     "start_date": "03/04/2023",
     "end_date": "29/09/2023",
     "responsibilities": [
-        "Developed Eclipse Desktop Application using the Java programming language",
-        "Created new views/reports/tools for LNG optimization as well as maintained existing ones",
-        "Acquired experience with EMF framework",
-        "Worked on a brand new company website using HTML/CSS/JS"
+        "Delivered a key feature ahead of schedule, solidifying the company’s success in an early showcase to a new client",
+        "Developed a B2B desktop app, based on the Eclipse Platform using the Java, SWT, and EMF framework",
+        "Took responsibility for the long-term project and presented result feature in a client demonstration call",
+        "Created many new UI components implementing tools for LNG optimization and patched existing functionality",
+        "Produced a new company website Frontend, responding quickly and patiently to ever-changing requirements",
+        "Supplemented source code with comprehensive JUnit tests to ensure system stability",
+
     ]
 }
 
