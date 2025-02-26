@@ -1,5 +1,6 @@
 import main.apps as apps
 from main.experiences import (
+    MINIMAX_LABS_SE,
     WORK_EXPERIENCES,
     EDUCATION_EXPERIENCES,
     RESEARCH_EXPERIENCES,
@@ -36,7 +37,7 @@ def create_app():
     def index():
         context = {
             'is_index': True,
-            'featured': SELF_ATTACHMENT_TECHNIQUE_MENG_PROJECT,
+            'featured': MINIMAX_LABS_SE,
             'work_experiences': WORK_EXPERIENCES,
             'pet_projects': PET_PROJECTS,
             'academic_projects': ACADEMIC_PROJECTS,

@@ -22,6 +22,25 @@ SAMPLE_EXPERIENCE = {
     ]
 }
 
+MINIMAX_LABS_SE = {
+    "class_prefix": "mmx-se",
+    "stylesheet_path": "minimaxlabs_se.css",
+    "reference_url": "https://www.minimaxlabs.com/",
+    "logo_path": "./static/assets/mmx_logo_white_on_green.svg",
+    "title": {
+        "prefix": "Software Engineer",
+        "highlight": "",
+    },
+    "duration": "3 mos",
+    "start_date": "06/01/2025",
+    "end_date": "Present",
+    "responsibilities": [
+        "Designed, developed, and maintained a high-performance application for optimizing liquefied natural gas (LNG) shipping and logistics, contributing to efficient energy trading and supply chain management.",
+        "Worked across the full stack, implementing robust backend services in Java and crafting responsive, user-friendly frontends using Angular to deliver a seamless user experience.",
+        "Developed and executed a comprehensive suite of automated tests, covering unit, integration, and end-to-end scenarios, ensuring application correctness, maintainability, and long-term stability.",
+        "Ensured adherence to best coding practices, clean architecture principles, and continuous integration workflows to facilitate smooth deployment and scalability.",
+    ]
+}
 
 MINIMAX_LABS = {
     "class_prefix": "mmx",

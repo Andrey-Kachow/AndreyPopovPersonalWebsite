@@ -1,0 +1,38 @@
+:root {
+  --mmx-green: #28a745;
+  --mmx-dark-blue: #22265c;
+  --mmx-white: white;
+  --mmx-svg-green: #71b747;
+  --mmx-svg-blue: #2b2e6f;
+}
+
+.mmx-se-root {
+  background: var(--mmx-white);
+  color: var(--mmx-svg-blue);
+  border-color: var(--mmx-svg-blue);
+}
+
+.mmx-se-logo-wrapper {
+  background: var(--mmx-svg-green);
+  border-bottom: 2px solid var(--mmx-svg-blue);
+}
+
+.mmx-se-role-title {
+  background: var(--mmx-);
+}
+
+.mmx-se-highlight-text,
+.mmx-se-lowlight-text {
+  color: var(--mmx-svg-blue);
+}
+
+.mmx-se-content {
+  border-top-color: var(--mmx-svg-blue);
+}
+
+.mmx-se-footer {
+  height: 1.5rem;
+  width: 100%;
+  background: var(--mmx-svg-green);
+  border-top: 2px solid var(--mmx-svg-blue);
+}
